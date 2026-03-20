@@ -1,9 +1,13 @@
 {
-  "generated_at": "2026-03-20T14:41:40.682031+00:00",
-  "total_alerts": 152039,
-  "total_cities": 1627,
-  "csv_alerts": 152982,
-  "oref_alerts": 0,
-  "oref_status": "fallback_csv_only",
-  "oref_error": "HTTP Error 403: Forbidden"
+  "generated_at": "2026-03-20T14:47:57.314826+00:00",
+  "total_alerts": 153091,
+  "total_cities": 1633,
+  "archive_alerts_before_refresh": 152039,
+  "bootstrap_mode": "skipped",
+  "bootstrap_imported": 0,
+  "bootstrap_error": null,
+  "oref_alerts": 1543,
+  "oref_status": "ok",
+  "oref_error": null,
+  "archive_owner": "this_repository"
 }
