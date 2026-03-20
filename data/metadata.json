@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-20T16:35:39.674558+00:00",
-  "total_alerts": 153661,
+  "generated_at": "2026-03-20T16:41:25.072187+00:00",
+  "total_alerts": 153674,
   "total_cities": 1635,
-  "archive_alerts_before_refresh": 153661,
+  "archive_alerts_before_refresh": 153674,
   "bootstrap_mode": "skipped",
   "bootstrap_imported": 0,
   "bootstrap_error": null,
