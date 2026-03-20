@@ -1,0 +1,60 @@
+name: update-alerts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh alert data
+        run: python scripts/fetch_alerts.py
+
+      - name: Copy data into Pages artifact
+        run: |
+          mkdir -p docs/data
+          cp data/alerts.json docs/data/alerts.json
+          cp data/metadata.json docs/data/metadata.json
+
+      - name: Commit generated data
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data docs/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "Update alerts data"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
