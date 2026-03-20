@@ -7,6 +7,10 @@ const state = {
   metadata: null,
 };
 
+function normalizeCity(value) {
+  return (value || "").trim().toLocaleLowerCase();
+}
+
 function parseDate(value) {
   if (!value) {
     return null;
@@ -96,13 +100,14 @@ function applyFilters() {
   const toValue = document.getElementById("toInput").value;
   const fromDate = parseDate(fromValue);
   const toDate = parseDate(toValue);
+  const normalizedCity = normalizeCity(city);
 
   state.filteredAlerts = state.allAlerts.filter((alert) => {
     const alertDate = parseDate(alert.time);
     if (!alertDate) {
       return false;
     }
-    if (city && !alert.city.toLowerCase().includes(city.toLowerCase())) {
+    if (normalizedCity && normalizeCity(alert.city) !== normalizedCity) {
       return false;
     }
     if (fromDate && alertDate < fromDate) {

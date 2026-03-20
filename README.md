@@ -1,6 +1,6 @@
 # Oref Alerts Viewer
 
-Static GitHub Pages site plus a scheduled GitHub Actions workflow that refreshes alert history every hour and stores the generated data in this repository.
+Static GitHub Pages site plus a scheduled GitHub Actions workflow that refreshes alert history every 5 minutes and stores the generated data in this repository.
 
 ## What it does
 
@@ -8,7 +8,7 @@ Static GitHub Pages site plus a scheduled GitHub Actions workflow that refreshes
 - Supports a one-time historical bootstrap from a third-party CSV
 - Fetches current alerts from the live Oref endpoint for ongoing updates
 - Writes normalized data to `data/alarms.csv`, `data/alerts.json`, and `data/metadata.json`
-- Publishes a static site from `docs/` that lets you filter by city and date/time
+- Publishes a static site from `docs/` that lets you filter by exact city and date/time
 - Falls back to the repository's owned archive if the live Oref endpoint is unavailable
 
 ## Repository layout
