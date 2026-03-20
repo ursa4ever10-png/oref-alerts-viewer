@@ -28,6 +28,12 @@ function toDateTimeLocalValue(date) {
   return `${year}-${month}-${day}T${hours}:${minutes}`;
 }
 
+function startOfToday() {
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+  return now;
+}
+
 function formatTime(value) {
   const date = parseDate(value);
   if (!date) {
@@ -146,16 +152,8 @@ async function loadData() {
   renderMeta();
   renderCityOptions();
 
-  if (state.allAlerts.length) {
-    const newest = parseDate(state.allAlerts[0].time);
-    const oldest = parseDate(state.allAlerts[state.allAlerts.length - 1].time);
-    if (newest) {
-      document.getElementById("toInput").value = toDateTimeLocalValue(newest);
-    }
-    if (oldest) {
-      document.getElementById("fromInput").value = toDateTimeLocalValue(oldest);
-    }
-  }
+  document.getElementById("fromInput").value = toDateTimeLocalValue(startOfToday());
+  document.getElementById("toInput").value = toDateTimeLocalValue(new Date());
 
   applyFilters();
 }
