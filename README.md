@@ -2,27 +2,40 @@
 
 Static GitHub Pages site plus a scheduled GitHub Actions workflow that refreshes alert history every 5 minutes and stores the generated data in this repository.
 
-## What it does
+## Features
 
-- Uses this repository's own tracked archive as the source of truth
-- Supports a one-time historical bootstrap from a third-party CSV
-- Fetches current alerts from the live Oref endpoint for ongoing updates
-- Writes normalized data to `data/alarms.csv`, `data/alerts.json`, and `data/metadata.json`
-- Publishes a static site from `docs/` that lets you filter by exact city and date/time
-- Falls back to the repository's owned archive if the live Oref endpoint is unavailable
+- **Owned archive** as the source of truth with one-time bootstrap support
+- **Live Oref API** fetching with dual-strategy fallback (cookie-based + simple headers)
+- **Featured city panel** with quick stats (default: Yeruham)
+- **Volley grouping** - alerts within 2-minute windows grouped as a single volley
+- **URL parameters** - bookmark filters with `?city=ירוחם&from=...&to=...`
+- **Category color coding** - rockets (red), aircraft (orange), earthquake (teal), other (yellow)
+- **Pagination** - handles 150K+ alerts without browser crash
+- **Quick city buttons** for common cities
+- **Recent alert indicators** - pulsing dot on alerts from the last hour
+- **Responsive design** - works on desktop and mobile
 
 ## Repository layout
 
 - `scripts/fetch_alerts.py`: fetch and normalize alert history
 - `data/`: tracked generated data
-- `docs/`: GitHub Pages site
-- `.github/workflows/update-alerts.yml`: hourly refresh and Pages deployment
+- `docs/`: GitHub Pages site (index.html, app.js, styles.css)
+- `.github/workflows/update-alerts.yml`: 5-minute refresh and Pages deployment
+
+## URL parameters
+
+| Parameter | Example | Description |
+|-----------|---------|-------------|
+| `city` | `?city=ירוחם` | Filter by city name |
+| `from` | `?from=2026-03-19T20:00` | Start date/time |
+| `to` | `?to=2026-03-20T23:59` | End date/time |
 
 ## Local usage
 
 ```bash
 python scripts/fetch_alerts.py
 python scripts/fetch_alerts.py --bootstrap-from-third-party
+python scripts/fetch_alerts.py --output-status
 python -m http.server 8000 --directory docs
 ```
 
@@ -32,10 +45,10 @@ Then open `http://localhost:8000`.
 
 - `data/alarms.csv` is the owned archive for this repository
 - `--bootstrap-from-third-party` is for one-time historical import only
-- normal hourly runs do not depend on a third-party CSV
+- Normal runs do not depend on a third-party CSV
 
 ## GitHub setup
 
 1. Push this repository to GitHub.
 2. In repository settings, ensure GitHub Pages is configured to use GitHub Actions.
-3. The `update-alerts` workflow will run hourly and can also be triggered manually.
+3. The `update-alerts` workflow runs every 5 minutes and can also be triggered manually.

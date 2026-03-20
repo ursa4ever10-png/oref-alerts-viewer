@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="he" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
       <section class="hero">
         <p class="eyebrow">GitHub Pages</p>
         <h1>Oref Alerts Viewer</h1>
-        <p class="subtitle">Browse the repository snapshot by city and date range. Data is refreshed hourly by GitHub Actions.</p>
+        <p class="subtitle">Browse the repository snapshot by city and date range. Data is refreshed every 5 minutes by GitHub Actions.</p>
       </section>
 
       <section class="panel status-panel">
@@ -36,12 +36,37 @@
         </div>
       </section>
 
+      <section id="featuredCity" class="panel featured-city-panel" style="display:none">
+        <div class="featured-header">
+          <h2 id="featuredName" dir="rtl"></h2>
+          <span class="featured-badge">Featured City</span>
+        </div>
+        <div class="featured-stats">
+          <div>
+            <p class="label">Total Alerts</p>
+            <p id="featuredTotal" class="value">-</p>
+          </div>
+          <div>
+            <p class="label">Last Alert</p>
+            <p id="featuredLast" class="value">-</p>
+          </div>
+          <div>
+            <p class="label">Recent Volleys (7d)</p>
+            <p id="featuredVolleys" class="value">-</p>
+          </div>
+        </div>
+        <button id="featuredFilterBtn" type="button">Show Alerts</button>
+      </section>
+
       <section class="panel filters">
-        <label>
-          <span>City</span>
-          <input id="cityInput" list="cityOptions" placeholder="Type a city name">
-          <datalist id="cityOptions"></datalist>
-        </label>
+        <div class="filter-city-group">
+          <label>
+            <span>City</span>
+            <input id="cityInput" list="cityOptions" placeholder="Type a city name" dir="rtl">
+            <datalist id="cityOptions"></datalist>
+          </label>
+          <div class="quick-cities" id="quickCities"></div>
+        </div>
         <label>
           <span>From</span>
           <input id="fromInput" type="datetime-local">
@@ -62,15 +87,18 @@
             <p class="label">Matching alerts</p>
             <p id="resultCount" class="value">-</p>
           </div>
-          <div id="activeFilters" class="active-filters"></div>
+          <div class="results-controls">
+            <div id="activeFilters" class="active-filters"></div>
+            <button id="volleyToggle" type="button" class="toggle-btn">Volley View</button>
+          </div>
         </div>
         <div class="table-wrap">
           <table>
             <thead>
               <tr>
                 <th>Time</th>
-                <th>City</th>
-                <th>Category</th>
+                <th dir="rtl">City</th>
+                <th dir="rtl">Category</th>
                 <th>Origin</th>
                 <th>Source</th>
               </tr>
@@ -82,9 +110,10 @@
             </tbody>
           </table>
         </div>
+        <div class="pagination" id="pagination"></div>
       </section>
     </main>
 
     <script src="./app.js" defer></script>
   </body>
-  </html>
+</html>

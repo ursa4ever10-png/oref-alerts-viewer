@@ -102,9 +102,22 @@ def load_owned_archive(path: Path) -> list[dict[str, str]]:
     return results
 
 
+def _fetch_oref_simple() -> list:
+    """Try fetching Oref API with minimal headers (no cookie bootstrap)."""
+    simple_headers = {
+        "Referer": "https://alerts-history.oref.org.il/12481-he/Pakar.aspx",
+        "X-Requested-With": "XMLHttpRequest",
+        "User-Agent": "Mozilla/5.0",
+    }
+    request = urllib.request.Request(OREF_URL, headers=simple_headers)
+    with urllib.request.urlopen(request, timeout=60) as response:
+        return json.loads(response.read().decode("utf-8", errors="ignore"))
+
+
 def fetch_oref_alerts() -> list[dict[str, str]]:
     last_error: Exception | None = None
-    for attempt in range(3):
+    # Strategy 1: cookie-based opener
+    for attempt in range(2):
         try:
             opener = build_oref_opener()
             request = urllib.request.Request(OREF_URL, headers=OREF_HEADERS)
@@ -113,11 +126,14 @@ def fetch_oref_alerts() -> list[dict[str, str]]:
             break
         except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
             last_error = exc
-            if attempt == 2:
-                raise
             time.sleep(2 + attempt)
     else:
-        raise RuntimeError(str(last_error))
+        # Strategy 2: simple headers fallback
+        try:
+            payload = _fetch_oref_simple()
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
+            last_error = exc
+            raise
 
     results: list[dict[str, str]] = []
     for alert in payload:
@@ -178,6 +194,11 @@ def parse_args() -> argparse.Namespace:
         "--bootstrap-from-third-party",
         action="store_true",
         help="Import historical alerts from the third-party GitHub CSV before merging live Oref data",
+    )
+    parser.add_argument(
+        "--output-status",
+        action="store_true",
+        help="Write data/.fetch_status with CHANGED=true/false for CI integration",
     )
     return parser.parse_args()
 
@@ -241,6 +262,11 @@ def main() -> int:
         },
     )
     write_json(data_dir / "metadata.json", metadata)
+
+    changed = len(alerts) != len(owned_archive) or len(oref_alerts) > 0
+    if args.output_status:
+        status_path = data_dir / ".fetch_status"
+        status_path.write_text(f"CHANGED={'true' if changed else 'false'}\n")
 
     print(json.dumps(metadata, ensure_ascii=False))
     return 0

@@ -30,7 +30,8 @@ jobs:
           python-version: "3.12"
 
       - name: Refresh alert data
-        run: python scripts/fetch_alerts.py
+        continue-on-error: true
+        run: python scripts/fetch_alerts.py --output-status
 
       - name: Copy data into Pages artifact
         run: |
@@ -47,9 +48,13 @@ jobs:
             echo "No data changes to commit"
           else
             git commit -m "Update alerts data"
-            git pull --rebase origin main
-            git push origin main
           fi
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
