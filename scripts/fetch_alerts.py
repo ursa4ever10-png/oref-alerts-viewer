@@ -27,15 +27,38 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 CSV_URL = "https://raw.githubusercontent.com/yuval-harpaz/alarms/master/data/alarms.csv"
-OREF_URL = "https://alerts-history.oref.org.il/Shared/Ajax/GetAlarmsHistory.aspx?lang=he&mode=1"
-OREF_HEADERS = {
-    "Referer": "https://www.oref.org.il/",
-    "X-Requested-With": "XMLHttpRequest",
-    "Content-Type": "application/json",
-    "User-Agent": "Mozilla/5.0",
-}
+
+# Multiple Oref endpoints - tried in order, first success wins
+OREF_ENDPOINTS = [
+    {
+        "url": "https://www.oref.org.il/warningMessages/alert/History/AlertsHistory.json",
+        "headers": {"Referer": "https://www.oref.org.il/", "User-Agent": "Mozilla/5.0"},
+        "format": "www",  # {alertDate, title, data, category}
+    },
+    {
+        "url": "https://alerts-history.oref.org.il/Shared/Ajax/GetAlarmsHistory.aspx?lang=he&mode=1",
+        "headers": {
+            "Referer": "https://www.oref.org.il/",
+            "X-Requested-With": "XMLHttpRequest",
+            "User-Agent": "Mozilla/5.0",
+        },
+        "format": "history",  # {alertDate, category_desc, data, ...}
+    },
+]
+
 CSV_HEADERS = {"User-Agent": "Mozilla/5.0"}
 CSV_FIELDS = ["time", "city", "description", "origin", "source"]
+
+# Map category numbers from www endpoint to descriptions
+CATEGORY_MAP = {
+    1: "\u05D9\u05E8\u05D9 \u05E8\u05E7\u05D8\u05D5\u05EA \u05D5\u05D8\u05D9\u05DC\u05D9\u05DD",
+    2: "\u05D7\u05D3\u05D9\u05E8\u05EA \u05DB\u05DC\u05D9 \u05D8\u05D9\u05E1 \u05E2\u05D5\u05D9\u05DF",
+    3: "\u05E8\u05E2\u05D9\u05D3\u05EA \u05D0\u05D3\u05DE\u05D4",
+    4: "\u05D7\u05D5\u05DE\u05E8\u05D9\u05DD \u05DE\u05E1\u05D5\u05DB\u05E0\u05D9\u05DD",
+    6: "\u05D0\u05D9\u05E8\u05D5\u05E2 \u05D7\u05D5\u05DE\u05E8\u05D9\u05DD \u05DE\u05E1\u05D5\u05DB\u05E0\u05D9\u05DD",
+    7: "\u05D7\u05D3\u05D9\u05E8\u05EA \u05DE\u05E1\u05D5\u05E7\u05D9\u05DD",
+    13: "\u05D4\u05D0\u05D9\u05E8\u05D5\u05E2 \u05D4\u05E1\u05EA\u05D9\u05D9\u05DD",
+}
 
 
 def fetch_csv_alerts() -> list[dict[str, str]]:
@@ -80,28 +103,22 @@ def load_owned_archive(path: Path) -> list[dict[str, str]]:
     return results
 
 
-def fetch_oref_alerts() -> list[dict[str, str]]:
-    last_error: Exception | None = None
-    payload = None
-    for attempt in range(3):
-        try:
-            request = urllib.request.Request(OREF_URL, headers=OREF_HEADERS)
-            with urllib.request.urlopen(request, timeout=60) as response:
-                payload = json.loads(response.read().decode("utf-8", errors="ignore"))
-            break
-        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
-            last_error = exc
-            if attempt == 2:
-                raise
-            time.sleep(2 + attempt)
-
+def _parse_oref_payload(payload: list, fmt: str) -> list[dict[str, str]]:
+    """Parse Oref JSON into normalized alert dicts."""
     results: list[dict[str, str]] = []
     for alert in payload:
-        category = alert.get("category_desc", "")
+        if fmt == "www":
+            title = alert.get("title", "")
+            cat_num = alert.get("category")
+            category = title or CATEGORY_MAP.get(cat_num, str(cat_num or ""))
+        else:
+            category = alert.get("category_desc", "")
+
         if not category:
             continue
-        if "האירוע הסתיים" in category:
+        if "\u05D4\u05D0\u05D9\u05E8\u05D5\u05E2 \u05D4\u05E1\u05EA\u05D9\u05D9\u05DD" in category:
             continue
+
         alert_date = (alert.get("alertDate", "") or "").replace("T", " ")
         results.append(
             {
@@ -113,6 +130,40 @@ def fetch_oref_alerts() -> list[dict[str, str]]:
             }
         )
     return results
+
+
+def fetch_oref_alerts() -> list[dict[str, str]]:
+    """Try each Oref endpoint in order; return alerts from the first that works."""
+    last_error: Exception | None = None
+
+    for endpoint in OREF_ENDPOINTS:
+        url = endpoint["url"]
+        headers = endpoint["headers"]
+        fmt = endpoint["format"]
+
+        for attempt in range(2):
+            try:
+                request = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(request, timeout=60) as response:
+                    raw = response.read().decode("utf-8", errors="ignore").strip()
+                    # Handle BOM
+                    if raw.startswith("\ufeff"):
+                        raw = raw[1:]
+                    if not raw or not raw.startswith("["):
+                        raise ValueError(f"Unexpected response from {url}: {raw[:80]}")
+                    payload = json.loads(raw)
+
+                results = _parse_oref_payload(payload, fmt)
+                print(f"Oref OK via {url} -> {len(results)} alerts", file=sys.stderr)
+                return results
+            except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
+                last_error = exc
+                if attempt < 1:
+                    time.sleep(2)
+
+        print(f"Oref FAILED via {url}: {last_error}", file=sys.stderr)
+
+    raise last_error or RuntimeError("All Oref endpoints failed")
 
 
 def merge_alerts(existing_alerts: list[dict[str, str]], new_alerts: list[dict[str, str]]) -> list[dict[str, str]]:
