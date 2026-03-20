@@ -31,6 +31,8 @@ jobs:
 
       - name: Refresh alert data
         continue-on-error: true
+        env:
+          OREF_HIST_URL: ${{ secrets.OREF_HIST_URL }}
         run: python scripts/fetch_alerts.py --output-status
 
       - name: Copy data into Pages artifact

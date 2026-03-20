@@ -17,6 +17,7 @@ from __future__ import annotations
 import csv
 import io
 import json
+import os
 import sys
 import argparse
 import time
@@ -28,7 +29,9 @@ from pathlib import Path
 
 CSV_URL = "https://raw.githubusercontent.com/yuval-harpaz/alarms/master/data/alarms.csv"
 
-# Multiple Oref endpoints - tried in order, first success wins
+# Oref endpoints - tried in order. The env var OREF_HIST_URL (set via GitHub
+# secret) is tried first so a proxy can be used from cloud runners where the
+# direct endpoints return 403.
 OREF_ENDPOINTS = [
     {
         "url": "https://www.oref.org.il/warningMessages/alert/History/AlertsHistory.json",
@@ -136,7 +139,17 @@ def fetch_oref_alerts() -> list[dict[str, str]]:
     """Try each Oref endpoint in order; return alerts from the first that works."""
     last_error: Exception | None = None
 
-    for endpoint in OREF_ENDPOINTS:
+    # Allow override via env var (GitHub secret) - same pattern as yuval-harpaz
+    env_url = os.environ.get("OREF_HIST_URL", "").strip()
+    endpoints = list(OREF_ENDPOINTS)
+    if env_url:
+        endpoints.insert(0, {
+            "url": env_url,
+            "headers": {"User-Agent": "python-requests/2.28.1"},
+            "format": "history",
+        })
+
+    for endpoint in endpoints:
         url = endpoint["url"]
         headers = endpoint["headers"]
         fmt = endpoint["format"]
