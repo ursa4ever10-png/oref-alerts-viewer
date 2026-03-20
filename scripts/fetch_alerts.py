@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """Maintain an owned alert archive for static publishing.
 
-Default behavior:
-- Load the repository's existing archive from `data/alarms.csv`
-- Fetch current alerts from the live Oref endpoint
-- Merge and deduplicate
-- Write the updated archive back into this repository
+Default behavior (every run):
+1. Load the repository's existing archive from `data/alarms.csv`
+2. Sync new alerts from yuval-harpaz/alarms public CSV (always accessible)
+3. Try to fetch current alerts directly from the live Oref endpoint
+4. Merge and deduplicate all sources
+5. Write the updated archive back into this repository
 
-Bootstrap behavior:
-- `--bootstrap-from-third-party` imports the historical GitHub CSV once
-- This is intended for one-time backfill, not recurring updates
+The archive in this repo is the source of truth. yuval's CSV is used
+as a reliable sync source since the Oref API blocks cloud/datacenter IPs.
+If yuval's repo ever goes away, we keep everything already collected.
 """
 
 from __future__ import annotations
@@ -215,11 +216,6 @@ def write_json(path: Path, payload: object) -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Refresh the owned Oref alerts archive")
     parser.add_argument(
-        "--bootstrap-from-third-party",
-        action="store_true",
-        help="Import historical alerts from the third-party GitHub CSV before merging live Oref data",
-    )
-    parser.add_argument(
         "--output-status",
         action="store_true",
         help="Write data/.fetch_status with CHANGED=true/false for CI integration",
@@ -235,25 +231,26 @@ def main() -> int:
     archive_path = data_dir / "alarms.csv"
 
     owned_archive = load_owned_archive(archive_path)
-    bootstrap_imported = 0
-    bootstrap_mode = "skipped"
-    bootstrap_error = None
+    archive_count_before = len(owned_archive)
 
-    if args.bootstrap_from_third_party:
-        try:
-            third_party_alerts = fetch_csv_alerts()
-            owned_archive = merge_alerts(owned_archive, third_party_alerts)
-            bootstrap_imported = len(third_party_alerts)
-            bootstrap_mode = "imported"
-        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
-            bootstrap_mode = "failed"
-            bootstrap_error = str(exc)
+    # Always sync from yuval's public CSV to pick up new alerts
+    csv_sync_count = 0
+    csv_sync_error = None
+    try:
+        csv_alerts = fetch_csv_alerts()
+        csv_sync_count = len(csv_alerts)
+        owned_archive = merge_alerts(owned_archive, csv_alerts)
+        print(f"CSV sync: {csv_sync_count} rows fetched, archive now {len(owned_archive)}", file=sys.stderr)
+    except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
+        csv_sync_error = str(exc)
+        print(f"CSV sync failed (non-fatal): {exc}", file=sys.stderr)
 
+    # Also try Oref directly (works locally, usually 403 from cloud)
     oref_error = None
+    oref_alerts: list[dict[str, str]] = []
     try:
         oref_alerts = fetch_oref_alerts()
     except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
-        oref_alerts = []
         oref_error = str(exc)
 
     alerts = merge_alerts(owned_archive, oref_alerts)
@@ -265,12 +262,12 @@ def main() -> int:
             ("generated_at", generated_at),
             ("total_alerts", len(alerts)),
             ("total_cities", len(cities)),
-            ("archive_alerts_before_refresh", len(owned_archive)),
-            ("bootstrap_mode", bootstrap_mode),
-            ("bootstrap_imported", bootstrap_imported),
-            ("bootstrap_error", bootstrap_error),
+            ("archive_before_refresh", archive_count_before),
+            ("new_alerts_added", len(alerts) - archive_count_before),
+            ("csv_sync_rows", csv_sync_count),
+            ("csv_sync_error", csv_sync_error),
             ("oref_alerts", len(oref_alerts)),
-            ("oref_status", "ok" if oref_error is None else "owned_archive_only"),
+            ("oref_status", "ok" if oref_error is None else "csv_sync_only"),
             ("oref_error", oref_error),
             ("archive_owner", "this_repository"),
         ]
@@ -287,7 +284,7 @@ def main() -> int:
     )
     write_json(data_dir / "metadata.json", metadata)
 
-    changed = len(alerts) != len(owned_archive) or len(oref_alerts) > 0
+    changed = len(alerts) != archive_count_before
     if args.output_status:
         status_path = data_dir / ".fetch_status"
         status_path.write_text(f"CHANGED={'true' if changed else 'false'}\n")
