@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,7 +30,6 @@ jobs:
           python-version: "3.12"
 
       - name: Refresh alert data
-        continue-on-error: true
         env:
           OREF_HIST_URL: ${{ secrets.OREF_HIST_URL }}
         run: python scripts/fetch_alerts.py --output-status
@@ -53,7 +52,7 @@ jobs:
           fi
 
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main

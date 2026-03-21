@@ -106,8 +106,6 @@ def fetch_csv_alerts() -> list[dict[str, str]]:
     return results
 
 
-
-
 def load_owned_archive(path: Path) -> list[dict[str, str]]:
     if not path.exists():
         return []

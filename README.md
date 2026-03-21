@@ -5,7 +5,7 @@ Static GitHub Pages site plus a scheduled GitHub Actions workflow that refreshes
 ## Features
 
 - **Owned archive** as the source of truth with one-time bootstrap support
-- **Live Oref API** fetching with dual-strategy fallback (cookie-based + simple headers)
+- **Live alert fetching** via tzevaadom API (primary) with official Oref API fallback
 - **Featured city panel** with quick stats (default: Yeruham)
 - **Volley grouping** - alerts within 2-minute windows grouped as a single volley
 - **URL parameters** - bookmark filters with `?city=ירוחם&from=...&to=...`
@@ -14,6 +14,8 @@ Static GitHub Pages site plus a scheduled GitHub Actions workflow that refreshes
 - **Quick city buttons** for common cities
 - **Recent alert indicators** - pulsing dot on alerts from the last hour
 - **Responsive design** - works on desktop and mobile
+- **Heatmap visualization** - calendar-style heatmap of alert frequency over time
+- **Statistics dashboard** - aggregated stats by city, category, and time period
 
 ## Repository layout
 
@@ -34,7 +36,6 @@ Static GitHub Pages site plus a scheduled GitHub Actions workflow that refreshes
 
 ```bash
 python scripts/fetch_alerts.py
-python scripts/fetch_alerts.py --bootstrap-from-third-party
 python scripts/fetch_alerts.py --output-status
 python -m http.server 8000 --directory docs
 ```
@@ -44,7 +45,6 @@ Then open `http://localhost:8000`.
 ## Data ownership model
 
 - `data/alarms.csv` is the owned archive for this repository
-- `--bootstrap-from-third-party` is for one-time historical import only
 - Normal runs do not depend on a third-party CSV
 
 ## GitHub setup

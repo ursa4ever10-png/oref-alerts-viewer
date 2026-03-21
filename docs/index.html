@@ -7,16 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <main class="shell">
       <section class="hero">
-        <p class="eyebrow">GitHub Pages</p>
+        <p class="eyebrow">Live Data</p>
         <h1>Oref Alerts Viewer</h1>
-        <p class="subtitle">Browse the repository snapshot by city and date range. Data is refreshed every 5 minutes by GitHub Actions.</p>
+        <p class="subtitle">Real-time alert archive with 150K+ alerts across 1,600+ cities. Refreshed every 5 minutes.</p>
       </section>
 
+      <!-- Status Bar -->
       <section class="panel status-panel">
         <div>
           <p class="label">Generated</p>
@@ -31,11 +33,12 @@
           <p id="totalCities" class="value">-</p>
         </div>
         <div>
-          <p class="label">Live Oref</p>
+          <p class="label">Data Source</p>
           <p id="orefStatus" class="value">-</p>
         </div>
       </section>
 
+      <!-- Featured City -->
       <section id="featuredCity" class="panel featured-city-panel" style="display:none">
         <div class="featured-header">
           <h2 id="featuredName" dir="rtl"></h2>
@@ -58,6 +61,65 @@
         <button id="featuredFilterBtn" type="button">Show Alerts</button>
       </section>
 
+      <!-- Statistics Dashboard -->
+      <section class="panel stats-section">
+        <div class="stats-header">
+          <h2>Statistics</h2>
+          <div class="stats-period-btns">
+            <button type="button" class="period-btn active" data-period="24h">24h</button>
+            <button type="button" class="period-btn" data-period="7d">7d</button>
+            <button type="button" class="period-btn" data-period="30d">30d</button>
+            <button type="button" class="period-btn" data-period="all">All</button>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <p class="label">Alerts</p>
+            <p id="statAlerts" class="stat-number">-</p>
+          </div>
+          <div class="stat-card">
+            <p class="label">Volleys</p>
+            <p id="statVolleys" class="stat-number">-</p>
+          </div>
+          <div class="stat-card">
+            <p class="label">Cities Hit</p>
+            <p id="statCitiesHit" class="stat-number">-</p>
+          </div>
+          <div class="stat-card">
+            <p class="label">Most Targeted</p>
+            <p id="statMostTargeted" class="stat-number" dir="rtl">-</p>
+          </div>
+        </div>
+        <div class="stats-charts">
+          <div class="chart-container">
+            <p class="label">Alerts by Category</p>
+            <div id="categoryChart" class="bar-chart"></div>
+          </div>
+          <div class="chart-container">
+            <p class="label">Top 10 Cities</p>
+            <div id="topCitiesChart" class="bar-chart"></div>
+          </div>
+        </div>
+        <div class="chart-container chart-full">
+          <p class="label">Alerts Timeline (hourly)</p>
+          <canvas id="timelineCanvas" height="120"></canvas>
+        </div>
+      </section>
+
+      <!-- Heatmap -->
+      <section class="panel map-section">
+        <div class="map-header">
+          <h2>Alert Heatmap</h2>
+          <div class="map-controls">
+            <button type="button" class="period-btn active" data-map-period="7d">7d</button>
+            <button type="button" class="period-btn" data-map-period="30d">30d</button>
+            <button type="button" class="period-btn" data-map-period="all">All</button>
+          </div>
+        </div>
+        <div id="map" class="map-container"></div>
+      </section>
+
+      <!-- Filters -->
       <section class="panel filters">
         <div class="filter-city-group">
           <label>
@@ -81,6 +143,7 @@
         </div>
       </section>
 
+      <!-- Results Table -->
       <section class="panel">
         <div class="results-head">
           <div>
@@ -114,6 +177,9 @@
       </section>
     </main>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script src="./coords.js"></script>
     <script src="./app.js" defer></script>
   </body>
 </html>

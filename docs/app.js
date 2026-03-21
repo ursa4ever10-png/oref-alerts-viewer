@@ -12,7 +12,18 @@ const state = {
   currentPage: 1,
   volleyView: false,
   featuredCity: "",
+  statsPeriod: "24h",
+  mapPeriod: "7d",
 };
+
+// Cache for parsed dates: alert object -> Date
+const dateCache = new WeakMap();
+
+// Leaflet map state (lazy-initialized)
+let leafletMap = null;
+let heatLayer = null;
+let markerLayer = null;
+let mapInitialized = false;
 
 /* ── Utility ── */
 
@@ -24,6 +35,14 @@ function parseDate(value) {
   if (!value) return null;
   const date = new Date(value);
   return Number.isNaN(date.getTime()) ? null : date;
+}
+
+/** Parse date from an alert object, using WeakMap cache to avoid re-parsing. */
+function alertDate(alert) {
+  if (dateCache.has(alert)) return dateCache.get(alert);
+  const d = parseDate(alert.time);
+  if (d) dateCache.set(alert, d);
+  return d;
 }
 
 function toDateTimeLocalValue(date) {
@@ -61,10 +80,38 @@ function categoryClass(description) {
   return "alert-other";
 }
 
+/** Return the category key string for an alert description. */
+function categoryKey(description) {
+  if (!description) return "other";
+  if (description.includes("\u05E8\u05E7\u05D8\u05D5\u05EA") || description.includes("\u05D8\u05D9\u05DC\u05D9\u05DD")) return "rockets";
+  if (description.includes("\u05DB\u05DC\u05D9 \u05D8\u05D9\u05E1") || description.includes("\u05DE\u05E1\u05D5\u05E7")) return "aircraft";
+  if (description.includes("\u05E8\u05E2\u05D9\u05D3\u05EA \u05D0\u05D3\u05DE\u05D4") || description.includes("\u05E6\u05D5\u05E0\u05DE\u05D9")) return "earthquake";
+  return "other";
+}
+
 function isRecent(timeStr, thresholdMs) {
   const d = parseDate(timeStr);
   if (!d) return false;
   return Date.now() - d.getTime() < (thresholdMs || 3600000);
+}
+
+/** Return the cutoff timestamp for a period string, or 0 for "all". */
+function periodCutoff(period) {
+  const now = Date.now();
+  if (period === "24h") return now - 24 * 3600000;
+  if (period === "7d") return now - 7 * 24 * 3600000;
+  if (period === "30d") return now - 30 * 24 * 3600000;
+  return 0; // "all"
+}
+
+/** Filter allAlerts by period string, returning a subset array. */
+function alertsInPeriod(period) {
+  const cutoff = periodCutoff(period);
+  if (cutoff === 0) return state.allAlerts;
+  return state.allAlerts.filter((a) => {
+    const d = alertDate(a);
+    return d && d.getTime() >= cutoff;
+  });
 }
 
 /* ── URL Parameters ── */
@@ -90,26 +137,20 @@ function updateUrl() {
   history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
 }
 
-/* ── Volley Grouping ── */
+/* ── Volley Grouping (O(n) – only check last volley) ── */
 
 function groupIntoVolleys(alerts) {
   const volleys = [];
   for (const alert of alerts) {
-    const t = parseDate(alert.time);
-    if (!t) continue;
-    const ms = t.getTime();
+    const d = alertDate(alert);
+    if (!d) continue;
+    const ms = d.getTime();
 
-    let matched = null;
-    for (const v of volleys) {
-      if (Math.abs(ms - v.time) <= VOLLEY_WINDOW_MS) {
-        matched = v;
-        break;
-      }
-    }
-
-    if (matched) {
-      if (!matched.cities.includes(alert.city)) matched.cities.push(alert.city);
-      matched.alerts.push(alert);
+    // Since alerts are sorted newest-first, only compare against the last volley.
+    const last = volleys.length > 0 ? volleys[volleys.length - 1] : null;
+    if (last && Math.abs(ms - last.time) <= VOLLEY_WINDOW_MS) {
+      if (!last.cities.includes(alert.city)) last.cities.push(alert.city);
+      last.alerts.push(alert);
     } else {
       volleys.push({
         time: ms,
@@ -123,7 +164,7 @@ function groupIntoVolleys(alerts) {
   return volleys;
 }
 
-/* ── Render ── */
+/* ── Render: Metadata & City Options ── */
 
 function renderMeta() {
   const m = state.metadata || {};
@@ -143,11 +184,13 @@ function renderMeta() {
 function renderCityOptions() {
   const datalist = document.getElementById("cityOptions");
   datalist.innerHTML = "";
+  const frag = document.createDocumentFragment();
   state.cities.forEach((city) => {
     const opt = document.createElement("option");
     opt.value = city;
-    datalist.appendChild(opt);
+    frag.appendChild(opt);
   });
+  datalist.appendChild(frag);
 }
 
 function renderQuickCities() {
@@ -171,13 +214,13 @@ function renderFeaturedCity() {
   if (!city) return;
 
   const panel = document.getElementById("featuredCity");
-  const cityAlerts = state.allAlerts.filter((a) => normalizeCity(a.city) === normalizeCity(city));
+  const normalizedFeatured = normalizeCity(city);
+  const cityAlerts = state.allAlerts.filter((a) => normalizeCity(a.city) === normalizedFeatured);
 
   if (cityAlerts.length === 0) return;
 
   panel.style.display = "";
   document.getElementById("featuredName").textContent = city;
-
   document.getElementById("featuredTotal").textContent = String(cityAlerts.length);
 
   const lastAlert = cityAlerts[0]; // allAlerts is already reversed (newest first)
@@ -186,7 +229,7 @@ function renderFeaturedCity() {
   // Count volleys in last 7 days
   const sevenDaysAgo = Date.now() - 7 * 24 * 3600000;
   const recentAlerts = cityAlerts.filter((a) => {
-    const d = parseDate(a.time);
+    const d = alertDate(a);
     return d && d.getTime() >= sevenDaysAgo;
   });
   const recentVolleys = groupIntoVolleys(recentAlerts);
@@ -198,6 +241,8 @@ function renderFeaturedCity() {
     applyFilters();
   };
 }
+
+/* ── Render: Table ── */
 
 function renderTable() {
   const body = document.getElementById("resultsBody");
@@ -213,10 +258,12 @@ function renderTable() {
 
   if (!pageAlerts.length) {
     body.innerHTML = '<tr><td colspan="5">No alerts matched the current filters.</td></tr>';
+    renderPagination(state.filteredAlerts.length);
     return;
   }
 
   const featuredNorm = normalizeCity(state.featuredCity);
+  const frag = document.createDocumentFragment();
 
   for (const alert of pageAlerts) {
     const row = document.createElement("tr");
@@ -234,8 +281,12 @@ function renderTable() {
       <td>${escapeHtml(alert.origin || "-")}</td>
       <td>${escapeHtml(alert.source || "-")}</td>
     `;
-    body.appendChild(row);
+    frag.appendChild(row);
   }
+
+  body.appendChild(frag);
+  // BUG FIX: always pass totalItems to renderPagination in flat view
+  renderPagination(state.filteredAlerts.length);
 }
 
 function renderVolleyTable(body) {
@@ -250,12 +301,12 @@ function renderVolleyTable(body) {
   }
 
   const featuredNorm = normalizeCity(state.featuredCity);
+  const frag = document.createDocumentFragment();
 
   for (const volley of pageVolleys) {
     const cat = categoryClass(volley.description);
     const hasFeatured = featuredNorm && volley.cities.some((c) => normalizeCity(c) === featuredNorm);
 
-    // Volley header row
     const headerRow = document.createElement("tr");
     headerRow.className = `volley-header ${cat}${hasFeatured ? " featured-row" : ""}`;
     const recentDot = isRecent(volley.timeStr) ? '<span class="recent-badge"></span> ' : "";
@@ -270,9 +321,10 @@ function renderVolleyTable(body) {
       <td>${escapeHtml(volley.alerts[0]?.origin || "-")}</td>
       <td>${escapeHtml(volley.alerts[0]?.source || "-")}</td>
     `;
-    body.appendChild(headerRow);
+    frag.appendChild(headerRow);
   }
 
+  body.appendChild(frag);
   renderPagination(volleys.length);
 }
 
@@ -292,7 +344,8 @@ function renderActiveFilters(city, fromValue, toValue) {
 
 function renderPagination(totalItems) {
   const container = document.getElementById("pagination");
-  const totalPages = Math.ceil((totalItems || state.filteredAlerts.length) / PAGE_SIZE);
+  const total = totalItems != null ? totalItems : state.filteredAlerts.length;
+  const totalPages = Math.ceil(total / PAGE_SIZE);
   container.innerHTML = "";
 
   if (totalPages <= 1) return;
@@ -306,7 +359,6 @@ function renderPagination(totalItems) {
     btn.addEventListener("click", () => {
       state.currentPage = page;
       renderTable();
-      renderPagination(totalItems);
       document.querySelector(".table-wrap").scrollTop = 0;
     });
     container.appendChild(btn);
@@ -315,10 +367,9 @@ function renderPagination(totalItems) {
   addBtn("\u00AB", 1, state.currentPage === 1);
   addBtn("\u2039", state.currentPage - 1, state.currentPage === 1);
 
-  // Show pages around current
-  const start = Math.max(1, state.currentPage - 2);
-  const end = Math.min(totalPages, state.currentPage + 2);
-  for (let i = start; i <= end; i++) {
+  const startPage = Math.max(1, state.currentPage - 2);
+  const endPage = Math.min(totalPages, state.currentPage + 2);
+  for (let i = startPage; i <= endPage; i++) {
     addBtn(String(i), i, false);
   }
 
@@ -342,11 +393,11 @@ function applyFilters() {
   const normalizedCity = normalizeCity(city);
 
   state.filteredAlerts = state.allAlerts.filter((alert) => {
-    const alertDate = parseDate(alert.time);
-    if (!alertDate) return false;
+    const d = alertDate(alert);
+    if (!d) return false;
     if (normalizedCity && normalizeCity(alert.city) !== normalizedCity) return false;
-    if (fromDate && alertDate < fromDate) return false;
-    if (toDate && alertDate > toDate) return false;
+    if (fromDate && d < fromDate) return false;
+    if (toDate && d > toDate) return false;
     return true;
   });
 
@@ -354,7 +405,7 @@ function applyFilters() {
   updateUrl();
   renderActiveFilters(city, fromValue, toValue);
   renderTable();
-  renderPagination();
+  // renderTable now always calls renderPagination internally with the correct totalItems
 }
 
 function resetFilters() {
@@ -366,7 +417,306 @@ function resetFilters() {
   history.replaceState(null, "", location.pathname);
   renderActiveFilters("", "", "");
   renderTable();
-  renderPagination();
+  // renderTable now always calls renderPagination internally
+}
+
+/* ── Statistics Dashboard ── */
+
+function computeStats(period) {
+  const alerts = alertsInPeriod(period);
+  const cityCount = new Map();
+  const catCount = { rockets: 0, aircraft: 0, earthquake: 0, other: 0 };
+
+  for (const a of alerts) {
+    const c = a.city || "unknown";
+    cityCount.set(c, (cityCount.get(c) || 0) + 1);
+    catCount[categoryKey(a.description)]++;
+  }
+
+  // Most targeted city
+  let mostCity = "-";
+  let mostCount = 0;
+  for (const [city, count] of cityCount) {
+    if (count > mostCount) {
+      mostCount = count;
+      mostCity = city;
+    }
+  }
+
+  // Top 10 cities
+  const topCities = [...cityCount.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10);
+
+  // Volleys
+  const volleys = groupIntoVolleys(alerts);
+
+  // Timeline: hourly buckets
+  const cutoff = periodCutoff(period);
+  const now = Date.now();
+  const hourlyBuckets = new Map();
+
+  for (const a of alerts) {
+    const d = alertDate(a);
+    if (!d) continue;
+    // Bucket by hour: floor to the hour
+    const hourTs = Math.floor(d.getTime() / 3600000) * 3600000;
+    hourlyBuckets.set(hourTs, (hourlyBuckets.get(hourTs) || 0) + 1);
+  }
+
+  // Sort buckets by time
+  const sortedBuckets = [...hourlyBuckets.entries()].sort((a, b) => a[0] - b[0]);
+
+  return {
+    totalAlerts: alerts.length,
+    totalVolleys: volleys.length,
+    citiesHit: cityCount.size,
+    mostTargeted: mostCity,
+    mostTargetedCount: mostCount,
+    catCount,
+    topCities,
+    hourlyBuckets: sortedBuckets,
+  };
+}
+
+function renderStats() {
+  const stats = computeStats(state.statsPeriod);
+
+  // Stat cards
+  document.getElementById("statAlerts").textContent = stats.totalAlerts.toLocaleString();
+  document.getElementById("statVolleys").textContent = stats.totalVolleys.toLocaleString();
+  document.getElementById("statCitiesHit").textContent = stats.citiesHit.toLocaleString();
+  document.getElementById("statMostTargeted").textContent =
+    stats.mostTargeted !== "-" ? `${stats.mostTargeted} (${stats.mostTargetedCount.toLocaleString()})` : "-";
+
+  // Category bar chart
+  renderCategoryChart(stats.catCount);
+
+  // Top cities bar chart
+  renderTopCitiesChart(stats.topCities);
+
+  // Timeline
+  renderTimeline(stats.hourlyBuckets);
+}
+
+function renderCategoryChart(catCount) {
+  const container = document.getElementById("categoryChart");
+  container.innerHTML = "";
+  const maxVal = Math.max(...Object.values(catCount), 1);
+  const labels = { rockets: "Rockets", aircraft: "Aircraft", earthquake: "Earthquake", other: "Other" };
+  const colors = { rockets: "#ef4444", aircraft: "#3b82f6", earthquake: "#f59e0b", other: "#6b7280" };
+
+  const frag = document.createDocumentFragment();
+  for (const key of ["rockets", "aircraft", "earthquake", "other"]) {
+    const count = catCount[key] || 0;
+    const pct = maxVal > 0 ? (count / maxVal) * 100 : 0;
+
+    const row = document.createElement("div");
+    row.className = "bar-row";
+    row.innerHTML = `
+      <span class="bar-label">${labels[key]}</span>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:${pct}%;background:${colors[key]}"></div>
+      </div>
+      <span class="bar-value">${count.toLocaleString()}</span>
+    `;
+    frag.appendChild(row);
+  }
+  container.appendChild(frag);
+}
+
+function renderTopCitiesChart(topCities) {
+  const container = document.getElementById("topCitiesChart");
+  container.innerHTML = "";
+  if (!topCities.length) {
+    container.textContent = "No data";
+    return;
+  }
+  const maxVal = topCities[0][1] || 1;
+
+  const frag = document.createDocumentFragment();
+  for (const [city, count] of topCities) {
+    const pct = (count / maxVal) * 100;
+    const row = document.createElement("div");
+    row.className = "bar-row";
+    row.innerHTML = `
+      <span class="bar-label" dir="rtl">${escapeHtml(city)}</span>
+      <div class="bar-track">
+        <div class="bar-fill" style="width:${pct}%;background:#6366f1"></div>
+      </div>
+      <span class="bar-value">${count.toLocaleString()}</span>
+    `;
+    frag.appendChild(row);
+  }
+  container.appendChild(frag);
+}
+
+function renderTimeline(hourlyBuckets) {
+  const canvas = document.getElementById("timelineCanvas");
+  const ctx = canvas.getContext("2d");
+
+  // High-DPI support
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = rect.width * dpr;
+  canvas.height = rect.height * dpr;
+  ctx.scale(dpr, dpr);
+
+  const W = rect.width;
+  const H = rect.height;
+  ctx.clearRect(0, 0, W, H);
+
+  if (!hourlyBuckets.length) {
+    ctx.fillStyle = "#888";
+    ctx.font = "14px Space Grotesk, sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText("No data for this period", W / 2, H / 2);
+    return;
+  }
+
+  const maxCount = Math.max(...hourlyBuckets.map((b) => b[1]), 1);
+  const padding = { top: 10, bottom: 25, left: 5, right: 5 };
+  const chartW = W - padding.left - padding.right;
+  const chartH = H - padding.top - padding.bottom;
+  const barW = Math.max(1, chartW / hourlyBuckets.length);
+
+  // Draw bars
+  ctx.fillStyle = "rgba(99, 102, 241, 0.7)";
+  for (let i = 0; i < hourlyBuckets.length; i++) {
+    const [ts, count] = hourlyBuckets[i];
+    const barH = (count / maxCount) * chartH;
+    const x = padding.left + i * barW;
+    const y = padding.top + chartH - barH;
+    ctx.fillRect(x, y, Math.max(barW - 1, 1), barH);
+  }
+
+  // Draw x-axis labels (show a few dates)
+  ctx.fillStyle = "#aaa";
+  ctx.font = "10px Space Grotesk, sans-serif";
+  ctx.textAlign = "center";
+  const labelCount = Math.min(6, hourlyBuckets.length);
+  const step = Math.max(1, Math.floor(hourlyBuckets.length / labelCount));
+  for (let i = 0; i < hourlyBuckets.length; i += step) {
+    const [ts] = hourlyBuckets[i];
+    const d = new Date(ts);
+    const label = `${d.getDate()}/${d.getMonth() + 1}`;
+    const x = padding.left + i * barW + barW / 2;
+    ctx.fillText(label, x, H - 5);
+  }
+
+  // Draw baseline
+  ctx.strokeStyle = "#444";
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(padding.left, padding.top + chartH);
+  ctx.lineTo(padding.left + chartW, padding.top + chartH);
+  ctx.stroke();
+}
+
+/* ── Heatmap ── */
+
+function initMap() {
+  if (mapInitialized) return;
+  mapInitialized = true;
+
+  leafletMap = L.map("map", { zoomControl: true }).setView([31.5, 34.8], 7);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 18,
+  }).addTo(leafletMap);
+}
+
+function renderHeatmap(period) {
+  initMap();
+
+  const alerts = alertsInPeriod(period);
+
+  // Count alerts per city
+  const cityCount = new Map();
+  for (const a of alerts) {
+    const c = a.city || "";
+    if (c) cityCount.set(c, (cityCount.get(c) || 0) + 1);
+  }
+
+  // Build heatmap data points
+  const heatPoints = [];
+  const cityEntries = [];
+
+  for (const [city, count] of cityCount) {
+    const coords = typeof CITY_COORDS !== "undefined" ? CITY_COORDS[city] : null;
+    if (!coords) continue;
+    heatPoints.push([coords[0], coords[1], count]);
+    cityEntries.push({ city, count, lat: coords[0], lng: coords[1] });
+  }
+
+  // Normalize intensity: find max count
+  const maxIntensity = Math.max(...cityEntries.map((e) => e.count), 1);
+  const normalizedPoints = heatPoints.map(([lat, lng, count]) => [lat, lng, count / maxIntensity]);
+
+  // Remove old layers
+  if (heatLayer) {
+    leafletMap.removeLayer(heatLayer);
+    heatLayer = null;
+  }
+  if (markerLayer) {
+    leafletMap.removeLayer(markerLayer);
+    markerLayer = null;
+  }
+
+  // Add heat layer
+  if (normalizedPoints.length > 0) {
+    heatLayer = L.heatLayer(normalizedPoints, {
+      radius: 20,
+      blur: 15,
+      maxZoom: 10,
+      max: 1.0,
+    }).addTo(leafletMap);
+  }
+
+  // Add circle markers for top 20 cities
+  markerLayer = L.layerGroup().addTo(leafletMap);
+  const top20 = cityEntries
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 20);
+
+  for (const entry of top20) {
+    const radius = Math.max(5, Math.min(20, (entry.count / maxIntensity) * 20));
+    L.circleMarker([entry.lat, entry.lng], {
+      radius: radius,
+      fillColor: "#ef4444",
+      color: "#fff",
+      weight: 1,
+      opacity: 0.8,
+      fillOpacity: 0.6,
+    })
+      .bindPopup(`<strong dir="rtl">${escapeHtml(entry.city)}</strong><br>${entry.count.toLocaleString()} alerts`)
+      .addTo(markerLayer);
+  }
+}
+
+/** Lazy-initialize the map when it becomes visible (IntersectionObserver). */
+function setupMapObserver() {
+  const mapSection = document.querySelector(".map-section");
+  if (!mapSection) return;
+
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            renderHeatmap(state.mapPeriod);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(mapSection);
+  } else {
+    // Fallback: render after a short delay
+    setTimeout(() => renderHeatmap(state.mapPeriod), 500);
+  }
 }
 
 /* ── Init ── */
@@ -380,6 +730,11 @@ async function loadData() {
   state.cities = payload.cities || [];
   state.allAlerts = (payload.alerts || []).slice().reverse();
   state.filteredAlerts = [...state.allAlerts];
+
+  // Pre-cache all alert dates for performance
+  for (const a of state.allAlerts) {
+    alertDate(a);
+  }
 
   renderMeta();
   renderCityOptions();
@@ -408,11 +763,19 @@ async function loadData() {
 
   renderFeaturedCity();
   applyFilters();
+
+  // Render statistics
+  renderStats();
+
+  // Lazy-init map when scrolled into view
+  setupMapObserver();
 }
 
 // Event listeners
 document.getElementById("applyButton").addEventListener("click", applyFilters);
 document.getElementById("resetButton").addEventListener("click", resetFilters);
+
+// Volley toggle - BUG FIX: don't call renderPagination separately since renderTable handles it
 document.getElementById("volleyToggle").addEventListener("click", () => {
   state.volleyView = !state.volleyView;
   state.currentPage = 1;
@@ -424,7 +787,28 @@ document.getElementById("volleyToggle").addEventListener("click", () => {
   const toValue = document.getElementById("toInput").value;
   renderActiveFilters(city, fromValue, toValue);
   renderTable();
-  renderPagination();
+  // renderTable now internally calls renderPagination with the correct totalItems
+});
+
+// Statistics period buttons
+document.querySelectorAll(".period-btn[data-period]").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    // Update active state
+    document.querySelectorAll(".period-btn[data-period]").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    state.statsPeriod = btn.dataset.period;
+    renderStats();
+  });
+});
+
+// Map period buttons
+document.querySelectorAll(".period-btn[data-map-period]").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".period-btn[data-map-period]").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    state.mapPeriod = btn.dataset.mapPeriod;
+    renderHeatmap(state.mapPeriod);
+  });
 });
 
 loadData().catch((error) => {
