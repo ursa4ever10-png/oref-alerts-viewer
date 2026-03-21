@@ -30,14 +30,20 @@ from pathlib import Path
 
 CSV_URL = "https://raw.githubusercontent.com/yuval-harpaz/alarms/master/data/alarms.csv"
 
-# Oref endpoints - tried in order. The env var OREF_HIST_URL (set via GitHub
-# secret) is tried first so a proxy can be used from cloud runners where the
-# direct endpoints return 403.
+# Tzeva Adom third-party API - not geo-restricted, works from GitHub Actions
+TZEVAADOM_URL = "https://api.tzevaadom.co.il/alerts-history"
+TZEVAADOM_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept": "application/json",
+    "Referer": "https://www.tzevaadom.co.il/",
+}
+
+# Official Oref endpoints - geo-restricted to Israeli IPs, used as fallback
 OREF_ENDPOINTS = [
     {
         "url": "https://www.oref.org.il/warningMessages/alert/History/AlertsHistory.json",
         "headers": {"Referer": "https://www.oref.org.il/", "User-Agent": "Mozilla/5.0"},
-        "format": "www",  # {alertDate, title, data, category}
+        "format": "www",
     },
     {
         "url": "https://alerts-history.oref.org.il/Shared/Ajax/GetAlarmsHistory.aspx?lang=he&mode=1",
@@ -46,21 +52,28 @@ OREF_ENDPOINTS = [
             "X-Requested-With": "XMLHttpRequest",
             "User-Agent": "Mozilla/5.0",
         },
-        "format": "history",  # {alertDate, category_desc, data, ...}
+        "format": "history",
     },
 ]
 
 CSV_HEADERS = {"User-Agent": "Mozilla/5.0"}
 CSV_FIELDS = ["time", "city", "description", "origin", "source"]
 
-# Map category numbers from www endpoint to descriptions
+# Map threat numbers from tzevaadom to Hebrew descriptions
+THREAT_MAP = {
+    0: "\u05D9\u05E8\u05D9 \u05E8\u05E7\u05D8\u05D5\u05EA \u05D5\u05D8\u05D9\u05DC\u05D9\u05DD",
+    1: "\u05D7\u05D3\u05D9\u05E8\u05EA \u05DB\u05DC\u05D9 \u05D8\u05D9\u05E1 \u05E2\u05D5\u05D9\u05DF",
+    2: "\u05E8\u05E2\u05D9\u05D3\u05EA \u05D0\u05D3\u05DE\u05D4",
+    3: "\u05D7\u05D5\u05DE\u05E8\u05D9\u05DD \u05DE\u05E1\u05D5\u05DB\u05E0\u05D9\u05DD",
+    4: "\u05D0\u05D9\u05E8\u05D5\u05E2 \u05D7\u05D5\u05DE\u05E8\u05D9\u05DD \u05DE\u05E1\u05D5\u05DB\u05E0\u05D9\u05DD",
+    5: "\u05D7\u05D3\u05D9\u05E8\u05EA \u05DE\u05E1\u05D5\u05E7\u05D9\u05DD",
+}
+
+# Map category numbers from official Oref www endpoint
 CATEGORY_MAP = {
     1: "\u05D9\u05E8\u05D9 \u05E8\u05E7\u05D8\u05D5\u05EA \u05D5\u05D8\u05D9\u05DC\u05D9\u05DD",
     2: "\u05D7\u05D3\u05D9\u05E8\u05EA \u05DB\u05DC\u05D9 \u05D8\u05D9\u05E1 \u05E2\u05D5\u05D9\u05DF",
     3: "\u05E8\u05E2\u05D9\u05D3\u05EA \u05D0\u05D3\u05DE\u05D4",
-    4: "\u05D7\u05D5\u05DE\u05E8\u05D9\u05DD \u05DE\u05E1\u05D5\u05DB\u05E0\u05D9\u05DD",
-    6: "\u05D0\u05D9\u05E8\u05D5\u05E2 \u05D7\u05D5\u05DE\u05E8\u05D9\u05DD \u05DE\u05E1\u05D5\u05DB\u05E0\u05D9\u05DD",
-    7: "\u05D7\u05D3\u05D9\u05E8\u05EA \u05DE\u05E1\u05D5\u05E7\u05D9\u05DD",
     13: "\u05D4\u05D0\u05D9\u05E8\u05D5\u05E2 \u05D4\u05E1\u05EA\u05D9\u05D9\u05DD",
 }
 
@@ -107,8 +120,33 @@ def load_owned_archive(path: Path) -> list[dict[str, str]]:
     return results
 
 
+def _parse_tzevaadom(payload: list) -> list[dict[str, str]]:
+    """Parse tzevaadom grouped alerts into flat normalized dicts."""
+    results: list[dict[str, str]] = []
+    for group in payload:
+        for alert in group.get("alerts", []):
+            if alert.get("isDrill"):
+                continue
+            ts = alert.get("time", 0)
+            if not ts:
+                continue
+            dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+            time_str = dt.strftime("%Y-%m-%d %H:%M:%S")
+            threat = alert.get("threat", 0)
+            description = THREAT_MAP.get(threat, f"threat_{threat}")
+            for city in alert.get("cities", []):
+                results.append({
+                    "time": time_str,
+                    "city": city,
+                    "description": description,
+                    "origin": "",
+                    "source": "tzevaadom",
+                })
+    return results
+
+
 def _parse_oref_payload(payload: list, fmt: str) -> list[dict[str, str]]:
-    """Parse Oref JSON into normalized alert dicts."""
+    """Parse official Oref JSON into normalized alert dicts."""
     results: list[dict[str, str]] = []
     for alert in payload:
         if fmt == "www":
@@ -124,33 +162,37 @@ def _parse_oref_payload(payload: list, fmt: str) -> list[dict[str, str]]:
             continue
 
         alert_date = (alert.get("alertDate", "") or "").replace("T", " ")
-        results.append(
-            {
-                "time": alert_date,
-                "city": alert.get("data", ""),
-                "description": category,
-                "origin": "",
-                "source": "oref_api",
-            }
-        )
+        results.append({
+            "time": alert_date,
+            "city": alert.get("data", ""),
+            "description": category,
+            "origin": "",
+            "source": "oref_api",
+        })
     return results
 
 
 def fetch_oref_alerts() -> list[dict[str, str]]:
-    """Try each Oref endpoint in order; return alerts from the first that works."""
+    """Fetch live alerts: try tzevaadom first (no geo-block), then official Oref."""
     last_error: Exception | None = None
 
-    # Allow override via env var (GitHub secret) - same pattern as yuval-harpaz
-    env_url = os.environ.get("OREF_HIST_URL", "").strip()
-    endpoints = list(OREF_ENDPOINTS)
-    if env_url:
-        endpoints.insert(0, {
-            "url": env_url,
-            "headers": {"User-Agent": "python-requests/2.28.1"},
-            "format": "history",
-        })
+    # Strategy 1: Tzeva Adom API (works globally, same source as yuval-harpaz)
+    for attempt in range(2):
+        try:
+            request = urllib.request.Request(TZEVAADOM_URL, headers=TZEVAADOM_HEADERS)
+            with urllib.request.urlopen(request, timeout=60) as response:
+                payload = json.loads(response.read().decode("utf-8", errors="ignore"))
+            results = _parse_tzevaadom(payload)
+            print(f"Tzevaadom OK -> {len(results)} alerts from {len(payload)} groups", file=sys.stderr)
+            return results
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
+            last_error = exc
+            if attempt < 1:
+                time.sleep(2)
+    print(f"Tzevaadom FAILED: {last_error}", file=sys.stderr)
 
-    for endpoint in endpoints:
+    # Strategy 2: Official Oref endpoints (geo-restricted, works locally)
+    for endpoint in OREF_ENDPOINTS:
         url = endpoint["url"]
         headers = endpoint["headers"]
         fmt = endpoint["format"]
@@ -160,13 +202,11 @@ def fetch_oref_alerts() -> list[dict[str, str]]:
                 request = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(request, timeout=60) as response:
                     raw = response.read().decode("utf-8", errors="ignore").strip()
-                    # Handle BOM
                     if raw.startswith("\ufeff"):
                         raw = raw[1:]
                     if not raw or not raw.startswith("["):
-                        raise ValueError(f"Unexpected response from {url}: {raw[:80]}")
+                        raise ValueError(f"Unexpected response: {raw[:80]}")
                     payload = json.loads(raw)
-
                 results = _parse_oref_payload(payload, fmt)
                 print(f"Oref OK via {url} -> {len(results)} alerts", file=sys.stderr)
                 return results
@@ -174,10 +214,9 @@ def fetch_oref_alerts() -> list[dict[str, str]]:
                 last_error = exc
                 if attempt < 1:
                     time.sleep(2)
-
         print(f"Oref FAILED via {url}: {last_error}", file=sys.stderr)
 
-    raise last_error or RuntimeError("All Oref endpoints failed")
+    raise last_error or RuntimeError("All endpoints failed")
 
 
 def merge_alerts(existing_alerts: list[dict[str, str]], new_alerts: list[dict[str, str]]) -> list[dict[str, str]]:
