@@ -25,7 +25,15 @@ import time
 import urllib.error
 import urllib.request
 from collections import OrderedDict
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
+# Israel is UTC+2 (IST) or UTC+3 (IDT summer). Oref always uses local time.
+_ISR_OFFSET = timedelta(hours=2)
+try:
+    from zoneinfo import ZoneInfo
+    _ISR_TZ = ZoneInfo("Asia/Jerusalem")
+except ImportError:
+    _ISR_TZ = None
 from pathlib import Path
 
 CSV_URL = "https://raw.githubusercontent.com/yuval-harpaz/alarms/master/data/alarms.csv"
@@ -131,6 +139,11 @@ def _parse_tzevaadom(payload: list) -> list[dict[str, str]]:
             if not ts:
                 continue
             dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+            # Convert to Israel local time to match Oref format
+            if _ISR_TZ:
+                dt = dt.astimezone(_ISR_TZ)
+            else:
+                dt = dt + _ISR_OFFSET
             time_str = dt.strftime("%Y-%m-%d %H:%M:%S")
             threat = alert.get("threat", 0)
             description = THREAT_MAP.get(threat, f"threat_{threat}")
