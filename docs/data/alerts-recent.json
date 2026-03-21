@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T19:38:21.549324+00:00",
-    "total_alerts": 157272,
+    "generated_at": "2026-03-21T19:51:21.059265+00:00",
+    "total_alerts": 157273,
     "total_cities": 1638,
     "archive_before_refresh": 157272,
-    "new_alerts_added": 0,
+    "new_alerts_added": 1,
     "csv_sync_rows": 154217,
     "csv_sync_error": null,
-    "oref_alerts": 1087,
+    "oref_alerts": 1070,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -137092,6 +137092,13 @@
     {
       "time": "2026-03-21 20:40:27",
       "city": "בחלק מהאזורים בארץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 21:41:41",
+      "city": "חניתה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
