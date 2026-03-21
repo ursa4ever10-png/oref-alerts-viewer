@@ -38,6 +38,7 @@ jobs:
         run: |
           mkdir -p docs/data
           cp data/alerts.json docs/data/alerts.json
+          cp data/alerts-recent.json docs/data/alerts-recent.json
           cp data/metadata.json docs/data/metadata.json
 
       - name: Commit generated data

@@ -1,4 +1,5 @@
-const DATA_URL = "./data/alerts.json";
+const DATA_URL_RECENT = "./data/alerts-recent.json";
+const DATA_URL_FULL = "./data/alerts.json";
 const PAGE_SIZE = 100;
 const VOLLEY_WINDOW_MS = 120000; // 2 minutes
 const QUICK_CITIES = ["\u05D9\u05E8\u05D5\u05D7\u05DD", "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1 - \u05D9\u05E4\u05D5", "\u05D1\u05D0\u05E8 \u05E9\u05D1\u05E2", "\u05D0\u05E9\u05D3\u05D5\u05D3", "\u05D0\u05E9\u05E7\u05DC\u05D5\u05DF", "\u05E8\u05D0\u05E9\u05D5\u05DF \u05DC\u05E6\u05D9\u05D5\u05DF"];
@@ -721,9 +722,16 @@ function setupMapObserver() {
 
 /* ── Init ── */
 
-async function loadData() {
-  const response = await fetch(DATA_URL, { cache: "no-store" });
-  if (!response.ok) throw new Error(`Failed to load ${DATA_URL}: ${response.status}`);
+async function loadData(url) {
+  const dataUrl = url || DATA_URL_RECENT;
+  const response = await fetch(dataUrl, { cache: "no-store" });
+  if (!response.ok) {
+    // Fall back to full archive if recent file doesn't exist yet
+    if (dataUrl === DATA_URL_RECENT) {
+      return loadData(DATA_URL_FULL);
+    }
+    throw new Error(`Failed to load data: ${response.status}`);
+  }
 
   const payload = await response.json();
   state.metadata = payload.metadata;
@@ -810,6 +818,22 @@ document.querySelectorAll(".period-btn[data-map-period]").forEach((btn) => {
     renderHeatmap(state.mapPeriod);
   });
 });
+
+// Load full archive button
+const loadFullBtn = document.getElementById("loadFullBtn");
+if (loadFullBtn) {
+  loadFullBtn.addEventListener("click", () => {
+    loadFullBtn.textContent = "Loading...";
+    loadFullBtn.disabled = true;
+    loadData(DATA_URL_FULL).then(() => {
+      const wrap = document.getElementById("loadFullWrap");
+      if (wrap) wrap.style.display = "none";
+    }).catch((error) => {
+      loadFullBtn.textContent = "Failed - try again";
+      loadFullBtn.disabled = false;
+    });
+  });
+}
 
 loadData().catch((error) => {
   document.getElementById("resultsBody").innerHTML = `<tr><td colspan="5">${escapeHtml(error.message)}</td></tr>`;

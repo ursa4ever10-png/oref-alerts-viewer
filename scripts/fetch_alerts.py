@@ -195,7 +195,11 @@ def fetch_oref_alerts() -> list[dict[str, str]]:
                 payload = json.loads(response.read().decode("utf-8", errors="ignore"))
             results = _parse_tzevaadom(payload)
             print(f"Tzevaadom OK -> {len(results)} alerts from {len(payload)} groups", file=sys.stderr)
-            return results
+            if results:
+                return results
+            # Empty response may mean API issue, fall through to Oref
+            print("Tzevaadom returned 0 alerts, trying Oref...", file=sys.stderr)
+            break
         except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
             last_error = exc
             if attempt < 1:
@@ -227,7 +231,7 @@ def fetch_oref_alerts() -> list[dict[str, str]]:
                     time.sleep(2)
         print(f"Oref FAILED via {url}: {last_error}", file=sys.stderr)
 
-    raise last_error or RuntimeError("All endpoints failed")
+    raise RuntimeError(str(last_error) if last_error else "All endpoints failed")
 
 
 def merge_alerts(existing_alerts: list[dict[str, str]], new_alerts: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -300,7 +304,7 @@ def main() -> int:
     oref_alerts: list[dict[str, str]] = []
     try:
         oref_alerts = fetch_oref_alerts()
-    except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError) as exc:
+    except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError, RuntimeError) as exc:
         oref_error = str(exc)
 
     alerts = merge_alerts(owned_archive, oref_alerts)
@@ -332,6 +336,21 @@ def main() -> int:
             "alerts": alerts,
         },
     )
+
+    # Write a smaller recent-only JSON (last 7 days) for faster browser loading
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
+    recent_alerts = [a for a in alerts if a.get("time", "") >= cutoff]
+    write_json(
+        data_dir / "alerts-recent.json",
+        {
+            "metadata": metadata,
+            "cities": cities,
+            "alerts": recent_alerts,
+            "recent_only": True,
+            "cutoff": cutoff,
+        },
+    )
+
     write_json(data_dir / "metadata.json", metadata)
 
     changed = len(alerts) != archive_count_before
