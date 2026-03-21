@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T15:13:31.582401+00:00",
-    "total_alerts": 157200,
+    "generated_at": "2026-03-21T15:40:24.395447+00:00",
+    "total_alerts": 157205,
     "total_cities": 1638,
-    "archive_before_refresh": 157165,
-    "new_alerts_added": 35,
-    "csv_sync_rows": 154111,
+    "archive_before_refresh": 157200,
+    "new_alerts_added": 5,
+    "csv_sync_rows": 154147,
     "csv_sync_error": null,
-    "oref_alerts": 2255,
+    "oref_alerts": 1341,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -136586,8 +136586,43 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-21 17:04:45",
+      "city": "רמות נפתלי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-21 17:07:01",
       "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 17:29:21",
+      "city": "אביבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-21 17:38:23",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 17:38:23",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 17:38:23",
+      "city": "תל חי",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
