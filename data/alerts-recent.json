@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-21T18:17:39.034315+00:00",
-    "total_alerts": 157268,
+    "generated_at": "2026-03-21T18:55:29.804453+00:00",
+    "total_alerts": 157272,
     "total_cities": 1638,
     "archive_before_refresh": 157268,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 154209,
+    "new_alerts_added": 4,
+    "csv_sync_rows": 154213,
     "csv_sync_error": null,
-    "oref_alerts": 1091,
+    "oref_alerts": 1087,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -137064,6 +137064,34 @@
     {
       "time": "2026-03-21 19:48:24",
       "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 20:39:51",
+      "city": "אילות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 20:39:51",
+      "city": "אילת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 20:39:51",
+      "city": "אזור תעשייה שחורת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-21 20:40:27",
+      "city": "בחלק מהאזורים בארץ",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
