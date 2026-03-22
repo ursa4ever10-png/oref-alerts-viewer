@@ -62,15 +62,21 @@
       </section>
 
       <!-- Statistics Dashboard -->
+      <!-- Unified period selector for stats + map -->
+      <section class="panel period-selector-panel">
+        <span class="label">Time Period</span>
+        <div class="period-btns" id="periodBtns">
+          <button type="button" class="period-btn active" data-period="24h">24h</button>
+          <button type="button" class="period-btn" data-period="7d">7d</button>
+          <button type="button" class="period-btn" data-period="30d">30d</button>
+          <button type="button" class="period-btn" data-period="all">All</button>
+        </div>
+        <span id="periodNote" class="period-note"></span>
+      </section>
+
       <section class="panel stats-section">
         <div class="stats-header">
           <h2>Statistics</h2>
-          <div class="stats-period-btns">
-            <button type="button" class="period-btn active" data-period="24h">24h</button>
-            <button type="button" class="period-btn" data-period="7d">7d</button>
-            <button type="button" class="period-btn" data-period="30d">30d</button>
-            <button type="button" class="period-btn" data-period="all">All</button>
-          </div>
         </div>
         <div class="stats-grid">
           <div class="stat-card">
@@ -110,11 +116,6 @@
       <section class="panel map-section">
         <div class="map-header">
           <h2>Alert Heatmap</h2>
-          <div class="map-controls">
-            <button type="button" class="period-btn active" data-map-period="7d">7d</button>
-            <button type="button" class="period-btn" data-map-period="30d">30d</button>
-            <button type="button" class="period-btn" data-map-period="all">All</button>
-          </div>
         </div>
         <div id="map" class="map-container"></div>
       </section>

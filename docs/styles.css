@@ -137,6 +137,27 @@ h1 {
   transform: translateY(-1px);
 }
 
+/* ── Period Selector ── */
+
+.period-selector-panel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  margin-bottom: 18px;
+}
+
+.period-btns {
+  display: flex;
+  gap: 4px;
+}
+
+.period-note {
+  font-size: 0.78rem;
+  color: var(--orange);
+  font-weight: 500;
+}
+
 /* ── Statistics Section ── */
 
 .stats-section {

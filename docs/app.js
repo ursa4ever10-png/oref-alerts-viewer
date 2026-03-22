@@ -13,8 +13,8 @@ const state = {
   currentPage: 1,
   volleyView: false,
   featuredCity: "",
-  statsPeriod: "24h",
-  mapPeriod: "7d",
+  period: "24h",
+  fullDataLoaded: false,
 };
 
 // Cache for parsed dates: alert object -> Date
@@ -481,7 +481,7 @@ function computeStats(period) {
 }
 
 function renderStats() {
-  const stats = computeStats(state.statsPeriod);
+  const stats = computeStats(state.period);
 
   // Stat cards
   document.getElementById("statAlerts").textContent = stats.totalAlerts.toLocaleString();
@@ -705,7 +705,7 @@ function setupMapObserver() {
       (entries) => {
         for (const entry of entries) {
           if (entry.isIntersecting) {
-            renderHeatmap(state.mapPeriod);
+            renderHeatmap(state.period);
             observer.disconnect();
             break;
           }
@@ -716,7 +716,7 @@ function setupMapObserver() {
     observer.observe(mapSection);
   } else {
     // Fallback: render after a short delay
-    setTimeout(() => renderHeatmap(state.mapPeriod), 500);
+    setTimeout(() => renderHeatmap(state.period), 500);
   }
 }
 
@@ -798,25 +798,38 @@ document.getElementById("volleyToggle").addEventListener("click", () => {
   // renderTable now internally calls renderPagination with the correct totalItems
 });
 
-// Statistics period buttons
-document.querySelectorAll(".period-btn[data-period]").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    // Update active state
-    document.querySelectorAll(".period-btn[data-period]").forEach((b) => b.classList.remove("active"));
-    btn.classList.add("active");
-    state.statsPeriod = btn.dataset.period;
-    renderStats();
-  });
-});
+// Unified period buttons (controls both stats + map)
+function switchPeriod(period) {
+  const needsFull = (period === "30d" || period === "all") && !state.fullDataLoaded;
 
-// Map period buttons
-document.querySelectorAll(".period-btn[data-map-period]").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".period-btn[data-map-period]").forEach((b) => b.classList.remove("active"));
-    btn.classList.add("active");
-    state.mapPeriod = btn.dataset.mapPeriod;
-    renderHeatmap(state.mapPeriod);
-  });
+  document.querySelectorAll("#periodBtns .period-btn").forEach((b) => b.classList.remove("active"));
+  document.querySelector(`#periodBtns .period-btn[data-period="${period}"]`)?.classList.add("active");
+  state.period = period;
+
+  const note = document.getElementById("periodNote");
+
+  if (needsFull) {
+    // Auto-load full archive for 30d/All
+    if (note) note.textContent = "Loading full archive...";
+    loadData(DATA_URL_FULL).then(() => {
+      state.fullDataLoaded = true;
+      if (note) note.textContent = "";
+      const wrap = document.getElementById("loadFullWrap");
+      if (wrap) wrap.style.display = "none";
+      renderStats();
+      if (mapInitialized) renderHeatmap(state.period);
+    }).catch(() => {
+      if (note) note.textContent = "Failed to load full data";
+    });
+    return;
+  }
+
+  renderStats();
+  if (mapInitialized) renderHeatmap(state.period);
+}
+
+document.querySelectorAll("#periodBtns .period-btn").forEach((btn) => {
+  btn.addEventListener("click", () => switchPeriod(btn.dataset.period));
 });
 
 // Load full archive button
@@ -826,6 +839,7 @@ if (loadFullBtn) {
     loadFullBtn.textContent = "Loading...";
     loadFullBtn.disabled = true;
     loadData(DATA_URL_FULL).then(() => {
+      state.fullDataLoaded = true;
       const wrap = document.getElementById("loadFullWrap");
       if (wrap) wrap.style.display = "none";
     }).catch((error) => {
