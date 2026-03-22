@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T12:46:08.066598+00:00",
-    "total_alerts": 158614,
+    "generated_at": "2026-03-22T12:57:58.960451+00:00",
+    "total_alerts": 158616,
     "total_cities": 1641,
-    "archive_before_refresh": 158557,
-    "new_alerts_added": 57,
+    "archive_before_refresh": 158614,
+    "new_alerts_added": 2,
     "csv_sync_rows": 155480,
     "csv_sync_error": null,
     "oref_alerts": 1369,
@@ -137672,6 +137672,20 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 14:48:43",
+      "city": "נטועה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 14:48:49",
+      "city": "שתולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
