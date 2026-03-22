@@ -2,8 +2,8 @@ const DATA_URL_RECENT = "./data/alerts-recent.json";
 const DATA_URL_FULL = "./data/alerts.json";
 const PAGE_SIZE = 100;
 const VOLLEY_WINDOW_MS = 120000; // 2 minutes
-const QUICK_CITIES = ["\u05D9\u05E8\u05D5\u05D7\u05DD", "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1 - \u05D9\u05E4\u05D5", "\u05D1\u05D0\u05E8 \u05E9\u05D1\u05E2", "\u05D0\u05E9\u05D3\u05D5\u05D3", "\u05D0\u05E9\u05E7\u05DC\u05D5\u05DF", "\u05E8\u05D0\u05E9\u05D5\u05DF \u05DC\u05E6\u05D9\u05D5\u05DF"];
-// ירוחם, תל אביב - יפו, באר שבע, אשדוד, אשקלון, ראשון לציון
+const QUICK_CITIES = ["\u05D9\u05E8\u05D5\u05D7\u05DD", "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1", "\u05D9\u05D1\u05E0\u05D4", "\u05D1\u05D0\u05E8 \u05E9\u05D1\u05E2", "\u05D0\u05E9\u05D3\u05D5\u05D3", "\u05D0\u05E9\u05E7\u05DC\u05D5\u05DF", "\u05E8\u05D0\u05E9\u05D5\u05DF \u05DC\u05E6\u05D9\u05D5\u05DF"];
+// ירוחם, תל אביב, יבנה, באר שבע, אשדוד, אשקלון, ראשון לציון
 
 const state = {
   allAlerts: [],
@@ -396,7 +396,7 @@ function applyFilters() {
   state.filteredAlerts = state.allAlerts.filter((alert) => {
     const d = alertDate(alert);
     if (!d) return false;
-    if (normalizedCity && normalizeCity(alert.city) !== normalizedCity) return false;
+    if (normalizedCity && !normalizeCity(alert.city).includes(normalizedCity)) return false;
     if (fromDate && d < fromDate) return false;
     if (toDate && d > toDate) return false;
     return true;
