@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T06:29:18.556611+00:00",
-    "total_alerts": 158214,
+    "generated_at": "2026-03-22T07:13:08.183705+00:00",
+    "total_alerts": 158229,
     "total_cities": 1641,
-    "archive_before_refresh": 157823,
-    "new_alerts_added": 391,
-    "csv_sync_rows": 154742,
+    "archive_before_refresh": 158214,
+    "new_alerts_added": 15,
+    "csv_sync_rows": 155141,
     "csv_sync_error": null,
     "oref_alerts": 1502,
     "oref_status": "ok",
@@ -133551,6 +133551,48 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-22 07:51:28",
+      "city": "איבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 07:51:28",
+      "city": "גבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 07:51:28",
+      "city": "כרמי גת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 07:51:28",
+      "city": "מכללת ספיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 07:51:28",
+      "city": "קריית גת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 07:51:28",
+      "city": "שדרות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-22 07:51:30",
       "city": "אשדוד - ח,ט,י,יג,יד,טז",
       "description": "ירי רקטות וטילים",
@@ -134524,6 +134566,41 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-22 08:16:53",
+      "city": "אוהד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 08:16:53",
+      "city": "ישע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 08:16:53",
+      "city": "מבטחים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 08:16:53",
+      "city": "עמיעוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 08:16:53",
+      "city": "צוחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-22 08:16:57",
       "city": "ניר יצחק",
       "description": "ירי רקטות וטילים",
@@ -134648,6 +134725,27 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 08:17:06",
+      "city": "גבעולים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 08:17:06",
+      "city": "מלילות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 08:17:06",
+      "city": "מעגלים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-22 08:17:24",
@@ -134869,6 +134967,13 @@
     {
       "time": "2026-03-22 08:18:45",
       "city": "חוות מנחם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 08:36:36",
+      "city": "משגב עם",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
