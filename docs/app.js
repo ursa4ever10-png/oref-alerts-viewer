@@ -2,8 +2,14 @@ const DATA_URL_RECENT = "./data/alerts-recent.json";
 const DATA_URL_FULL = "./data/alerts.json";
 const PAGE_SIZE = 100;
 const VOLLEY_WINDOW_MS = 120000; // 2 minutes
-const QUICK_CITIES = ["\u05D9\u05E8\u05D5\u05D7\u05DD", "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1", "\u05D9\u05D1\u05E0\u05D4", "\u05D1\u05D0\u05E8 \u05E9\u05D1\u05E2", "\u05D0\u05E9\u05D3\u05D5\u05D3", "\u05D0\u05E9\u05E7\u05DC\u05D5\u05DF", "\u05E8\u05D0\u05E9\u05D5\u05DF \u05DC\u05E6\u05D9\u05D5\u05DF"];
-// ירוחם, תל אביב, יבנה, באר שבע, אשדוד, אשקלון, ראשון לציון
+const QUICK_CITIES = [
+  "\u05D9\u05E8\u05D5\u05D7\u05DD", "\u05D9\u05D1\u05E0\u05D4",
+  "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1*", "\u05D1\u05D0\u05E8 \u05E9\u05D1\u05E2*", "\u05D0\u05E9\u05D3\u05D5\u05D3*",
+  "\u05D0\u05E9\u05E7\u05DC\u05D5\u05DF*", "\u05E8\u05D0\u05E9\u05D5\u05DF \u05DC\u05E6\u05D9\u05D5\u05DF*",
+  "\u05D7\u05D9\u05E4\u05D4*", "\u05D9\u05E8\u05D5\u05E9\u05DC\u05D9\u05DD*",
+];
+// ירוחם, יבנה, תל אביב*, באר שבע*, אשדוד*, אשקלון*, ראשון לציון*, חיפה*, ירושלים*
+// Trailing * = search all sub-zones (contains match). No * = exact match.
 
 const state = {
   allAlerts: [],
@@ -197,13 +203,15 @@ function renderCityOptions() {
 function renderQuickCities() {
   const container = document.getElementById("quickCities");
   container.innerHTML = "";
-  QUICK_CITIES.forEach((city) => {
+  QUICK_CITIES.forEach((raw) => {
+    const isWild = raw.endsWith("*");
+    const display = isWild ? raw.slice(0, -1) + " (all)" : raw;
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "quick-city-btn";
-    btn.textContent = city;
+    btn.textContent = display;
     btn.addEventListener("click", () => {
-      document.getElementById("cityInput").value = city;
+      document.getElementById("cityInput").value = raw;
       applyFilters();
     });
     container.appendChild(btn);
@@ -385,18 +393,26 @@ function renderPagination(totalItems) {
 
 /* ── Filters ── */
 
+/** Match city filter: "תל אביב*" = contains, "יבנה" = exact. */
+function cityMatches(alertCity, filterValue) {
+  if (!filterValue) return true;
+  const isWildcard = filterValue.endsWith("*");
+  const search = normalizeCity(isWildcard ? filterValue.slice(0, -1) : filterValue);
+  const target = normalizeCity(alertCity);
+  return isWildcard ? target.includes(search) : target === search;
+}
+
 function applyFilters() {
   const city = document.getElementById("cityInput").value.trim();
   const fromValue = document.getElementById("fromInput").value;
   const toValue = document.getElementById("toInput").value;
   const fromDate = parseDate(fromValue);
   const toDate = parseDate(toValue);
-  const normalizedCity = normalizeCity(city);
 
   state.filteredAlerts = state.allAlerts.filter((alert) => {
     const d = alertDate(alert);
     if (!d) return false;
-    if (normalizedCity && !normalizeCity(alert.city).includes(normalizedCity)) return false;
+    if (city && !cityMatches(alert.city, city)) return false;
     if (fromDate && d < fromDate) return false;
     if (toDate && d > toDate) return false;
     return true;
