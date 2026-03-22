@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T17:56:53.480193+00:00",
-    "total_alerts": 159058,
+    "generated_at": "2026-03-22T18:27:37.987975+00:00",
+    "total_alerts": 159063,
     "total_cities": 1641,
     "archive_before_refresh": 159058,
-    "new_alerts_added": 0,
+    "new_alerts_added": 5,
     "csv_sync_rows": 155846,
     "csv_sync_error": null,
-    "oref_alerts": 1625,
+    "oref_alerts": 1629,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -140778,6 +140778,41 @@
       "time": "2026-03-22 19:39:45",
       "city": "מטולה",
       "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 20:15:32",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 20:15:32",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 20:15:32",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 20:15:32",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 20:15:43",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
     }
