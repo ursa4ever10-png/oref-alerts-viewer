@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T14:03:41.915213+00:00",
-    "total_alerts": 158877,
+    "generated_at": "2026-03-22T14:37:47.404500+00:00",
+    "total_alerts": 158885,
     "total_cities": 1641,
-    "archive_before_refresh": 158864,
-    "new_alerts_added": 13,
-    "csv_sync_rows": 155729,
+    "archive_before_refresh": 158877,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 155744,
     "csv_sync_error": null,
-    "oref_alerts": 1622,
+    "oref_alerts": 1594,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -139511,6 +139511,62 @@
       "time": "2026-03-22 16:00:26",
       "city": "ערב אל עראמשה",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 16:07:07",
+      "city": "אביבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 16:30:08",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 16:37:07",
+      "city": "כפר יובל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 16:37:07",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 16:37:16",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 16:37:16",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 16:37:17",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 16:37:17",
+      "city": "מעיין ברוך",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
