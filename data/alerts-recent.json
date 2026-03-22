@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T16:53:56.702636+00:00",
-    "total_alerts": 158982,
+    "generated_at": "2026-03-22T17:14:27.814321+00:00",
+    "total_alerts": 158998,
     "total_cities": 1641,
-    "archive_before_refresh": 158927,
-    "new_alerts_added": 55,
+    "archive_before_refresh": 158982,
+    "new_alerts_added": 16,
     "csv_sync_rows": 155776,
     "csv_sync_error": null,
-    "oref_alerts": 1636,
+    "oref_alerts": 1626,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -140246,6 +140246,118 @@
       "time": "2026-03-22 18:50:10",
       "city": "גורנות הגליל",
       "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:21",
+      "city": "געתון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:21",
+      "city": "מנות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:21",
+      "city": "נווה זיו",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:32",
+      "city": "מנות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:32",
+      "city": "נווה זיו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:49",
+      "city": "כברי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:49",
+      "city": "עבדון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:50",
+      "city": "בית העלמין החדש נהריה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:50",
+      "city": "שייח' דנון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:50",
+      "city": "מצובה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:53",
+      "city": "נתיב השיירה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:53",
+      "city": "עמקה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:53",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 18:54:56",
+      "city": "בן עמי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 19:02:41",
+      "city": "זרעית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 19:07:32",
+      "city": "ע'ג'ר",
+      "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
     }
