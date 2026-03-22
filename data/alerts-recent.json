@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T19:46:38.934937+00:00",
-    "total_alerts": 159067,
+    "generated_at": "2026-03-22T19:57:31.740864+00:00",
+    "total_alerts": 159068,
     "total_cities": 1641,
     "archive_before_refresh": 159067,
-    "new_alerts_added": 0,
+    "new_alerts_added": 1,
     "csv_sync_rows": 155855,
     "csv_sync_error": null,
     "oref_alerts": 1627,
@@ -140840,6 +140840,13 @@
     {
       "time": "2026-03-22 20:44:25",
       "city": "יראון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 21:53:22",
+      "city": "מצובה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
