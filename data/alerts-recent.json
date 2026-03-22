@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T11:16:21.547062+00:00",
-    "total_alerts": 158542,
+    "generated_at": "2026-03-22T11:39:17.532243+00:00",
+    "total_alerts": 158555,
     "total_cities": 1641,
     "archive_before_refresh": 158542,
-    "new_alerts_added": 0,
+    "new_alerts_added": 13,
     "csv_sync_rows": 155442,
     "csv_sync_error": null,
-    "oref_alerts": 1387,
+    "oref_alerts": 1396,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -137168,6 +137168,97 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 13:35:23",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:35:23",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:36:07",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:36:07",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:36:07",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:36:15",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:36:41",
+      "city": "כפר יובל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:36:45",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:37:39",
+      "city": "בית הלל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:38:27",
+      "city": "כפר בלום",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:38:39",
+      "city": "נאות מרדכי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:38:43",
+      "city": "שדה נחמיה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 13:38:49",
+      "city": "עמיר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
