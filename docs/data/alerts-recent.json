@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T02:32:16.646719+00:00",
-    "total_alerts": 157654,
+    "generated_at": "2026-03-22T04:33:03.502969+00:00",
+    "total_alerts": 157661,
     "total_cities": 1639,
-    "archive_before_refresh": 157617,
-    "new_alerts_added": 37,
+    "archive_before_refresh": 157654,
+    "new_alerts_added": 7,
     "csv_sync_rows": 154580,
     "csv_sync_error": null,
-    "oref_alerts": 1015,
+    "oref_alerts": 1017,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -130950,6 +130950,55 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-22 06:07:44",
+      "city": "מלכיה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 06:15:16",
+      "city": "מלכיה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 06:15:42",
+      "city": "אביבים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 06:28:06",
+      "city": "יפתח",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 06:29:22",
+      "city": "מלכיה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 06:29:22",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-22 06:29:22",
+      "city": "רמות נפתלי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
