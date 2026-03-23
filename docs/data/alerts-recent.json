@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T19:11:14.901127+00:00",
-    "total_alerts": 160219,
+    "generated_at": "2026-03-23T19:53:39.131891+00:00",
+    "total_alerts": 160222,
     "total_cities": 1642,
     "archive_before_refresh": 160219,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 156950,
+    "new_alerts_added": 3,
+    "csv_sync_rows": 156953,
     "csv_sync_error": null,
-    "oref_alerts": 1482,
+    "oref_alerts": 1465,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -138268,6 +138268,27 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 21:28:01",
+      "city": "אזור תעשייה רותם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 21:28:03",
+      "city": "דימונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 21:28:03",
+      "city": "ירוחם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
