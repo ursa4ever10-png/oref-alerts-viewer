@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T13:57:16.084736+00:00",
-    "total_alerts": 160164,
+    "generated_at": "2026-03-23T14:51:23.751367+00:00",
+    "total_alerts": 160178,
     "total_cities": 1642,
-    "archive_before_refresh": 160123,
-    "new_alerts_added": 41,
-    "csv_sync_rows": 156922,
+    "archive_before_refresh": 160164,
+    "new_alerts_added": 14,
+    "csv_sync_rows": 156929,
     "csv_sync_error": null,
-    "oref_alerts": 1474,
+    "oref_alerts": 1478,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -137880,6 +137880,104 @@
     {
       "time": "2026-03-23 15:24:59",
       "city": "מעיין ברוך",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 16:39:23",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 16:39:23",
+      "city": "לימן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 16:39:23",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 16:39:23",
+      "city": "בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 16:39:23",
+      "city": "לימן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 16:39:23",
+      "city": "שלומי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 16:39:33",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 16:39:33",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 16:40:26",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 16:40:26",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 16:40:26",
+      "city": "חוף אכזיב",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 16:40:26",
+      "city": "חוף אכזיב",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 16:40:26",
+      "city": "חוף בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 16:40:26",
+      "city": "ראש הנקרה",
       "description": "חדירת כלי טיס עוין",
       "origin": "",
       "source": "github_csv"
