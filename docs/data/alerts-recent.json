@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T04:53:36.802722+00:00",
-    "total_alerts": 159489,
+    "generated_at": "2026-03-23T06:02:03.389628+00:00",
+    "total_alerts": 159657,
     "total_cities": 1641,
-    "archive_before_refresh": 159487,
-    "new_alerts_added": 2,
-    "csv_sync_rows": 156276,
+    "archive_before_refresh": 159489,
+    "new_alerts_added": 168,
+    "csv_sync_rows": 156444,
     "csv_sync_error": null,
-    "oref_alerts": 1685,
+    "oref_alerts": 1851,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -133156,6 +133156,1182 @@
       "city": "משגב עם",
       "description": "ירי רקטות וטילים",
       "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אבו סנאן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אור הגנוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אזור תעשייה בר-לב",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אזור תעשייה כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אזור תעשייה צ.ח.ר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אזור תעשייה קריית ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אזור תעשייה רמת דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אזור תעשייה שער נעמן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אזור תעשייה תרדיון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אחיהוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "איילת השחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אליפלט",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אלמגור",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אמירים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אמנון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אשבל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אשחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "אשרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בוסתן הגליל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ביריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בית ג'אן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בית העלמין החדש עכו",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בית העמק",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בית סוהר צלמון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בית ספר שדה מירון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בענה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "בר יוחאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ג'דידה מכר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ג'וליס",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ג'ש - גוש חלב",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "גדות",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "גיתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "געתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "דיר אל-אסד",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "דיר חנא",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "הר חלוץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חד נס",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חוסן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חוסנייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חוקוק",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חורפיש",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חזון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חמדת ימים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חצור הגלילית",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "חרשים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "טובא זנגריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "טל - אל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "טמרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "טפחות",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "יובלים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "יחיעם",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ינוח ג'ת",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "יסעור",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "יעד",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ירכא",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כאבול",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כורזים ורד הגליל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כחל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כישור",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כליל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כלנית",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כמון - כמאנה מזרחית",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כסרא סמיע",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כפר הנשיא",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כפר ורדים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כפר חנניה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כפר יאסיף",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כפר מסריק",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כפר שמאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כרכום",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כרם בן זמרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "לבון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "לוחמי הגטאות",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "לוטם וחמדון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "לפידות",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מג'דל כרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מגדל תפן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מורן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מחניים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מירון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מכמנים - כמאנה מערבית",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מנוף",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מנחת מחניים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מע'אר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מעונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מעלה צביה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מעלות תרשיחא",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מרכז אזורי מרום גליל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מרכז אזורי משגב",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "מרכז אזורי רמת כורזים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "משמר הירדן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "נחף",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "נס עמים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "סאג'ור",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "סאסא",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "סכנין",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "סלמה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ספסופה - כפר חושן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עין אל אסד",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עין המפרץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עין יעקב",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עכו",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עכו - אזור תעשייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עכו - רמות ים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עמוקה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עמיעד",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עמקה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עצמון - שגב",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "עראבה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ערב אל נעים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "פלך",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "פקיעין",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "פקיעין החדשה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "פרוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "צבעון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "צוריאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "צורית גילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "צפת - נוף כנרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "צפת - עיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "צפת - עכברה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "קדיתא",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "קדרים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "קורנית",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "קצרין",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "קצרין - אזור תעשייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "קריית ים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ראמה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ראס אל-עין",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "ראש פינה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "רקפת",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "שורשים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "שזור",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "שכניה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "שמרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "שעב",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "שפר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:07",
+      "city": "תובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "אפק",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "בית העלמין החדש נהריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "בן עמי",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "מזרעה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "נהריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "נתיב השיירה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "עברון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "קריית ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "קריית מוצקין",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "רגבה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "שבי ציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:10",
+      "city": "שייח' דנון",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:12",
+      "city": "אלקוש",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:12",
+      "city": "שדה אליעזר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:14",
+      "city": "כברי",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:14",
+      "city": "מעיליא",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:18",
+      "city": "מתת",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:18",
+      "city": "עלמה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:18",
+      "city": "ריחאנייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:22",
+      "city": "קדמת צבי",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:26",
+      "city": "אבירים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:26",
+      "city": "אניעם",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:31",
+      "city": "חולתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:49",
+      "city": "נווה זיו",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:57:54",
+      "city": "יסוד המעלה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:58:08",
+      "city": "הילה",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:58:18",
+      "city": "יונתן",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:58:18",
+      "city": "קשת",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 06:58:38",
+      "city": "חיפה - בת גלים ק.אליעזר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
       "source": "github_csv"
     }
   ],
