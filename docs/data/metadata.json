@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-23T18:10:17.041353+00:00",
+  "generated_at": "2026-03-23T19:11:14.901127+00:00",
   "total_alerts": 160219,
   "total_cities": 1642,
-  "archive_before_refresh": 160208,
-  "new_alerts_added": 11,
+  "archive_before_refresh": 160219,
+  "new_alerts_added": 0,
   "csv_sync_rows": 156950,
   "csv_sync_error": null,
   "oref_alerts": 1482,
