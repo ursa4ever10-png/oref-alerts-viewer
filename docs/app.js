@@ -770,7 +770,7 @@ async function loadData(url) {
     document.getElementById("cityInput").value = params.city;
     state.featuredCity = params.city;
   } else {
-    state.featuredCity = QUICK_CITIES[0]; // Default featured: ירוחם
+    state.featuredCity = "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1 - \u05DE\u05E8\u05DB\u05D6 \u05D4\u05E2\u05D9\u05E8"; // Default: תל אביב - מרכז העיר
   }
 
   if (params.from) {

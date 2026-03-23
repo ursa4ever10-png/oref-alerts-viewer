@@ -299,7 +299,7 @@ def main() -> int:
         csv_sync_error = str(exc)
         print(f"CSV sync failed (non-fatal): {exc}", file=sys.stderr)
 
-    # Also try Oref directly (works locally, usually 403 from cloud)
+    # Fetch live alerts from tzevaadom/Oref
     oref_error = None
     oref_alerts: list[dict[str, str]] = []
     try:
@@ -307,7 +307,8 @@ def main() -> int:
     except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, ValueError, RuntimeError) as exc:
         oref_error = str(exc)
 
-    alerts = merge_alerts(owned_archive, oref_alerts)
+    # Merge order: live alerts first (so they take priority), then archive+csv
+    alerts = merge_alerts(oref_alerts, owned_archive)
     cities = normalize_city_names(alerts)
     generated_at = datetime.now(timezone.utc).isoformat()
 
