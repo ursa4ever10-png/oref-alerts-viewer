@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-23T17:30:24.586323+00:00",
-    "total_alerts": 160208,
+    "generated_at": "2026-03-23T18:10:17.041353+00:00",
+    "total_alerts": 160219,
     "total_cities": 1642,
-    "archive_before_refresh": 160188,
-    "new_alerts_added": 20,
-    "csv_sync_rows": 156939,
+    "archive_before_refresh": 160208,
+    "new_alerts_added": 11,
+    "csv_sync_rows": 156950,
     "csv_sync_error": null,
     "oref_alerts": 1482,
     "oref_status": "ok",
@@ -138137,6 +138137,27 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-23 18:50:10",
+      "city": "אילון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 18:50:10",
+      "city": "גורן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 18:50:10",
+      "city": "גורנות הגליל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-23 18:50:18",
       "city": "הילה",
       "description": "חדירת מסוקים",
@@ -138144,11 +138165,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-23 18:50:18",
+      "city": "הילה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-23 18:50:47",
       "city": "מעיליא",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 18:50:47",
+      "city": "מעיליא",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-23 18:51:00",
@@ -138165,6 +138200,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-23 18:51:00",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 18:51:00",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-23 18:51:17",
       "city": "מעונה",
       "description": "חדירת מסוקים",
@@ -138179,6 +138228,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-23 18:51:17",
+      "city": "מעונה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-23 18:51:17",
+      "city": "מעלות תרשיחא",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-23 18:51:21",
       "city": "מנות",
       "description": "חדירת מסוקים",
@@ -138186,11 +138249,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-23 18:51:21",
+      "city": "מנות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-23 18:51:31",
       "city": "עין יעקב",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-23 18:51:31",
+      "city": "עין יעקב",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
