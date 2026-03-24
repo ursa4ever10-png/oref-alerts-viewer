@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-24T14:01:16.753537+00:00",
-    "total_alerts": 161415,
+    "generated_at": "2026-03-24T15:04:00.563615+00:00",
+    "total_alerts": 161428,
     "total_cities": 1643,
-    "archive_before_refresh": 161244,
-    "new_alerts_added": 171,
-    "csv_sync_rows": 158069,
+    "archive_before_refresh": 161415,
+    "new_alerts_added": 13,
+    "csv_sync_rows": 158070,
     "csv_sync_error": null,
-    "oref_alerts": 2056,
+    "oref_alerts": 1790,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -131288,6 +131288,97 @@
       "time": "2026-03-24 15:45:45",
       "city": "סוסיא הקדומה",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:13:58",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:10",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:10",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:10",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:10",
+      "city": "לימן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:10",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:10",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:10",
+      "city": "חוף אכזיב",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:11",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:11",
+      "city": "חוף בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:49:11",
+      "city": "ראש הנקרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:50:26",
+      "city": "יערה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 16:50:26",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
