@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-24T07:40:13.558625+00:00",
-    "total_alerts": 161074,
+    "generated_at": "2026-03-24T08:28:03.637832+00:00",
+    "total_alerts": 161095,
     "total_cities": 1643,
-    "archive_before_refresh": 161044,
-    "new_alerts_added": 30,
-    "csv_sync_rows": 157727,
+    "archive_before_refresh": 161074,
+    "new_alerts_added": 21,
+    "csv_sync_rows": 157757,
     "csv_sync_error": null,
-    "oref_alerts": 1968,
+    "oref_alerts": 1988,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -128900,6 +128900,153 @@
     {
       "time": "2026-03-24 09:06:41",
       "city": "תל שבע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:35",
+      "city": "אזור תעשייה שער נעמן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:35",
+      "city": "חיפה - קריית חיים ושמואל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:35",
+      "city": "קריית ים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:35",
+      "city": "קריית מוצקין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:36",
+      "city": "כפר ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:36",
+      "city": "קריית ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:41",
+      "city": "קריית אתא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:46",
+      "city": "חיפה - מפרץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:23:50",
+      "city": "אזור תעשייה קריית ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:24:03",
+      "city": "עכו - רמות ים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:24:03",
+      "city": "כפר מסריק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:24:03",
+      "city": "עין המפרץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:24:03",
+      "city": "עכו - אזור תעשייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:24:03",
+      "city": "עכו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:24:13",
+      "city": "אפק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:25:42",
+      "city": "אושה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:25:51",
+      "city": "כפר המכבי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:25:51",
+      "city": "רמת יוחנן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:26:14",
+      "city": "כפר מסריק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:26:17",
+      "city": "אפק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-24 10:26:50",
+      "city": "קריית ביאליק",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
