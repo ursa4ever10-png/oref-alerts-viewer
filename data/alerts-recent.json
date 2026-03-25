@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-25T18:05:35.234615+00:00",
-    "total_alerts": 163686,
+    "generated_at": "2026-03-25T19:09:08.236034+00:00",
+    "total_alerts": 163700,
     "total_cities": 1644,
-    "archive_before_refresh": 163639,
-    "new_alerts_added": 47,
-    "csv_sync_rows": 160083,
+    "archive_before_refresh": 163686,
+    "new_alerts_added": 14,
+    "csv_sync_rows": 160113,
     "csv_sync_error": null,
-    "oref_alerts": 2005,
+    "oref_alerts": 2011,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -133190,6 +133190,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-25 19:54:05",
+      "city": "מג'דל שמס",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 19:54:05",
+      "city": "נווה אטי''ב",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-25 19:54:44",
       "city": "עין קנייא",
       "description": "חדירת מסוקים",
@@ -133197,11 +133211,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-25 19:54:44",
+      "city": "עין קנייא",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-25 19:54:55",
       "city": "שניר",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 19:54:55",
+      "city": "שניר",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-25 20:00:07",
@@ -133318,6 +133346,76 @@
     {
       "time": "2026-03-25 20:00:10",
       "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:05:37",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:05:37",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 20:07:07",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:14:26",
+      "city": "נהריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:14:26",
+      "city": "שבי ציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:14:34",
+      "city": "גשר הזיו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:14:34",
+      "city": "סער",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:14:34",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:14:34",
+      "city": "לימן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 20:14:34",
+      "city": "חוף אכזיב",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
