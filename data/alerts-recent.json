@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-25T09:26:37.954923+00:00",
-    "total_alerts": 163343,
+    "generated_at": "2026-03-25T10:12:20.777877+00:00",
+    "total_alerts": 163356,
     "total_cities": 1644,
-    "archive_before_refresh": 162469,
-    "new_alerts_added": 874,
-    "csv_sync_rows": 159031,
+    "archive_before_refresh": 163343,
+    "new_alerts_added": 13,
+    "csv_sync_rows": 159852,
     "csv_sync_error": null,
-    "oref_alerts": 2520,
+    "oref_alerts": 2494,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -126141,6 +126141,34 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-25 10:46:00",
+      "city": "גבעת חביבה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 10:46:00",
+      "city": "דור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 10:46:00",
+      "city": "מענית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 10:46:00",
+      "city": "נחשולים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-25 10:46:01",
       "city": "בחן",
       "description": "ירי רקטות וטילים",
@@ -127450,6 +127478,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-25 10:46:13",
+      "city": "נוף איילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 10:46:13",
+      "city": "שעלבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-25 10:46:15",
       "city": "ביצרון",
       "description": "ירי רקטות וטילים",
@@ -128127,6 +128169,20 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 10:49:16",
+      "city": "גבעת חביבה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 10:49:16",
+      "city": "מענית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-25 10:53:57",
@@ -130917,6 +130973,41 @@
     {
       "time": "2026-03-25 11:22:20",
       "city": "חוות נווה צוף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 11:32:07",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 11:32:07",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 11:32:07",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 11:32:08",
+      "city": "מנרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 11:56:01",
+      "city": "קצרין",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
