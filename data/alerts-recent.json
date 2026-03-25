@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-25T05:49:25.879822+00:00",
-    "total_alerts": 162390,
+    "generated_at": "2026-03-25T06:44:36.795949+00:00",
+    "total_alerts": 162392,
     "total_cities": 1643,
-    "archive_before_refresh": 162309,
-    "new_alerts_added": 81,
-    "csv_sync_rows": 158960,
+    "archive_before_refresh": 162390,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 158962,
     "csv_sync_error": null,
-    "oref_alerts": 2007,
+    "oref_alerts": 1998,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -124245,6 +124245,20 @@
     {
       "time": "2026-03-25 07:15:33",
       "city": "נאות הכיכר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 08:16:58",
+      "city": "זרעית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 08:17:01",
+      "city": "שתולה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
