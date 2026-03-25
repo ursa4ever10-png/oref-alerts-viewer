@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-25T20:24:23.686382+00:00",
-    "total_alerts": 163746,
+    "generated_at": "2026-03-25T20:57:43.135432+00:00",
+    "total_alerts": 163750,
     "total_cities": 1644,
-    "archive_before_refresh": 163745,
-    "new_alerts_added": 1,
-    "csv_sync_rows": 160138,
+    "archive_before_refresh": 163746,
+    "new_alerts_added": 4,
+    "csv_sync_rows": 160143,
     "csv_sync_error": null,
-    "oref_alerts": 1609,
+    "oref_alerts": 1608,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -133738,6 +133738,34 @@
     {
       "time": "2026-03-25 22:08:59",
       "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 22:34:39",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 22:34:39",
+      "city": "מטולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-25 22:35:19",
+      "city": "ע'ג'ר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-25 22:45:53",
+      "city": "כרם בן זמרה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
