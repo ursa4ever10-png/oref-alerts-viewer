@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T21:03:46.459239+00:00",
-    "total_alerts": 166566,
+    "generated_at": "2026-03-26T21:40:08.709025+00:00",
+    "total_alerts": 166575,
     "total_cities": 1644,
-    "archive_before_refresh": 166558,
-    "new_alerts_added": 8,
-    "csv_sync_rows": 162826,
+    "archive_before_refresh": 166566,
+    "new_alerts_added": 9,
+    "csv_sync_rows": 162835,
     "csv_sync_error": null,
     "oref_alerts": 2624,
     "oref_status": "ok",
@@ -140610,11 +140610,46 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 22:47:35",
+      "city": "בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 22:47:35",
+      "city": "לימן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 22:47:35",
+      "city": "מצובה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 22:47:35",
+      "city": "שלומי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 22:48:41",
       "city": "עבדון",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 22:48:41",
+      "city": "עבדון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 22:49:17",
@@ -140624,6 +140659,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 22:49:17",
+      "city": "כברי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 22:49:32",
       "city": "נווה זיו",
       "description": "חדירת מסוקים",
@@ -140631,9 +140673,30 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 22:49:32",
+      "city": "נווה זיו",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 22:49:48",
       "city": "מנות",
       "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 22:49:48",
+      "city": "מנות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 23:18:56",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
     }
