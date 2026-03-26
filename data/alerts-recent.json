@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T22:52:32.544522+00:00",
-    "total_alerts": 166663,
+    "generated_at": "2026-03-26T23:16:18.487883+00:00",
+    "total_alerts": 166664,
     "total_cities": 1644,
-    "archive_before_refresh": 166655,
-    "new_alerts_added": 8,
+    "archive_before_refresh": 166663,
+    "new_alerts_added": 1,
     "csv_sync_rows": 162918,
     "csv_sync_error": null,
-    "oref_alerts": 2691,
+    "oref_alerts": 2690,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -141315,6 +141315,13 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-27 00:58:41",
+      "city": "מלכיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
