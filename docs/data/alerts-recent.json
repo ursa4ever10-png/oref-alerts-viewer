@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T06:41:36.826842+00:00",
-    "total_alerts": 164657,
+    "generated_at": "2026-03-26T07:45:25.698892+00:00",
+    "total_alerts": 165144,
     "total_cities": 1644,
-    "archive_before_refresh": 164312,
-    "new_alerts_added": 345,
-    "csv_sync_rows": 160706,
+    "archive_before_refresh": 164657,
+    "new_alerts_added": 487,
+    "csv_sync_rows": 161051,
     "csv_sync_error": null,
-    "oref_alerts": 2073,
+    "oref_alerts": 2083,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -124881,6 +124881,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 07:59:20",
+      "city": "מטולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 08:23:46",
       "city": "אזור תעשייה עד הלום",
       "description": "ירי רקטות וטילים",
@@ -125873,6 +125880,20 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:23:46",
+      "city": "נוף איילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 08:23:46",
+      "city": "שעלבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 08:23:47",
@@ -127271,6 +127292,3394 @@
       "time": "2026-03-26 08:28:07",
       "city": "מודיעין מכבים רעות",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:28:07",
+      "city": "נוף איילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 08:28:07",
+      "city": "שעלבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גפן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "זכריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שדות מיכה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "תירוש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ירושלים - דרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ירושלים - אזור תעשייה עטרות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ירושלים - כפר עקב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ירושלים - מזרח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ירושלים - מערב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ירושלים - מרכז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ירושלים - צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גיבתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גמזו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גן שלמה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חשמונאים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר דניאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר רות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "לפיד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מבוא חורון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מבוא מודיעים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מודיעין - ליגד סנטר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מודיעין מכבים רעות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מודיעין עילית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מתתיהו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נוף איילון, שעלבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נצר סרני",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "רחובות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שילת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה עד הלום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אשדוד - א,ב,ד,ה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אשדוד - איזור תעשייה צפוני",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אשדוד - ג,ו,ז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אשדוד - ח,ט,י,יג,יד,טז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אשדוד -יא,יב,טו,יז,מרינה,סיט",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בני דרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ניר גלים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה נשר - רמלה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אחיסמך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אירוס",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "באר יעקב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית זית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית חנן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית נקופה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית עובד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בן שמן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גינתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "הר אדר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ישרש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר נוער בן שמן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "לוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מבשרת ציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מוצא עילית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מעלה החמישה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מצליח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נטעים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ניר צבי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נס ציונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עיינות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "פנימיית עין כרם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "צובה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "קריית ענבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "רמלה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "תעשיון צריפין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "באר טוביה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אורות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אחווה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אל עזי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית אלעזרי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית חלקיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בני ראם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גאליה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גדרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גני טל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חפץ חיים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "יבנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "יד בנימין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ינון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר אחים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר הנגיד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר הרי''ף וצומת ראם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר מנחם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ערוגות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "קדרון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "קריית מלאכי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "רבדים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "תלמי יחיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה מישור אדומים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מעלה אדומים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה הר טוב - צרעה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אשתאול",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית חשמונאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית נחמיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית עוזיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית שמש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בקוע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גבעון החדשה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גבעת ברנר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גבעת זאב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גזר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גיזו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גני הדר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גני יוחנן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "הראל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "זנוח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חדיד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חולדה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "טל שחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "יד רמב''ם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "יסודות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "יציץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ישעי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר אוריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר ביל''ו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר בן נון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר שמואל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כרמי יוסף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "לטרון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מזכרת בתיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מחסיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מיני ישראל - נחשון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מסילת ציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "משמר איילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "משמר דוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נאות קדומים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נווה שלום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נחם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נחשון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נען",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נצר חזני",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "סתריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עזריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "פדיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "פתחיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "צלפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "צרעה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "קריית עקרון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "רטורנו - גבעת שמש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "רמות מאיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "תעוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "תרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה כנות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה רבדים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "ביצרון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית גמליאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בן זכאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בני עי''ש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בניה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גבעת וושינגטון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גן הדרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גן יבנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חצב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חצור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כנות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר אביב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר מרדכי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כרם ביבנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מישר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "משגב דב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מתחם בני דרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נווה מבטח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עשרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "קבוצת יבנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שדמה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "תחנת רכבת קריית מלאכי - יואב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אלון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר אדומים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מבוא ביתר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מטע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "צור הדסה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אבו גוש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אבן ספיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אורה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה שער בנימין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית אל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית חורון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בית מאיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בר גיורא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גבע בנימין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גבעת אסף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "גבעת יערים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "דולב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "טלמון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "יד השמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כוכב יעקב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כסלון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר הנוער קריית יערים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מעלה מכמש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נווה אילן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נחליאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נטף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נילי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נס הרים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נעלה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עין נקובא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עין ראפה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עלמון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עמינדב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "פסגות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "קריית יערים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "רמת רזיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שואבה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שורש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "תל ציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה גדרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מעון צופיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "עזריקם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שדה עוזיהו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שתולים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חוות הרועה העברי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה ברוש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "בני אדם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חוות בניהו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חוות חנינא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חוות ינון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חוות מגנזי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חוות נחלת צבי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "חרשה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "יבוא דודי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כפר האורנים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "כרם רעים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מגרון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מודיעין - ישפרו סנטר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מצפה דני",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "מצפה חגית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נווה ארז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נופי פרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "נריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "רמת מגרון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שדה אפרים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "אזור תעשייה תימורים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "פארק תעשייה ראם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:31",
+      "city": "גן שורק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:31",
+      "city": "הר גילה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:38",
+      "city": "פארק תעשיות פלמחים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:38",
+      "city": "ראשון לציון - מזרח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:38",
+      "city": "זיתן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:38",
+      "city": "כפר טרומן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:38",
+      "city": "גופנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:41",
+      "city": "פלמחים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 08:59:47",
+      "city": "אזור תעשייה באר טוביה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:02",
+      "city": "רימונים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:04",
+      "city": "עגור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:13",
+      "city": "עפרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:39",
+      "city": "בר כוכבא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "קדר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "ורד יריחו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "ייט''ב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "כוכב השחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "מבואות יריחו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "מצפה יריחו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "נעמה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "אעירה השחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "החווה של זוהר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "חוות מלכיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "חוות מעלה אהוביה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "עינות קדם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "צומת אלמוג",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:00:57",
+      "city": "קדר דרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:14",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:14",
+      "city": "מעיין ברוך",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:14",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:14",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:24",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:24",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:24",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:29",
+      "city": "בית הלל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:33",
+      "city": "הגושרים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:40",
+      "city": "כפר יובל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:40",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:08:13",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:10:33",
+      "city": "בית הלל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:10:33",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:11:22",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:11:22",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אושה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אזור תעשייה שער נעמן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אפק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חיפה - בת גלים ק.אליעזר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חיפה - כרמל, הדר ועיר תחתית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חיפה - מערב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חיפה - מפרץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חיפה - נווה שאנן ורמות כרמל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חיפה - קריית חיים ושמואל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר המכבי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "קריית אתא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "קריית ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "קריית ים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "קריית מוצקין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "רמת יוחנן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אזור תעשייה קריית ביאליק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "נשר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אורנים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אזור תעשייה בר-לב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אחיהוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "איבטין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אלון הגליל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אלוני אבא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אלונים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אעבלין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "ביר אלמכסור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "בית אורן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "בית לחם הגלילית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "בסמת טבעון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "ג'דידה מכר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "גבעת וולפסון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "דלית אל כרמל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "דמיידה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "החותרים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "הסוללים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "הרדוף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חג'אג'רה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "חנתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "טירת כרמל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "טמרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "יגור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "יובלים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "יודפת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "יסעור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "יעד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כאבול",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כאוכב אבו אלהיג'א",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כעביה טבאש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר גלים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר חסידים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר מנדא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר מסריק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר תקווה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "מג'דל כרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "מורשת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "מנוף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "מצפה אבי''ב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "מרכז אזורי משגב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "נופית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עין המפרץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עכו - אזור תעשייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עכו - רמות ים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עכו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עספיא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עצמון - שגב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "ערב אל נעים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "צורית גילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "קורנית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "קריית טבעון - בית זייד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "ראס עלי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "רכסים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "רקפת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "שדה יעקב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "שורשים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "שכניה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "שעב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "שער העמקים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "שפרעם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אזור תעשייה ניר עציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אזור תעשייה תרדיון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אשבל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "אשחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "בית העלמין החדש עכו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "בית סוהר קישון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "בית צבי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "ג'וליס",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "גבע כרמל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "טל - אל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "מגדים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "נווה ים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "ניר עציון, ימין אורד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "סכנין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עין הוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עין חוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עין כרמל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "עתלית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "פלך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "צרופה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "תובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "בית עלמין תל רגב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "כפר ח'וואלד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "סואעד חמירה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:27",
+      "city": "בוסתן הגליל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:30",
+      "city": "מרכז מיר''ב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:37",
+      "city": "רמת ישי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:37",
+      "city": "הבונים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:37",
+      "city": "כרם מהר''ל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:42",
+      "city": "עראבה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:46",
+      "city": "חוסנייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:46",
+      "city": "מעלה צביה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:46",
+      "city": "רומת אל הייב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "לב החולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "יפתח",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "רמות נפתלי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "אזור תעשייה כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "בית העמק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "בענה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "דיר אל-אסד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "לבון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "נחף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "נס עמים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "שמרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "אבו סנאן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "אשרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "גיתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "ירכא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "כישור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "כפר יאסיף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "לוחמי הגטאות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "לפידות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "מכמנים - כמאנה מערבית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "עמקה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:54",
+      "city": "רגבה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "בית שערים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "גבעת אלה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "גבת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "הושעיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "זרזיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "יפעת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "כפר החורש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "כפר יהושע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "מנשית זבדה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "משהד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "נהלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "עילוט",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "ציפורי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "רמת דוד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "שמשית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "תמרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "אזור תעשייה יקנעם עילית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "אליקים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "יקנעם המושבה והזורע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "יקנעם עילית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "עין העמק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "בית רימון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "דור, נחשולים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "עוזייר, רומאנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "עופר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "עין איילה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "אזור תעשייה ציפורית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "תחנת רכבת כפר יהושוע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "כפר כנא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "ריינה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "אבטליון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "בועיינה-נוג'ידאת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "דיר חנא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "הררית יחד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "חזון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "טורעאן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "טפחות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "כמון - כמאנה מזרחית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "לוטם וחמדון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "מסד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "מע'אר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "מצפה נטופה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "סלמה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "עילבון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:14:42",
+      "city": "ראס אל-עין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:16:45",
+      "city": "שדה אליעזר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:16:49",
+      "city": "יסוד המעלה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:17:48",
+      "city": "חולתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:18:06",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:18:15",
+      "city": "מנרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:18:17",
+      "city": "איילת השחר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:20:02",
+      "city": "משמר הירדן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:20:28",
+      "city": "מחניים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:20:41",
+      "city": "חצור הגלילית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:20:49",
+      "city": "מנחת מחניים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:21:34",
+      "city": "אזור תעשייה צ.ח.ר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:21:36",
+      "city": "ראש פינה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:22:01",
+      "city": "טובא זנגריה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:22:50",
+      "city": "אליפלט",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:23:08",
+      "city": "צפת - נוף כנרת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:23:33",
+      "city": "מרכז אזורי רמת כורזים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:24:13",
+      "city": "עמיעד",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:25:07",
+      "city": "כורזים ורד הגליל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:25:51",
+      "city": "אמנון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:27:33",
+      "city": "כחל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:28:57",
+      "city": "גינוסר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:29:59",
+      "city": "מגדל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:31:24",
+      "city": "ואדי אל חמאם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:31:29",
+      "city": "טבריה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:32:51",
+      "city": "מצפה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:32:51",
+      "city": "כפר חיטים",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
