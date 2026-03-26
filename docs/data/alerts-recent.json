@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T01:03:40.638196+00:00",
-    "total_alerts": 163804,
+    "generated_at": "2026-03-26T03:51:28.355226+00:00",
+    "total_alerts": 163807,
     "total_cities": 1644,
     "archive_before_refresh": 163804,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 160198,
+    "new_alerts_added": 3,
+    "csv_sync_rows": 160199,
     "csv_sync_error": null,
-    "oref_alerts": 1460,
+    "oref_alerts": 1318,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -121299,6 +121299,27 @@
     {
       "time": "2026-03-26 01:18:14",
       "city": "תל אביב - עבר הירקון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 03:15:17",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 05:31:53",
+      "city": "מנרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 05:31:53",
+      "city": "מרגליות",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
