@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T22:23:15.014562+00:00",
-    "total_alerts": 166655,
+    "generated_at": "2026-03-26T22:52:32.544522+00:00",
+    "total_alerts": 166663,
     "total_cities": 1644,
-    "archive_before_refresh": 166576,
-    "new_alerts_added": 79,
-    "csv_sync_rows": 162835,
+    "archive_before_refresh": 166655,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 162918,
     "csv_sync_error": null,
     "oref_alerts": 2691,
     "oref_status": "ok",
@@ -141226,6 +141226,41 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 23:58:33",
+      "city": "אוהד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 23:58:33",
+      "city": "ישע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 23:58:33",
+      "city": "מבטחים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 23:58:33",
+      "city": "עמיעוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 23:58:33",
+      "city": "צוחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 23:59:06",
       "city": "אל פורעה",
       "description": "ירי רקטות וטילים",
@@ -141247,6 +141282,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-27 00:14:03",
+      "city": "אביבים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-27 00:14:17",
       "city": "יראון",
       "description": "חדירת מסוקים",
@@ -141254,11 +141296,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-27 00:14:17",
+      "city": "יראון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-27 00:14:51",
       "city": "מלכיה",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 00:14:51",
+      "city": "מלכיה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
