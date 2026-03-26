@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T07:45:25.698892+00:00",
-    "total_alerts": 165144,
+    "generated_at": "2026-03-26T08:33:50.002004+00:00",
+    "total_alerts": 165230,
     "total_cities": 1644,
-    "archive_before_refresh": 164657,
-    "new_alerts_added": 487,
-    "csv_sync_rows": 161051,
+    "archive_before_refresh": 165144,
+    "new_alerts_added": 86,
+    "csv_sync_rows": 161540,
     "csv_sync_error": null,
-    "oref_alerts": 2083,
+    "oref_alerts": 2119,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -128927,6 +128927,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 08:59:24",
+      "city": "נוף איילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 08:59:24",
+      "city": "שעלבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 08:59:31",
       "city": "גן שורק",
       "description": "ירי רקטות וטילים",
@@ -129144,6 +129158,34 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:07:14",
+      "city": "כפר גלעדי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:07:14",
+      "city": "מעיין ברוך",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:07:14",
+      "city": "קריית שמונה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:07:14",
+      "city": "תל חי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:07:24",
       "city": "כפר גלעדי",
       "description": "ירי רקטות וטילים",
@@ -129172,11 +129214,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:07:29",
+      "city": "בית הלל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:07:33",
       "city": "הגושרים",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:07:33",
+      "city": "הגושרים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:07:40",
@@ -129193,11 +129249,32 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:07:40",
+      "city": "כפר יובל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:07:40",
+      "city": "מטולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:08:13",
       "city": "מרגליות",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:08:13",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:10:33",
@@ -129214,6 +129291,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:10:33",
+      "city": "בית הלל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:10:33",
+      "city": "קריית שמונה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:11:22",
       "city": "מנרה",
       "description": "חדירת מסוקים",
@@ -129226,6 +129317,20 @@
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:11:22",
+      "city": "מנרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:11:22",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:13:26",
@@ -129963,6 +130068,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:13:26",
+      "city": "ימין אורד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:13:26",
+      "city": "ניר עציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:13:27",
       "city": "בוסתן הגליל",
       "description": "ירי רקטות וטילים",
@@ -130052,6 +130171,34 @@
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "יפתח",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "לב החולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:13:47",
+      "city": "רמות נפתלי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:13:54",
@@ -130383,6 +130530,34 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:13:57",
+      "city": "דור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "נחשולים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "עוזייר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:13:57",
+      "city": "רומאנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:14:42",
       "city": "כפר כנא",
       "description": "ירי רקטות וטילים",
@@ -130509,6 +130684,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:16:45",
+      "city": "שדה אליעזר",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:16:49",
       "city": "יסוד המעלה",
       "description": "חדירת מסוקים",
@@ -130516,11 +130698,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:16:49",
+      "city": "יסוד המעלה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:17:48",
       "city": "חולתה",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:17:48",
+      "city": "חולתה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:18:06",
@@ -130544,11 +130740,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:18:17",
+      "city": "איילת השחר",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:20:02",
       "city": "משמר הירדן",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:20:02",
+      "city": "משמר הירדן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:20:28",
@@ -130558,11 +130768,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:20:28",
+      "city": "מחניים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:20:41",
       "city": "חצור הגלילית",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:20:41",
+      "city": "חצור הגלילית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:20:49",
@@ -130572,11 +130796,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:20:49",
+      "city": "מנחת מחניים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:21:34",
       "city": "אזור תעשייה צ.ח.ר",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:21:34",
+      "city": "אזור תעשייה צ.ח.ר",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:21:36",
@@ -130586,11 +130824,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:21:36",
+      "city": "ראש פינה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:22:01",
       "city": "טובא זנגריה",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:22:01",
+      "city": "טובא זנגריה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:22:50",
@@ -130600,11 +130852,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:22:50",
+      "city": "אליפלט",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:23:08",
       "city": "צפת - נוף כנרת",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:23:08",
+      "city": "צפת - נוף כנרת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:23:33",
@@ -130614,11 +130880,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:23:33",
+      "city": "מרכז אזורי רמת כורזים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:24:13",
       "city": "עמיעד",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:24:13",
+      "city": "עמיעד",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:25:07",
@@ -130628,11 +130908,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:25:07",
+      "city": "כורזים ורד הגליל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:25:51",
       "city": "אמנון",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:25:51",
+      "city": "אמנון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:27:33",
@@ -130642,11 +130936,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:27:33",
+      "city": "כחל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:28:57",
       "city": "גינוסר",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:28:57",
+      "city": "גינוסר",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:29:59",
@@ -130656,6 +130964,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:29:59",
+      "city": "מגדל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:31:24",
       "city": "ואדי אל חמאם",
       "description": "חדירת מסוקים",
@@ -130663,11 +130978,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-26 09:31:24",
+      "city": "ואדי אל חמאם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-26 09:31:29",
       "city": "טבריה",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:31:29",
+      "city": "טבריה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-26 09:32:51",
@@ -130679,6 +131008,279 @@
     {
       "time": "2026-03-26 09:32:51",
       "city": "כפר חיטים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 09:32:51",
+      "city": "כפר חיטים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 09:32:51",
+      "city": "מצפה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-26 10:21:26",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:26",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:26",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:26",
+      "city": "לימן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:26",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:26",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:26",
+      "city": "חוף אכזיב",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:48",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:48",
+      "city": "חוף בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:48",
+      "city": "לימן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:48",
+      "city": "חוף אכזיב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:56",
+      "city": "גשר הזיו",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:21:57",
+      "city": "נהריה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:22:30",
+      "city": "סער",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:23:32",
+      "city": "גשר הזיו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:23:32",
+      "city": "נהריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:23:32",
+      "city": "סער",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:23:52",
+      "city": "כברי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:23:53",
+      "city": "בן עמי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:24:36",
+      "city": "בית העלמין החדש נהריה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:24:36",
+      "city": "נתיב השיירה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:25:03",
+      "city": "עברון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:25:03",
+      "city": "שייח' דנון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:25:37",
+      "city": "מזרעה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:25:45",
+      "city": "רגבה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:25:52",
+      "city": "נהריה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:25:52",
+      "city": "בית העמק",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:25:52",
+      "city": "עמקה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:26:12",
+      "city": "בן עמי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:26:12",
+      "city": "נתיב השיירה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:26:17",
+      "city": "נס עמים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:26:17",
+      "city": "אשרת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:26:23",
+      "city": "שייח' דנון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:26:44",
+      "city": "אבו סנאן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:27:03",
+      "city": "לוחמי הגטאות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:27:13",
+      "city": "כפר יאסיף",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-26 10:27:45",
+      "city": "ג'דידה מכר",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
