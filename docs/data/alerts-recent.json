@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T20:57:57.428826+00:00",
-    "total_alerts": 168271,
+    "generated_at": "2026-03-27T21:30:16.144547+00:00",
+    "total_alerts": 168279,
     "total_cities": 1644,
-    "archive_before_refresh": 167777,
-    "new_alerts_added": 494,
+    "archive_before_refresh": 168271,
+    "new_alerts_added": 8,
     "csv_sync_rows": 164002,
     "csv_sync_error": null,
-    "oref_alerts": 2251,
+    "oref_alerts": 2240,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -133424,6 +133424,62 @@
       "time": "2026-03-27 23:40:58",
       "city": "נאות קדומים",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:00:44",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:08:40",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:18:08",
+      "city": "יפתח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:18:15",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:18:15",
+      "city": "רמות נפתלי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:18:27",
+      "city": "דישון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:18:29",
+      "city": "מלכיה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:22:58",
+      "city": "מלכיה",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
