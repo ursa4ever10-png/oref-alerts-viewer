@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T23:00:03.565157+00:00",
-    "total_alerts": 168412,
+    "generated_at": "2026-03-27T23:34:58.916454+00:00",
+    "total_alerts": 168414,
     "total_cities": 1644,
-    "archive_before_refresh": 168286,
-    "new_alerts_added": 126,
-    "csv_sync_rows": 164619,
+    "archive_before_refresh": 168412,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 164621,
     "csv_sync_error": null,
-    "oref_alerts": 2356,
+    "oref_alerts": 2170,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -134413,6 +134413,20 @@
       "description": "ירי רקטות וטילים",
       "origin": "Iran",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-28 02:14:46",
+      "city": "זרעית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 02:21:01",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
