@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T21:30:16.144547+00:00",
-    "total_alerts": 168279,
+    "generated_at": "2026-03-27T21:58:06.799495+00:00",
+    "total_alerts": 168286,
     "total_cities": 1644,
-    "archive_before_refresh": 168271,
-    "new_alerts_added": 8,
-    "csv_sync_rows": 164002,
+    "archive_before_refresh": 168279,
+    "new_alerts_added": 7,
+    "csv_sync_rows": 164495,
     "csv_sync_error": null,
     "oref_alerts": 2240,
     "oref_status": "ok",
@@ -131601,6 +131601,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-27 23:37:42",
+      "city": "נוף איילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-27 23:37:42",
+      "city": "שעלבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-27 23:37:46",
       "city": "אזור תעשייה ברוש",
       "description": "ירי רקטות וטילים",
@@ -133463,11 +133477,32 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-28 00:18:15",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-28 00:18:15",
+      "city": "רמות נפתלי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-28 00:18:27",
       "city": "דישון",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:18:27",
+      "city": "דישון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-28 00:18:29",
@@ -133477,11 +133512,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-28 00:18:29",
+      "city": "מלכיה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-28 00:22:58",
       "city": "מלכיה",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 00:22:58",
+      "city": "מלכיה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
