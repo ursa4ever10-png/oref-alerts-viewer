@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-27T08:31:29.482702+00:00",
-    "total_alerts": 167014,
+    "generated_at": "2026-03-27T09:28:30.996504+00:00",
+    "total_alerts": 167021,
     "total_cities": 1644,
     "archive_before_refresh": 167014,
-    "new_alerts_added": 0,
+    "new_alerts_added": 7,
     "csv_sync_rows": 163274,
     "csv_sync_error": null,
-    "oref_alerts": 1950,
+    "oref_alerts": 1941,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -124625,6 +124625,55 @@
       "time": "2026-03-27 10:41:26",
       "city": "שומרה",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 11:57:34",
+      "city": "יפתח",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 11:57:34",
+      "city": "רמות נפתלי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 11:57:42",
+      "city": "דוב''ב",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 11:57:42",
+      "city": "מלכיה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 11:58:36",
+      "city": "דישון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 12:00:25",
+      "city": "שדה אליעזר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-27 12:02:15",
+      "city": "איילת השחר",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
