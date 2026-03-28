@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-28T21:45:52.272420+00:00",
-    "total_alerts": 169615,
+    "generated_at": "2026-03-28T22:00:16.012491+00:00",
+    "total_alerts": 169626,
     "total_cities": 1644,
-    "archive_before_refresh": 169614,
-    "new_alerts_added": 1,
+    "archive_before_refresh": 169615,
+    "new_alerts_added": 11,
     "csv_sync_rows": 165668,
     "csv_sync_error": null,
-    "oref_alerts": 2317,
+    "oref_alerts": 2326,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -95995,6 +95995,83 @@
       "time": "2026-03-29 00:43:56",
       "city": "כפר גלעדי",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "אבן מנחם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "אלקוש",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "מתת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "נטועה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "פסוטה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "שומרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:41",
+      "city": "שתולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:55:44",
+      "city": "חורפיש",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:56:15",
+      "city": "אבירים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 00:56:21",
+      "city": "דוב''ב",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
