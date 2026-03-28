@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-28T18:29:26.699470+00:00",
-    "total_alerts": 169593,
+    "generated_at": "2026-03-28T19:06:42.867541+00:00",
+    "total_alerts": 169601,
     "total_cities": 1644,
-    "archive_before_refresh": 169524,
-    "new_alerts_added": 69,
-    "csv_sync_rows": 165583,
+    "archive_before_refresh": 169593,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 165658,
     "csv_sync_error": null,
     "oref_alerts": 2418,
     "oref_status": "ok",
@@ -95355,11 +95355,32 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-03-28 20:45:07",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-28 20:45:07",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-03-28 20:53:39",
       "city": "ערב אל עראמשה",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 20:53:39",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-28 21:03:23",
@@ -95836,6 +95857,41 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-28 21:05:32",
+      "city": "אוהד",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-28 21:05:32",
+      "city": "ישע",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-28 21:05:32",
+      "city": "מבטחים",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-28 21:05:32",
+      "city": "עמיעוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-28 21:05:32",
+      "city": "צוחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "Iran",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-28 21:06:35",
