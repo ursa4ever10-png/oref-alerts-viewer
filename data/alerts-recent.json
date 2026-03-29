@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-29T22:51:34.670835+00:00",
-    "total_alerts": 171119,
+    "generated_at": "2026-03-29T23:18:29.466323+00:00",
+    "total_alerts": 171120,
     "total_cities": 1644,
-    "archive_before_refresh": 171116,
-    "new_alerts_added": 3,
+    "archive_before_refresh": 171119,
+    "new_alerts_added": 1,
     "csv_sync_rows": 167063,
     "csv_sync_error": null,
-    "oref_alerts": 1526,
+    "oref_alerts": 1524,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -96169,6 +96169,13 @@
     {
       "time": "2026-03-30 01:00:45",
       "city": "אילת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 01:57:27",
+      "city": "דוב''ב",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
