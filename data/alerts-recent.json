@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-29T21:53:26.995485+00:00",
-    "total_alerts": 171112,
+    "generated_at": "2026-03-29T22:16:00.116481+00:00",
+    "total_alerts": 171116,
     "total_cities": 1644,
     "archive_before_refresh": 171112,
-    "new_alerts_added": 0,
+    "new_alerts_added": 4,
     "csv_sync_rows": 167059,
     "csv_sync_error": null,
-    "oref_alerts": 1566,
+    "oref_alerts": 1526,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -96120,6 +96120,34 @@
     {
       "time": "2026-03-29 23:11:21",
       "city": "באר שבע - צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 00:59:29",
+      "city": "אילת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 00:59:47",
+      "city": "אילות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 00:59:57",
+      "city": "אזור תעשייה שחורת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 01:00:45",
+      "city": "אילת",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
