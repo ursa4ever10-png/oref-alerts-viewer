@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-03-29T10:59:25.932511+00:00",
+    "generated_at": "2026-03-29T11:29:37.684018+00:00",
     "total_alerts": 170417,
     "total_cities": 1644,
-    "archive_before_refresh": 170001,
-    "new_alerts_added": 416,
+    "archive_before_refresh": 170417,
+    "new_alerts_added": 0,
     "csv_sync_rows": 166248,
     "csv_sync_error": null,
     "oref_alerts": 1921,
