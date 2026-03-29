@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-03-29T14:46:58.687674+00:00",
-    "total_alerts": 170900,
+    "generated_at": "2026-03-29T15:15:48.026865+00:00",
+    "total_alerts": 170901,
     "total_cities": 1644,
-    "archive_before_refresh": 170787,
-    "new_alerts_added": 113,
+    "archive_before_refresh": 170900,
+    "new_alerts_added": 1,
     "csv_sync_rows": 166755,
     "csv_sync_error": null,
     "oref_alerts": 2066,
@@ -94636,6 +94636,13 @@
     {
       "time": "2026-03-29 17:40:45",
       "city": "חוות טואמין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 17:56:04",
+      "city": "מרגליות",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
