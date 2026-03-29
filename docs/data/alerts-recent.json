@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-29T20:28:55.295169+00:00",
-    "total_alerts": 171110,
+    "generated_at": "2026-03-29T20:57:24.420414+00:00",
+    "total_alerts": 171112,
     "total_cities": 1644,
-    "archive_before_refresh": 171101,
-    "new_alerts_added": 9,
-    "csv_sync_rows": 167049,
+    "archive_before_refresh": 171110,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 167059,
     "csv_sync_error": null,
     "oref_alerts": 1566,
     "oref_status": "ok",
@@ -96081,6 +96081,20 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-29 23:09:21",
+      "city": "אל מסק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-29 23:09:21",
+      "city": "אל עמארני",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-29 23:11:21",
