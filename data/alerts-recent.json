@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-30T09:06:43.160796+00:00",
-    "total_alerts": 171797,
+    "generated_at": "2026-03-30T10:38:46.901329+00:00",
+    "total_alerts": 171823,
     "total_cities": 1644,
-    "archive_before_refresh": 171417,
-    "new_alerts_added": 380,
-    "csv_sync_rows": 167698,
+    "archive_before_refresh": 171797,
+    "new_alerts_added": 26,
+    "csv_sync_rows": 167720,
     "csv_sync_error": null,
-    "oref_alerts": 1777,
+    "oref_alerts": 1792,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -89799,6 +89799,188 @@
     {
       "time": "2026-03-30 11:32:38",
       "city": "תל יצחק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "אל פורעה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "מלונות ים המלח מרכז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "עין בוקק",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "אבו קרינאת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "אזור תעשייה דימונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "אזור תעשייה רותם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "דימונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "ירוחם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "ערערה בנגב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "קסר א-סר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "אשלים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "רתמים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "ביר הדאג'",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "טללים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "משאבי שדה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "רביבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "בתי מלון ים המלח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "נווה זוהר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "ואדי אל נעם דרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:48:53",
+      "city": "אבו תלול",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:49:30",
+      "city": "נאות הכיכר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 12:49:30",
+      "city": "עין תמר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 13:33:50",
+      "city": "צפת - עיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 13:34:28",
+      "city": "ביריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 13:34:28",
+      "city": "דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-30 13:34:28",
+      "city": "קדיתא",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
