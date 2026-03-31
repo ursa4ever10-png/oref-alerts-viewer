@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T18:05:53.661563+00:00",
-    "total_alerts": 173595,
+    "generated_at": "2026-03-31T19:15:56.670867+00:00",
+    "total_alerts": 173606,
     "total_cities": 1644,
-    "archive_before_refresh": 173409,
-    "new_alerts_added": 186,
-    "csv_sync_rows": 169240,
+    "archive_before_refresh": 173595,
+    "new_alerts_added": 11,
+    "csv_sync_rows": 169246,
     "csv_sync_error": null,
-    "oref_alerts": 1539,
+    "oref_alerts": 1523,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -95076,6 +95076,83 @@
     },
     {
       "time": "2026-03-31 20:40:06",
+      "city": "בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 21:07:53",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 21:07:53",
+      "city": "יערה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 21:07:53",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 21:07:53",
+      "city": "חניתה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 21:07:53",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 21:07:53",
+      "city": "שלומי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 21:07:57",
+      "city": "חניתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 21:07:59",
+      "city": "מצובה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 21:07:59",
+      "city": "מצובה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 21:08:27",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 21:08:27",
       "city": "בצת",
       "description": "חדירת כלי טיס עוין",
       "origin": "",
