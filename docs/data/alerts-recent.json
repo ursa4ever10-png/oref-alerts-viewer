@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T10:40:22.191267+00:00",
-    "total_alerts": 172959,
+    "generated_at": "2026-03-31T11:31:47.159890+00:00",
+    "total_alerts": 172962,
     "total_cities": 1644,
-    "archive_before_refresh": 172881,
-    "new_alerts_added": 78,
+    "archive_before_refresh": 172959,
+    "new_alerts_added": 3,
     "csv_sync_rows": 168793,
     "csv_sync_error": null,
-    "oref_alerts": 1822,
+    "oref_alerts": 1789,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -90628,6 +90628,27 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 13:49:06",
+      "city": "אביבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 14:28:52",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 14:30:34",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
