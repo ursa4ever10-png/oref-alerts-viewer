@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T19:15:56.670867+00:00",
-    "total_alerts": 173606,
+    "generated_at": "2026-03-31T20:00:08.777349+00:00",
+    "total_alerts": 173611,
     "total_cities": 1644,
-    "archive_before_refresh": 173595,
-    "new_alerts_added": 11,
-    "csv_sync_rows": 169246,
+    "archive_before_refresh": 173606,
+    "new_alerts_added": 5,
+    "csv_sync_rows": 169247,
     "csv_sync_error": null,
-    "oref_alerts": 1523,
+    "oref_alerts": 1522,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -95157,6 +95157,41 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 22:32:31",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 22:32:31",
+      "city": "זרעית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 22:59:35",
+      "city": "מעלות תרשיחא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 22:59:47",
+      "city": "אבירים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 22:59:47",
+      "city": "פסוטה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
