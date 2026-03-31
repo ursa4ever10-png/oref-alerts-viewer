@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-31T06:49:35.717658+00:00",
-    "total_alerts": 172694,
+    "generated_at": "2026-03-31T07:57:36.581242+00:00",
+    "total_alerts": 172703,
     "total_cities": 1644,
-    "archive_before_refresh": 172542,
-    "new_alerts_added": 152,
-    "csv_sync_rows": 168424,
+    "archive_before_refresh": 172694,
+    "new_alerts_added": 9,
+    "csv_sync_rows": 168576,
     "csv_sync_error": null,
     "oref_alerts": 1832,
     "oref_status": "ok",
@@ -87772,6 +87772,69 @@
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "אבן מנחם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "אדמית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "אילון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "גורן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "גורנות הגליל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "זרעית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "שומרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-03-31 09:18:30",
+      "city": "שתולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-03-31 09:31:44",
