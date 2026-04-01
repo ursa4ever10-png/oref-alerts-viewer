@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-01T15:15:32.520167+00:00",
-    "total_alerts": 176089,
+    "generated_at": "2026-04-01T16:13:49.352393+00:00",
+    "total_alerts": 176094,
     "total_cities": 1644,
-    "archive_before_refresh": 174755,
-    "new_alerts_added": 1334,
-    "csv_sync_rows": 171470,
+    "archive_before_refresh": 176089,
+    "new_alerts_added": 5,
+    "csv_sync_rows": 171669,
     "csv_sync_error": null,
-    "oref_alerts": 2832,
+    "oref_alerts": 2833,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -99338,8 +99338,43 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-01 18:06:48",
+      "city": "דור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-01 18:06:48",
+      "city": "נחשולים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-01 18:15:22",
       "city": "נהריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-01 18:16:01",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-01 18:20:57",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-01 18:38:14",
+      "city": "ע'ג'ר",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
