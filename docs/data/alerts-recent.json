@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-02T10:34:44.504997+00:00",
-    "total_alerts": 177146,
+    "generated_at": "2026-04-02T11:26:55.492288+00:00",
+    "total_alerts": 177155,
     "total_cities": 1644,
     "archive_before_refresh": 177146,
-    "new_alerts_added": 0,
+    "new_alerts_added": 9,
     "csv_sync_rows": 172676,
     "csv_sync_error": null,
-    "oref_alerts": 2388,
+    "oref_alerts": 2378,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -95406,6 +95406,69 @@
     {
       "time": "2026-04-02 12:02:21",
       "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 13:43:33",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 13:44:09",
+      "city": "כפר יובל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 13:44:51",
+      "city": "מעיין ברוך",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 13:44:53",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 13:45:19",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 13:45:48",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 13:46:21",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 14:03:02",
+      "city": "מלכיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-02 14:10:37",
+      "city": "יראון",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
