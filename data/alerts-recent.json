@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-03T06:42:08.482073+00:00",
-    "total_alerts": 178299,
+    "generated_at": "2026-04-03T07:46:39.336399+00:00",
+    "total_alerts": 178300,
     "total_cities": 1644,
-    "archive_before_refresh": 178266,
-    "new_alerts_added": 33,
-    "csv_sync_rows": 173727,
+    "archive_before_refresh": 178299,
+    "new_alerts_added": 1,
+    "csv_sync_rows": 173761,
     "csv_sync_error": null,
-    "oref_alerts": 1486,
+    "oref_alerts": 1236,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -83149,6 +83149,13 @@
     {
       "time": "2026-04-03 09:36:00",
       "city": "ע'ג'ר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 10:02:59",
+      "city": "משגב עם",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
