@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-03T13:23:45.211184+00:00",
-    "total_alerts": 178704,
+    "generated_at": "2026-04-03T14:09:11.865546+00:00",
+    "total_alerts": 178717,
     "total_cities": 1644,
-    "archive_before_refresh": 178440,
-    "new_alerts_added": 264,
-    "csv_sync_rows": 173899,
+    "archive_before_refresh": 178704,
+    "new_alerts_added": 13,
+    "csv_sync_rows": 174167,
     "csv_sync_error": null,
-    "oref_alerts": 1497,
+    "oref_alerts": 1495,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -85772,6 +85772,20 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-03 16:12:49",
+      "city": "נוף איילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-03 16:12:49",
+      "city": "שעלבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-03 16:12:53",
       "city": "צופים",
       "description": "ירי רקטות וטילים",
@@ -85984,6 +85998,83 @@
     {
       "time": "2026-04-03 16:23:13",
       "city": "דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 16:35:43",
+      "city": "אביבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 16:35:43",
+      "city": "ברעם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 16:35:43",
+      "city": "יראון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:03",
+      "city": "צפת - עיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:03",
+      "city": "צפת - עכברה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:27",
+      "city": "ביריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:49",
+      "city": "אזור תעשייה רמת דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:49",
+      "city": "אור הגנוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:49",
+      "city": "בר יוחאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:49",
+      "city": "דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-03 17:06:49",
+      "city": "קדיתא",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
