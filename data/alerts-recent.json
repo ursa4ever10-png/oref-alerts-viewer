@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T16:48:56.009635+00:00",
-    "total_alerts": 181442,
+    "generated_at": "2026-04-04T17:17:51.864627+00:00",
+    "total_alerts": 181446,
     "total_cities": 1644,
-    "archive_before_refresh": 181164,
-    "new_alerts_added": 278,
+    "archive_before_refresh": 181442,
+    "new_alerts_added": 4,
     "csv_sync_rows": 176858,
     "csv_sync_error": null,
-    "oref_alerts": 3116,
+    "oref_alerts": 3118,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -93841,6 +93841,34 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-04-04 19:50:24",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-04 19:52:02",
+      "city": "יפתח",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-04 19:52:43",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-04 19:52:49",
+      "city": "נאות מרדכי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
