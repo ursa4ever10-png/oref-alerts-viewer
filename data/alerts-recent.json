@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T02:53:12.347334+00:00",
-    "total_alerts": 180177,
+    "generated_at": "2026-04-04T04:42:32.363986+00:00",
+    "total_alerts": 180180,
     "total_cities": 1644,
     "archive_before_refresh": 180177,
-    "new_alerts_added": 0,
+    "new_alerts_added": 3,
     "csv_sync_rows": 175613,
     "csv_sync_error": null,
-    "oref_alerts": 2857,
+    "oref_alerts": 2605,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -84983,6 +84983,27 @@
     {
       "time": "2026-04-04 02:00:45",
       "city": "חוות עולם חסד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-04 07:27:18",
+      "city": "צבעון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-04 07:27:25",
+      "city": "דוב''ב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-04 07:27:25",
+      "city": "סאסא",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
