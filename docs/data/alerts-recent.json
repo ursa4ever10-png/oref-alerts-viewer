@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-04T07:35:24.503111+00:00",
-    "total_alerts": 180186,
+    "generated_at": "2026-04-04T08:04:26.021619+00:00",
+    "total_alerts": 180187,
     "total_cities": 1644,
-    "archive_before_refresh": 180185,
+    "archive_before_refresh": 180186,
     "new_alerts_added": 1,
-    "csv_sync_rows": 175621,
+    "csv_sync_rows": 175622,
     "csv_sync_error": null,
     "oref_alerts": 2588,
     "oref_status": "ok",
@@ -85047,6 +85047,13 @@
       "time": "2026-04-04 10:29:29",
       "city": "משגב עם",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-04 11:03:29",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
