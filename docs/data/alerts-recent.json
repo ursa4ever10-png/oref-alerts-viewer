@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-05T04:44:50.477612+00:00",
-    "total_alerts": 181822,
+    "generated_at": "2026-04-05T06:05:10.836593+00:00",
+    "total_alerts": 181833,
     "total_cities": 1644,
     "archive_before_refresh": 181822,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 177230,
+    "new_alerts_added": 11,
+    "csv_sync_rows": 177237,
     "csv_sync_error": null,
-    "oref_alerts": 3453,
+    "oref_alerts": 3335,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -87111,6 +87111,83 @@
     {
       "time": "2026-04-05 04:12:36",
       "city": "שער הגולן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 07:58:42",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 07:58:42",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-05 07:59:31",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 07:59:31",
+      "city": "חוף בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-05 08:00:01",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 08:00:01",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 08:00:01",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-05 08:00:01",
+      "city": "בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-05 08:48:45",
+      "city": "יסוד המעלה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 08:49:05",
+      "city": "גונן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 08:49:05",
+      "city": "להבות הבשן",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
