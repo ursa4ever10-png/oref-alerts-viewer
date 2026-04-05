@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-05T11:16:02.608173+00:00",
-    "total_alerts": 182095,
+    "generated_at": "2026-04-05T11:45:54.715531+00:00",
+    "total_alerts": 182096,
     "total_cities": 1644,
-    "archive_before_refresh": 182062,
-    "new_alerts_added": 33,
-    "csv_sync_rows": 177458,
+    "archive_before_refresh": 182095,
+    "new_alerts_added": 1,
+    "csv_sync_rows": 177497,
     "csv_sync_error": null,
-    "oref_alerts": 2790,
+    "oref_alerts": 2546,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -89022,6 +89022,13 @@
     {
       "time": "2026-04-05 14:07:10",
       "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 14:38:23",
+      "city": "יפתח",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
