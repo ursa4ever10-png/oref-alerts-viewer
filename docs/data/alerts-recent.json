@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-05T23:00:17.873336+00:00",
-    "total_alerts": 182463,
+    "generated_at": "2026-04-05T23:36:38.948090+00:00",
+    "total_alerts": 182475,
     "total_cities": 1644,
     "archive_before_refresh": 182463,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 177777,
+    "new_alerts_added": 12,
+    "csv_sync_rows": 177789,
     "csv_sync_error": null,
-    "oref_alerts": 2150,
+    "oref_alerts": 2157,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -91598,6 +91598,90 @@
     {
       "time": "2026-04-06 00:30:53",
       "city": "חורפיש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:18",
+      "city": "בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:18",
+      "city": "שלומי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:18",
+      "city": "גשר הזיו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "הילה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "כפר ורדים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "מעונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "מעיליא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "מעלות תרשיחא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "געתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "יחיעם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "ינוח ג'ת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 02:26:57",
+      "city": "עין יעקב",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
