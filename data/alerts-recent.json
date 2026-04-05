@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-05T07:20:10.597022+00:00",
-    "total_alerts": 181998,
+    "generated_at": "2026-04-05T08:02:23.156408+00:00",
+    "total_alerts": 182006,
     "total_cities": 1644,
-    "archive_before_refresh": 181833,
-    "new_alerts_added": 165,
-    "csv_sync_rows": 177238,
+    "archive_before_refresh": 181998,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 177406,
     "csv_sync_error": null,
-    "oref_alerts": 3493,
+    "oref_alerts": 3492,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -88159,6 +88159,34 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-05 10:05:16",
+      "city": "ימין אורד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-05 10:05:16",
+      "city": "ניר עציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-05 10:05:16",
+      "city": "עוזייר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-05 10:05:16",
+      "city": "רומאנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-05 10:05:17",
       "city": "יקנעם המושבה והזורע",
       "description": "ירי רקטות וטילים",
@@ -88343,6 +88371,34 @@
     {
       "time": "2026-04-05 10:05:48",
       "city": "תובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 10:34:18",
+      "city": "אביבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 10:34:18",
+      "city": "יראון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 10:57:45",
+      "city": "מעלות תרשיחא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 10:57:45",
+      "city": "אבירים",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
