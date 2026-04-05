@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-05T10:46:06.635456+00:00",
-    "total_alerts": 182062,
+    "generated_at": "2026-04-05T11:16:02.608173+00:00",
+    "total_alerts": 182095,
     "total_cities": 1644,
-    "archive_before_refresh": 182026,
-    "new_alerts_added": 36,
+    "archive_before_refresh": 182062,
+    "new_alerts_added": 33,
     "csv_sync_rows": 177458,
     "csv_sync_error": null,
-    "oref_alerts": 3264,
+    "oref_alerts": 2790,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -88791,6 +88791,237 @@
     {
       "time": "2026-04-05 13:34:48",
       "city": "חירן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:03",
+      "city": "חוף זיקים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "באר שבע - דרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "באר שבע - מזרח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "באר שבע - מערב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "באר שבע - צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "מרעית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "ערערה בנגב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "אבו קרינאת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "אל פורעה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "כסייפה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "ערד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "קסר א-סר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "תל ערד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "טללים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "ביר הדאג'",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "חצרים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "משאבי שדה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "עומר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "רביבים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "רתמים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "חורה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "נבטים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "תל שבע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "אל סייד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "סעווה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "שגב שלום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "ואדי אל נעם דרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "אבו תלול",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:48:18",
+      "city": "אום בטין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:49:44",
+      "city": "הר עמשא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:49:44",
+      "city": "כפר הנוקדים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 13:49:44",
+      "city": "חירן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-05 14:07:10",
+      "city": "מרגליות",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
