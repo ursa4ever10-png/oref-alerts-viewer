@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-06T05:35:42.992688+00:00",
-    "total_alerts": 183546,
+    "generated_at": "2026-04-06T07:10:17.873430+00:00",
+    "total_alerts": 183549,
     "total_cities": 1644,
-    "archive_before_refresh": 183304,
-    "new_alerts_added": 242,
-    "csv_sync_rows": 178854,
+    "archive_before_refresh": 183546,
+    "new_alerts_added": 3,
+    "csv_sync_rows": 178856,
     "csv_sync_error": null,
-    "oref_alerts": 2678,
+    "oref_alerts": 2680,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -88696,6 +88696,27 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-04-06 09:59:40",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 09:59:47",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-06 10:01:09",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
