@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-07T19:20:01.534492+00:00",
-    "total_alerts": 186104,
+    "generated_at": "2026-04-07T20:03:05.713567+00:00",
+    "total_alerts": 186109,
     "total_cities": 1644,
-    "archive_before_refresh": 186033,
-    "new_alerts_added": 71,
-    "csv_sync_rows": 181239,
+    "archive_before_refresh": 186104,
+    "new_alerts_added": 5,
+    "csv_sync_rows": 181313,
     "csv_sync_error": null,
     "oref_alerts": 1370,
     "oref_status": "ok",
@@ -98426,6 +98426,41 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-07 22:04:26",
+      "city": "אוהד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-07 22:04:26",
+      "city": "ישע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-07 22:04:26",
+      "city": "מבטחים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-07 22:04:26",
+      "city": "עמיעוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-07 22:04:26",
+      "city": "צוחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-04-07 22:04:33",
