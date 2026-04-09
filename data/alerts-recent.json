@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T23:05:41.862633+00:00",
-    "total_alerts": 187218,
+    "generated_at": "2026-04-09T23:49:34.966065+00:00",
+    "total_alerts": 187221,
     "total_cities": 1644,
     "archive_before_refresh": 187218,
-    "new_alerts_added": 0,
+    "new_alerts_added": 3,
     "csv_sync_rows": 182384,
     "csv_sync_error": null,
-    "oref_alerts": 1739,
+    "oref_alerts": 1740,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -78607,6 +78607,27 @@
       "time": "2026-04-10 01:14:21",
       "city": "מתחם פי גלילות",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 02:40:58",
+      "city": "מנות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 02:40:58",
+      "city": "עבדון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 02:42:07",
+      "city": "נווה זיו",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
