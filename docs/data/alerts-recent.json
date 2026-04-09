@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-09T09:40:41.290803+00:00",
-    "total_alerts": 186989,
+    "generated_at": "2026-04-09T10:43:49.563689+00:00",
+    "total_alerts": 187004,
     "total_cities": 1644,
-    "archive_before_refresh": 186964,
-    "new_alerts_added": 25,
-    "csv_sync_rows": 182172,
+    "archive_before_refresh": 186989,
+    "new_alerts_added": 15,
+    "csv_sync_rows": 182184,
     "csv_sync_error": null,
-    "oref_alerts": 1902,
+    "oref_alerts": 1905,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -77003,6 +77003,111 @@
     {
       "time": "2026-04-09 12:18:09",
       "city": "מעיין ברוך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:00:34",
+      "city": "זרעית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:00:34",
+      "city": "שומרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:05:26",
+      "city": "מעיין ברוך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:25:54",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:25:54",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:25:55",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:32:57",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:03",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:05",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:05",
+      "city": "כפר בלום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:16",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:16",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:22",
+      "city": "כפר יובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:48",
+      "city": "חולתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-09 13:33:48",
+      "city": "יסוד המעלה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
