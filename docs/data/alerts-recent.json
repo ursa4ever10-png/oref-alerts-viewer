@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T17:01:15.701017+00:00",
-    "total_alerts": 187403,
+    "generated_at": "2026-04-10T17:51:48.675595+00:00",
+    "total_alerts": 187416,
     "total_cities": 1644,
-    "archive_before_refresh": 187392,
-    "new_alerts_added": 11,
+    "archive_before_refresh": 187403,
+    "new_alerts_added": 13,
     "csv_sync_rows": 182447,
     "csv_sync_error": null,
-    "oref_alerts": 396,
+    "oref_alerts": 406,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -66713,6 +66713,97 @@
     {
       "time": "2026-04-10 19:31:18",
       "city": "יראון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:00",
+      "city": "נהריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:00",
+      "city": "סער",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:10",
+      "city": "בן עמי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "חוף בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "לימן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "מצובה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "ראש הנקרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "שלומי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:27",
+      "city": "חוף אכזיב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:31",
+      "city": "גשר הזיו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 20:14:56",
+      "city": "יערה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
