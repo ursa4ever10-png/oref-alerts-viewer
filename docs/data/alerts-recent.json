@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T09:00:15.501101+00:00",
-    "total_alerts": 187245,
+    "generated_at": "2026-04-10T10:09:11.489312+00:00",
+    "total_alerts": 187253,
     "total_cities": 1644,
-    "archive_before_refresh": 187243,
-    "new_alerts_added": 2,
-    "csv_sync_rows": 182408,
+    "archive_before_refresh": 187245,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 182412,
     "csv_sync_error": null,
-    "oref_alerts": 1177,
+    "oref_alerts": 1162,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -65610,6 +65610,62 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 12:21:38",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 12:21:38",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 12:21:38",
+      "city": "מנרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-10 12:21:38",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-10 12:21:52",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 12:21:52",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-10 12:21:52",
+      "city": "משגב עם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-10 12:21:52",
+      "city": "קריית שמונה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
