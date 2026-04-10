@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T21:21:51.134809+00:00",
-    "total_alerts": 187507,
+    "generated_at": "2026-04-10T21:56:41.281949+00:00",
+    "total_alerts": 187516,
     "total_cities": 1644,
     "archive_before_refresh": 187507,
-    "new_alerts_added": 0,
+    "new_alerts_added": 9,
     "csv_sync_rows": 182610,
     "csv_sync_error": null,
-    "oref_alerts": 424,
+    "oref_alerts": 420,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -67441,6 +67441,69 @@
     {
       "time": "2026-04-10 23:10:33",
       "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:46:38",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:46:42",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:46:42",
+      "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:46:42",
+      "city": "מנרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:46:49",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:49:44",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:50:13",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:52:46",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 00:53:31",
+      "city": "משגב עם",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
