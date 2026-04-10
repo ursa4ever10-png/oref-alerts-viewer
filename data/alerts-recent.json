@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-10T21:56:41.281949+00:00",
-    "total_alerts": 187516,
+    "generated_at": "2026-04-10T22:29:02.451550+00:00",
+    "total_alerts": 187522,
     "total_cities": 1644,
-    "archive_before_refresh": 187507,
-    "new_alerts_added": 9,
+    "archive_before_refresh": 187516,
+    "new_alerts_added": 6,
     "csv_sync_rows": 182610,
     "csv_sync_error": null,
-    "oref_alerts": 420,
+    "oref_alerts": 425,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -67504,6 +67504,48 @@
     {
       "time": "2026-04-11 00:53:31",
       "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 01:15:21",
+      "city": "ביריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 01:15:21",
+      "city": "צפת - עיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 01:15:34",
+      "city": "אזור תעשייה רמת דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 01:15:34",
+      "city": "דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 01:15:34",
+      "city": "קדיתא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 01:15:40",
+      "city": "כרם בן זמרה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
