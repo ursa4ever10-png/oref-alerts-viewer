@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-11T14:57:58.608324+00:00",
-    "total_alerts": 187793,
+    "generated_at": "2026-04-11T15:30:06.164703+00:00",
+    "total_alerts": 187803,
     "total_cities": 1644,
-    "archive_before_refresh": 187792,
-    "new_alerts_added": 1,
+    "archive_before_refresh": 187793,
+    "new_alerts_added": 10,
     "csv_sync_rows": 182797,
     "csv_sync_error": null,
-    "oref_alerts": 529,
+    "oref_alerts": 505,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -56419,6 +56419,76 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-04-11 18:16:29",
+      "city": "צפת - עיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:45",
+      "city": "אזור תעשייה רמת דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:45",
+      "city": "ג'ש - גוש חלב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:45",
+      "city": "דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:45",
+      "city": "כרם בן זמרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:45",
+      "city": "קדיתא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:45",
+      "city": "ריחאנייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:49",
+      "city": "ביריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:49",
+      "city": "אור הגנוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 18:16:49",
+      "city": "בר יוחאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
