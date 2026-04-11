@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-11T13:44:30.425342+00:00",
-    "total_alerts": 187773,
+    "generated_at": "2026-04-11T14:22:00.267838+00:00",
+    "total_alerts": 187792,
     "total_cities": 1644,
-    "archive_before_refresh": 187587,
-    "new_alerts_added": 186,
+    "archive_before_refresh": 187773,
+    "new_alerts_added": 19,
     "csv_sync_rows": 182778,
     "csv_sync_error": null,
-    "oref_alerts": 541,
+    "oref_alerts": 529,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -56279,6 +56279,139 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-04-11 16:48:10",
+      "city": "ערב אל נעים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:10",
+      "city": "אשחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:10",
+      "city": "סכנין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:16",
+      "city": "אזור תעשייה תרדיון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:19",
+      "city": "יובלים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:25",
+      "city": "אשבל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:42",
+      "city": "כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "צורית גילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "תובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "אזור תעשייה כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "בענה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "דיר אל-אסד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "לבון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "מג'דל כרום",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:50",
+      "city": "נחף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:48:59",
+      "city": "שורשים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 16:54:43",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 17:02:05",
+      "city": "יראון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 17:09:27",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
