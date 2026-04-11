@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-11T03:36:47.454347+00:00",
-    "total_alerts": 187533,
+    "generated_at": "2026-04-11T05:14:31.650573+00:00",
+    "total_alerts": 187549,
     "total_cities": 1644,
-    "archive_before_refresh": 187522,
-    "new_alerts_added": 11,
-    "csv_sync_rows": 182625,
+    "archive_before_refresh": 187533,
+    "new_alerts_added": 16,
+    "csv_sync_rows": 182636,
     "csv_sync_error": null,
-    "oref_alerts": 434,
+    "oref_alerts": 440,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -54531,11 +54531,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-11 06:31:52",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-11 06:32:25",
       "city": "אילון",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 06:32:25",
+      "city": "אילון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     },
     {
       "time": "2026-04-11 06:32:59",
@@ -54550,6 +54564,20 @@
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 06:32:59",
+      "city": "אדמית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-11 06:32:59",
+      "city": "גורן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     },
     {
       "time": "2026-04-11 06:33:38",
@@ -54580,11 +54608,32 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-11 06:33:47",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-11 06:33:47",
+      "city": "עבדון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-11 06:33:58",
       "city": "מנות",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 06:33:58",
+      "city": "מנות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     },
     {
       "time": "2026-04-11 06:34:20",
@@ -54596,6 +54645,69 @@
     {
       "time": "2026-04-11 06:34:20",
       "city": "גורנות הגליל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 06:34:20",
+      "city": "אילון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-11 06:34:20",
+      "city": "גורנות הגליל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-11 08:13:40",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 08:13:41",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 08:13:41",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 08:13:43",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 08:13:43",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 08:13:45",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-11 08:13:45",
+      "city": "כפר יובל",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
