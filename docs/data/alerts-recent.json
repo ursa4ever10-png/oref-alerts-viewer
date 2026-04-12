@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T15:23:50.774735+00:00",
-    "total_alerts": 187910,
+    "generated_at": "2026-04-12T15:54:51.815110+00:00",
+    "total_alerts": 187920,
     "total_cities": 1644,
     "archive_before_refresh": 187910,
-    "new_alerts_added": 0,
+    "new_alerts_added": 10,
     "csv_sync_rows": 182893,
     "csv_sync_error": null,
-    "oref_alerts": 447,
+    "oref_alerts": 449,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -46343,6 +46343,76 @@
     {
       "time": "2026-04-12 16:38:12",
       "city": "קצרין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:41:37",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:41:42",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:41:59",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:42:16",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:42:17",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:42:19",
+      "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:42:19",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:46:33",
+      "city": "געתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:46:33",
+      "city": "אילון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 18:46:33",
+      "city": "גורן",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
