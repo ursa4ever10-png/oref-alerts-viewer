@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T23:27:23.336551+00:00",
-    "total_alerts": 188001,
+    "generated_at": "2026-04-12T23:58:49.974326+00:00",
+    "total_alerts": 188002,
     "total_cities": 1644,
     "archive_before_refresh": 188001,
-    "new_alerts_added": 0,
+    "new_alerts_added": 1,
     "csv_sync_rows": 182961,
     "csv_sync_error": null,
-    "oref_alerts": 375,
+    "oref_alerts": 357,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -46980,6 +46980,13 @@
     {
       "time": "2026-04-13 01:20:32",
       "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 02:49:43",
+      "city": "דוב''ב",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
