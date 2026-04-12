@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T11:46:42.247882+00:00",
-    "total_alerts": 187885,
+    "generated_at": "2026-04-12T12:04:21.143945+00:00",
+    "total_alerts": 187902,
     "total_cities": 1644,
-    "archive_before_refresh": 187882,
-    "new_alerts_added": 3,
+    "archive_before_refresh": 187885,
+    "new_alerts_added": 17,
     "csv_sync_rows": 182868,
     "csv_sync_error": null,
-    "oref_alerts": 455,
+    "oref_alerts": 469,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -46168,6 +46168,125 @@
     {
       "time": "2026-04-12 14:19:33",
       "city": "משמר הירדן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:28",
+      "city": "נטועה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:28",
+      "city": "שתולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:34",
+      "city": "חורפיש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:34",
+      "city": "אלקוש",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:34",
+      "city": "מתת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:37",
+      "city": "חוסן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:37",
+      "city": "פקיעין החדשה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:37",
+      "city": "צוריאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:37",
+      "city": "פסוטה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:45",
+      "city": "פקיעין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:50",
+      "city": "אזור תעשייה כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:50",
+      "city": "הר חלוץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:50",
+      "city": "חרשים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:50",
+      "city": "נחף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:50",
+      "city": "סאג'ור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:00:50",
+      "city": "כסרא סמיע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 15:01:12",
+      "city": "חורפיש",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
