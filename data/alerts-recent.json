@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T04:17:43.766621+00:00",
-    "total_alerts": 187840,
+    "generated_at": "2026-04-12T06:03:48.391961+00:00",
+    "total_alerts": 187847,
     "total_cities": 1644,
-    "archive_before_refresh": 187832,
-    "new_alerts_added": 8,
-    "csv_sync_rows": 182835,
+    "archive_before_refresh": 187840,
+    "new_alerts_added": 7,
+    "csv_sync_rows": 182844,
     "csv_sync_error": null,
-    "oref_alerts": 451,
+    "oref_alerts": 450,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -45837,6 +45837,27 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-12 07:07:45",
+      "city": "אביבים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-12 07:07:45",
+      "city": "ברעם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-12 07:07:45",
+      "city": "יראון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-12 07:08:08",
       "city": "עלמה",
       "description": "חדירת מסוקים",
@@ -45851,9 +45872,37 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-12 07:08:08",
+      "city": "עלמה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-12 07:08:08",
+      "city": "ריחאנייה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-12 07:08:16",
       "city": "כרם בן זמרה",
       "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 07:08:16",
+      "city": "כרם בן זמרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-12 08:36:01",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
     }
