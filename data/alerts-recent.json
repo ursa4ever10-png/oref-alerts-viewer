@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T11:09:15.277137+00:00",
-    "total_alerts": 187882,
+    "generated_at": "2026-04-12T11:46:42.247882+00:00",
+    "total_alerts": 187885,
     "total_cities": 1644,
-    "archive_before_refresh": 187877,
-    "new_alerts_added": 5,
-    "csv_sync_rows": 182860,
+    "archive_before_refresh": 187882,
+    "new_alerts_added": 3,
+    "csv_sync_rows": 182868,
     "csv_sync_error": null,
-    "oref_alerts": 453,
+    "oref_alerts": 455,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -46147,6 +46147,27 @@
     {
       "time": "2026-04-12 14:06:39",
       "city": "סאסא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 14:19:33",
+      "city": "כפר הנשיא",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 14:19:33",
+      "city": "גדות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 14:19:33",
+      "city": "משמר הירדן",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
