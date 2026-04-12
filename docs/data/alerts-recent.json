@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T22:18:31.068018+00:00",
-    "total_alerts": 187992,
+    "generated_at": "2026-04-12T22:56:47.369034+00:00",
+    "total_alerts": 188001,
     "total_cities": 1644,
     "archive_before_refresh": 187992,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 182950,
+    "new_alerts_added": 9,
+    "csv_sync_rows": 182961,
     "csv_sync_error": null,
-    "oref_alerts": 372,
+    "oref_alerts": 375,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -46917,6 +46917,69 @@
     {
       "time": "2026-04-12 23:58:19",
       "city": "דוב''ב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:19:52",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:19:52",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:20:06",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:20:06",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:20:15",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:20:15",
+      "city": "כפר יובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:20:15",
+      "city": "מעיין ברוך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:20:15",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 01:20:32",
+      "city": "בית הלל",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
