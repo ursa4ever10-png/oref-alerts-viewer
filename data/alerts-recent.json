@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-12T10:33:53.307399+00:00",
-    "total_alerts": 187877,
+    "generated_at": "2026-04-12T11:09:15.277137+00:00",
+    "total_alerts": 187882,
     "total_cities": 1644,
-    "archive_before_refresh": 187876,
-    "new_alerts_added": 1,
-    "csv_sync_rows": 182859,
+    "archive_before_refresh": 187877,
+    "new_alerts_added": 5,
+    "csv_sync_rows": 182860,
     "csv_sync_error": null,
-    "oref_alerts": 454,
+    "oref_alerts": 453,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -46112,6 +46112,41 @@
     {
       "time": "2026-04-12 13:09:34",
       "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 13:38:31",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 13:38:56",
+      "city": "שדה נחמיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 14:06:39",
+      "city": "בית ספר שדה מירון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 14:06:39",
+      "city": "צבעון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-12 14:06:39",
+      "city": "סאסא",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
