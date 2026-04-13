@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-13T14:57:51.564109+00:00",
-    "total_alerts": 188321,
+    "generated_at": "2026-04-13T16:09:19.681412+00:00",
+    "total_alerts": 188327,
     "total_cities": 1644,
-    "archive_before_refresh": 188287,
-    "new_alerts_added": 34,
-    "csv_sync_rows": 183171,
+    "archive_before_refresh": 188321,
+    "new_alerts_added": 6,
+    "csv_sync_rows": 183177,
     "csv_sync_error": null,
-    "oref_alerts": 336,
+    "oref_alerts": 330,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -42675,6 +42675,48 @@
     {
       "time": "2026-04-13 17:52:23",
       "city": "לבון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 18:22:37",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 18:22:38",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 18:26:46",
+      "city": "גדות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 18:27:25",
+      "city": "חולתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 18:32:40",
+      "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-13 18:32:55",
+      "city": "קריית שמונה",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
