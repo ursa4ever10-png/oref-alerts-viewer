@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-14T20:42:19.386152+00:00",
-    "total_alerts": 192948,
+    "generated_at": "2026-04-14T21:33:14.746274+00:00",
+    "total_alerts": 192951,
     "total_cities": 1644,
     "archive_before_refresh": 192948,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 183329,
+    "new_alerts_added": 3,
+    "csv_sync_rows": 183332,
     "csv_sync_error": null,
     "oref_alerts": 370,
     "oref_status": "ok",
@@ -28526,6 +28526,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-14 22:49:19",
+      "city": "מרום גולן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-14 22:49:21",
       "city": "אל רום",
       "description": "חדירת מסוקים",
@@ -28533,11 +28540,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-14 22:49:21",
+      "city": "אל רום",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-14 22:51:34",
       "city": "אודם",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-14 22:51:34",
+      "city": "אודם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
