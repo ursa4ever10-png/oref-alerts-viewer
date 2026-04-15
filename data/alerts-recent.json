@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-15T12:43:16.920308+00:00",
-    "total_alerts": 193015,
+    "generated_at": "2026-04-15T14:14:29.161684+00:00",
+    "total_alerts": 193017,
     "total_cities": 1644,
-    "archive_before_refresh": 193010,
-    "new_alerts_added": 5,
-    "csv_sync_rows": 183383,
+    "archive_before_refresh": 193015,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 183391,
     "csv_sync_error": null,
-    "oref_alerts": 321,
+    "oref_alerts": 320,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -19074,6 +19074,20 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-15 16:43:45",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-15 16:43:45",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
