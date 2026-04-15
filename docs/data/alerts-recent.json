@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-15T22:59:35.828251+00:00",
-    "total_alerts": 193058,
+    "generated_at": "2026-04-15T23:41:59.578680+00:00",
+    "total_alerts": 193059,
     "total_cities": 1644,
-    "archive_before_refresh": 193039,
-    "new_alerts_added": 19,
-    "csv_sync_rows": 183421,
+    "archive_before_refresh": 193058,
+    "new_alerts_added": 1,
+    "csv_sync_rows": 183426,
     "csv_sync_error": null,
     "oref_alerts": 295,
     "oref_status": "ok",
@@ -19347,6 +19347,13 @@
       "description": "רעידת אדמה",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 01:41:10",
+      "city": "חוות גלעד",
+      "description": "חדירת מחבלים",
+      "origin": "",
+      "source": "github_csv"
     },
     {
       "time": "2026-04-16 01:43:05",
