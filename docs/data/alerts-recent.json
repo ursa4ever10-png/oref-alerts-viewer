@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-15T15:37:37.555250+00:00",
-    "total_alerts": 193035,
+    "generated_at": "2026-04-15T16:38:48.835635+00:00",
+    "total_alerts": 193036,
     "total_cities": 1644,
-    "archive_before_refresh": 193017,
-    "new_alerts_added": 18,
-    "csv_sync_rows": 183391,
+    "archive_before_refresh": 193035,
+    "new_alerts_added": 1,
+    "csv_sync_rows": 183409,
     "csv_sync_error": null,
     "oref_alerts": 316,
     "oref_status": "ok",
@@ -19211,6 +19211,13 @@
     {
       "time": "2026-04-15 18:24:31",
       "city": "מלכיה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-15 19:01:29",
+      "city": "קדיתא",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
