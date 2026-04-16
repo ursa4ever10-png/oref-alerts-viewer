@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-16T04:23:20.628004+00:00",
-    "total_alerts": 193066,
+    "generated_at": "2026-04-16T06:15:49.246467+00:00",
+    "total_alerts": 193081,
     "total_cities": 1644,
-    "archive_before_refresh": 193061,
-    "new_alerts_added": 5,
-    "csv_sync_rows": 183430,
+    "archive_before_refresh": 193066,
+    "new_alerts_added": 15,
+    "csv_sync_rows": 183445,
     "csv_sync_error": null,
-    "oref_alerts": 281,
+    "oref_alerts": 274,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -13523,6 +13523,111 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-04-16 08:19:59",
+      "city": "כמון - כמאנה מזרחית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:19:59",
+      "city": "ראס אל-עין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:19",
+      "city": "אזור תעשייה כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:19",
+      "city": "סאג'ור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:19",
+      "city": "שזור",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:30",
+      "city": "בית ג'אן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:30",
+      "city": "חרשים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:30",
+      "city": "פקיעין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:35",
+      "city": "כסרא סמיע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:20:35",
+      "city": "פקיעין החדשה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:46:13",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:46:14",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:46:14",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:49:03",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 08:49:06",
+      "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
