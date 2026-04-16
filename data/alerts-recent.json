@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-16T06:15:49.246467+00:00",
-    "total_alerts": 193081,
+    "generated_at": "2026-04-16T08:03:53.361797+00:00",
+    "total_alerts": 193088,
     "total_cities": 1644,
-    "archive_before_refresh": 193066,
-    "new_alerts_added": 15,
-    "csv_sync_rows": 183445,
+    "archive_before_refresh": 193081,
+    "new_alerts_added": 7,
+    "csv_sync_rows": 183449,
     "csv_sync_error": null,
     "oref_alerts": 274,
     "oref_status": "ok",
@@ -13625,6 +13625,55 @@
     {
       "time": "2026-04-16 08:49:06",
       "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 10:08:51",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 10:08:51",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 10:08:51",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-16 10:08:51",
+      "city": "בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-16 10:08:51",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-16 10:08:51",
+      "city": "שלומי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-16 10:46:56",
+      "city": "כפר גלעדי",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
