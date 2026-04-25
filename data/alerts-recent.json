@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-25T14:24:55.369976+00:00",
-    "total_alerts": 194057,
+    "generated_at": "2026-04-25T15:04:29.554401+00:00",
+    "total_alerts": 194064,
     "total_cities": 1644,
-    "archive_before_refresh": 194050,
+    "archive_before_refresh": 194057,
     "new_alerts_added": 7,
-    "csv_sync_rows": 184369,
+    "csv_sync_rows": 184376,
     "csv_sync_error": null,
     "oref_alerts": 307,
     "oref_status": "ok",
@@ -1905,6 +1905,34 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-25 17:17:57",
+      "city": "חניתה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-25 17:17:57",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-25 17:17:57",
+      "city": "מצובה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-25 17:17:57",
+      "city": "שלומי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-25 17:17:59",
       "city": "בצת",
       "description": "חדירת מסוקים",
@@ -1919,11 +1947,32 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-04-25 17:17:59",
+      "city": "בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-25 17:17:59",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-04-25 17:18:48",
       "city": "עבדון",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-25 17:18:48",
+      "city": "עבדון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
