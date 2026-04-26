@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-04-25T23:36:13.470841+00:00",
+    "generated_at": "2026-04-26T00:06:55.185126+00:00",
     "total_alerts": 194066,
     "total_cities": 1644,
     "archive_before_refresh": 194066,
@@ -1660,20 +1660,6 @@
   ],
   "alerts": [
     {
-      "time": "2026-04-18 06:07:10",
-      "city": "נגוהות",
-      "description": "רעידת אדמה",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-18 06:07:10",
-      "city": "נגוהות",
-      "description": "חדירת מחבלים",
-      "origin": "",
-      "source": "github_csv"
-    },
-    {
       "time": "2026-04-21 18:39:19",
       "city": "כפר יובל",
       "description": "ירי רקטות וטילים",
@@ -1990,5 +1976,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-04-18"
+  "cutoff": "2026-04-19"
 }
