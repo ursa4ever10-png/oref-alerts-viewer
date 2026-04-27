@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-27T01:17:22.002671+00:00",
-    "total_alerts": 194084,
+    "generated_at": "2026-04-27T04:42:08.808731+00:00",
+    "total_alerts": 194085,
     "total_cities": 1644,
     "archive_before_refresh": 194084,
-    "new_alerts_added": 0,
+    "new_alerts_added": 1,
     "csv_sync_rows": 184387,
     "csv_sync_error": null,
-    "oref_alerts": 308,
+    "oref_alerts": 304,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2099,6 +2099,13 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-04-27 07:40:24",
+      "city": "ערב אל עראמשה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
