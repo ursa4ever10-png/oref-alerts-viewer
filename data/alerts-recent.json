@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-29T07:08:04.482534+00:00",
-    "total_alerts": 194136,
+    "generated_at": "2026-04-29T09:20:52.142871+00:00",
+    "total_alerts": 194140,
     "total_cities": 1644,
     "archive_before_refresh": 194136,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184415,
+    "new_alerts_added": 4,
+    "csv_sync_rows": 184417,
     "csv_sync_error": null,
-    "oref_alerts": 295,
+    "oref_alerts": 287,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2446,6 +2446,34 @@
     {
       "time": "2026-04-28 23:33:15",
       "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-29 10:50:01",
+      "city": "אביבים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-29 10:50:01",
+      "city": "אביבים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-29 11:14:00",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-29 11:14:00",
+      "city": "מטולה",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
