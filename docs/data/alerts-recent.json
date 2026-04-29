@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-04-29T12:23:03.322716+00:00",
-    "total_alerts": 194143,
+    "generated_at": "2026-04-29T14:34:26.185646+00:00",
+    "total_alerts": 194145,
     "total_cities": 1644,
     "archive_before_refresh": 194143,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184420,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 184421,
     "csv_sync_error": null,
     "oref_alerts": 283,
     "oref_status": "ok",
@@ -2498,6 +2498,20 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-29 16:12:31",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-29 16:12:31",
+      "city": "משגב עם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
