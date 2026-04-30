@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-04-30T10:27:23.971684+00:00",
-    "total_alerts": 194186,
+    "generated_at": "2026-04-30T11:56:50.557413+00:00",
+    "total_alerts": 194194,
     "total_cities": 1644,
     "archive_before_refresh": 194186,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184443,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 184448,
     "csv_sync_error": null,
-    "oref_alerts": 284,
+    "oref_alerts": 288,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2796,6 +2796,62 @@
     {
       "time": "2026-04-30 08:24:25",
       "city": "הילה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-30 14:51:59",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-30 14:52:33",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-30 14:52:33",
+      "city": "משגב עם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-30 14:53:38",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-30 14:53:57",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-30 14:53:57",
+      "city": "כפר גלעדי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-04-30 14:54:24",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-04-30 14:54:24",
+      "city": "תל חי",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
