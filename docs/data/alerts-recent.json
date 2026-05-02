@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-01T23:06:26.830702+00:00",
+    "generated_at": "2026-05-02T00:00:00.921562+00:00",
     "total_alerts": 194248,
     "total_cities": 1644,
     "archive_before_refresh": 194248,
@@ -1660,167 +1660,6 @@
   ],
   "alerts": [
     {
-      "time": "2026-04-24 14:19:00",
-      "city": "זרעית",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:19:00",
-      "city": "זרעית",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 14:19:31",
-      "city": "זרעית",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:20:20",
-      "city": "זרעית",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:20:20",
-      "city": "זרעית",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 14:21:04",
-      "city": "שומרה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:21:04",
-      "city": "שומרה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 14:23:36",
-      "city": "אבן מנחם",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:23:36",
-      "city": "אבן מנחם",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 14:23:53",
-      "city": "זרעית",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:23:53",
-      "city": "זרעית",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 14:24:17",
-      "city": "שומרה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:24:17",
-      "city": "שומרה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 14:26:01",
-      "city": "גורנות הגליל",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 14:26:01",
-      "city": "גורנות הגליל",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 15:23:44",
-      "city": "יפתח",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 15:23:44",
-      "city": "יפתח",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "FA",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 15:23:51",
-      "city": "מרכז אזורי מבואות חרמון",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 15:23:51",
-      "city": "מרכז אזורי מבואות חרמון",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "FA",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 15:24:19",
-      "city": "רמות נפתלי",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 15:24:19",
-      "city": "רמות נפתלי",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "FA",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-04-24 15:24:55",
-      "city": "לב החולה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-04-24 15:24:55",
-      "city": "לב החולה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "FA",
-      "source": "github_csv"
-    },
-    {
       "time": "2026-04-25 16:05:43",
       "city": "מנרה",
       "description": "ירי רקטות וטילים",
@@ -3229,5 +3068,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-04-24"
+  "cutoff": "2026-04-25"
 }
