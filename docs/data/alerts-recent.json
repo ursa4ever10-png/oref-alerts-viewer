@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-03T20:08:37.762943+00:00",
-    "total_alerts": 194252,
+    "generated_at": "2026-05-03T20:58:38.474482+00:00",
+    "total_alerts": 194254,
     "total_cities": 1644,
     "archive_before_refresh": 194252,
-    "new_alerts_added": 0,
+    "new_alerts_added": 2,
     "csv_sync_rows": 184480,
     "csv_sync_error": null,
-    "oref_alerts": 303,
+    "oref_alerts": 295,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2957,6 +2957,20 @@
     {
       "time": "2026-05-03 17:49:08",
       "city": "מנרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-03 23:42:31",
+      "city": "יראון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-03 23:42:45",
+      "city": "יראון",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
