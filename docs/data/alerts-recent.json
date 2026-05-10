@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T15:02:24.913994+00:00",
-    "total_alerts": 194335,
+    "generated_at": "2026-05-10T16:00:23.939034+00:00",
+    "total_alerts": 194342,
     "total_cities": 1644,
     "archive_before_refresh": 194335,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184544,
+    "new_alerts_added": 7,
+    "csv_sync_rows": 184548,
     "csv_sync_error": null,
-    "oref_alerts": 264,
+    "oref_alerts": 227,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2253,6 +2253,55 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-05-10 18:17:01",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 18:17:01",
+      "city": "זרעית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-10 18:17:39",
+      "city": "שומרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 18:17:39",
+      "city": "זרעית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 18:17:41",
+      "city": "אבן מנחם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 18:58:39",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 18:58:39",
+      "city": "שומרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
