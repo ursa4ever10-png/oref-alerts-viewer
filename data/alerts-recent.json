@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-10T19:44:05.496214+00:00",
-    "total_alerts": 194344,
+    "generated_at": "2026-05-10T20:28:03.901402+00:00",
+    "total_alerts": 194351,
     "total_cities": 1644,
     "archive_before_refresh": 194344,
-    "new_alerts_added": 0,
+    "new_alerts_added": 7,
     "csv_sync_rows": 184550,
     "csv_sync_error": null,
-    "oref_alerts": 227,
+    "oref_alerts": 226,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2316,6 +2316,55 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-05-10 22:45:45",
+      "city": "קיבוץ דן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 22:46:29",
+      "city": "שניר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 22:46:30",
+      "city": "שאר ישוב",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 22:46:57",
+      "city": "דפנה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 22:46:57",
+      "city": "קיבוץ דן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 22:46:57",
+      "city": "שאר ישוב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-10 22:47:07",
+      "city": "הגושרים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
