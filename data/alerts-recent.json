@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-12T14:46:22.188959+00:00",
-    "total_alerts": 194363,
+    "generated_at": "2026-05-12T16:57:19.271843+00:00",
+    "total_alerts": 194386,
     "total_cities": 1644,
-    "archive_before_refresh": 194360,
-    "new_alerts_added": 3,
-    "csv_sync_rows": 184560,
+    "archive_before_refresh": 194363,
+    "new_alerts_added": 23,
+    "csv_sync_rows": 184574,
     "csv_sync_error": null,
-    "oref_alerts": 213,
+    "oref_alerts": 212,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2360,6 +2360,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-05-12 17:38:38",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-05-12 17:38:46",
       "city": "מנרה",
       "description": "ירי רקטות וטילים",
@@ -2372,6 +2379,160 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 17:55:44",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 17:55:44",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 17:55:53",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 17:55:53",
+      "city": "מנרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 18:27:21",
+      "city": "נטועה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 18:27:21",
+      "city": "נטועה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "אלקוש",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "חורפיש",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "מתת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "פסוטה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "אלקוש",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "חורפיש",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "מתת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 18:27:23",
+      "city": "פסוטה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 18:43:56",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 18:43:56",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 18:43:56",
+      "city": "מנרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 18:43:56",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 19:11:17",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 19:11:17",
+      "city": "מנרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-12 19:11:25",
+      "city": "מרגליות",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-12 19:11:25",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
