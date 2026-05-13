@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-12T23:41:48.756304+00:00",
+    "generated_at": "2026-05-13T01:26:45.370919+00:00",
     "total_alerts": 194386,
     "total_cities": 1644,
     "archive_before_refresh": 194386,
@@ -1660,20 +1660,6 @@
   ],
   "alerts": [
     {
-      "time": "2026-05-05 15:51:15",
-      "city": "משגב עם",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-05 15:51:15",
-      "city": "משגב עם",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
       "time": "2026-05-06 09:38:30",
       "city": "שתולה",
       "description": "ירי רקטות וטילים",
@@ -2536,5 +2522,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-05-05"
+  "cutoff": "2026-05-06"
 }
