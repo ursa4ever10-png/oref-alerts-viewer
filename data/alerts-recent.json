@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-14T07:19:49.028943+00:00",
-    "total_alerts": 194393,
+    "generated_at": "2026-05-14T09:41:19.475980+00:00",
+    "total_alerts": 194397,
     "total_cities": 1644,
-    "archive_before_refresh": 194389,
+    "archive_before_refresh": 194393,
     "new_alerts_added": 4,
-    "csv_sync_rows": 184579,
+    "csv_sync_rows": 184581,
     "csv_sync_error": null,
     "oref_alerts": 202,
     "oref_status": "ok",
@@ -2546,6 +2546,34 @@
       "city": "שובה",
       "description": "ירי רקטות וטילים",
       "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-14 11:06:48",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-14 11:06:48",
+      "city": "משגב עם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-14 11:13:25",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-14 11:13:25",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
       "source": "github_csv"
     }
   ],
