@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-15T14:38:43.060383+00:00",
-  "total_alerts": 194414,
+  "generated_at": "2026-05-15T16:22:05.332869+00:00",
+  "total_alerts": 194464,
   "total_cities": 1644,
   "archive_before_refresh": 194414,
-  "new_alerts_added": 0,
-  "csv_sync_rows": 184593,
+  "new_alerts_added": 50,
+  "csv_sync_rows": 184620,
   "csv_sync_error": null,
-  "oref_alerts": 186,
+  "oref_alerts": 205,
   "oref_status": "ok",
   "oref_error": null,
   "archive_owner": "this_repository"
