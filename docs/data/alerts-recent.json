@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-16T12:02:58.369804+00:00",
-    "total_alerts": 194472,
+    "generated_at": "2026-05-16T13:50:39.783434+00:00",
+    "total_alerts": 194474,
     "total_cities": 1644,
     "archive_before_refresh": 194472,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184625,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 184626,
     "csv_sync_error": null,
     "oref_alerts": 203,
     "oref_status": "ok",
@@ -2824,6 +2824,20 @@
     {
       "time": "2026-05-16 13:26:27",
       "city": "משגב עם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-16 15:38:56",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 15:38:56",
+      "city": "מטולה",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
