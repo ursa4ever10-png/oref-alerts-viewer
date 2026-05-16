@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-16T15:40:19.951041+00:00",
-    "total_alerts": 194474,
+    "generated_at": "2026-05-16T16:33:37.305257+00:00",
+    "total_alerts": 194479,
     "total_cities": 1644,
     "archive_before_refresh": 194474,
-    "new_alerts_added": 0,
+    "new_alerts_added": 5,
     "csv_sync_rows": 184626,
     "csv_sync_error": null,
-    "oref_alerts": 203,
+    "oref_alerts": 207,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2841,6 +2841,41 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-05-16 18:44:04",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 18:44:04",
+      "city": "בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 18:44:04",
+      "city": "חוף בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 18:44:04",
+      "city": "לימן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 18:44:04",
+      "city": "ראש הנקרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
