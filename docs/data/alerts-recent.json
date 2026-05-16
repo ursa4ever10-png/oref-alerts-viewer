@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-16T10:04:13.947832+00:00",
-    "total_alerts": 194470,
+    "generated_at": "2026-05-16T11:10:18.762325+00:00",
+    "total_alerts": 194472,
     "total_cities": 1644,
     "archive_before_refresh": 194470,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184624,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 184625,
     "csv_sync_error": null,
     "oref_alerts": 203,
     "oref_status": "ok",
@@ -2810,6 +2810,20 @@
     {
       "time": "2026-05-16 08:47:36",
       "city": "בית ספר שדה מירון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-16 13:26:27",
+      "city": "משגב עם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 13:26:27",
+      "city": "משגב עם",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
