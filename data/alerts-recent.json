@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-16T16:33:37.305257+00:00",
-    "total_alerts": 194479,
+    "generated_at": "2026-05-16T17:32:00.343440+00:00",
+    "total_alerts": 194486,
     "total_cities": 1644,
-    "archive_before_refresh": 194474,
-    "new_alerts_added": 5,
-    "csv_sync_rows": 184626,
+    "archive_before_refresh": 194479,
+    "new_alerts_added": 7,
+    "csv_sync_rows": 184631,
     "csv_sync_error": null,
-    "oref_alerts": 207,
+    "oref_alerts": 214,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2874,6 +2874,55 @@
       "time": "2026-05-16 18:44:04",
       "city": "ראש הנקרה",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 19:50:45",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 19:51:01",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 19:51:04",
+      "city": "חניתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 19:51:39",
+      "city": "שלומי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 19:52:45",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 19:52:45",
+      "city": "מצובה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-16 19:52:45",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
