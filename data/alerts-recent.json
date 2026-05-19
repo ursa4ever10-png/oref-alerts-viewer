@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-19T08:47:24.888608+00:00",
-    "total_alerts": 194514,
+    "generated_at": "2026-05-19T11:46:14.764891+00:00",
+    "total_alerts": 194522,
     "total_cities": 1644,
     "archive_before_refresh": 194514,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184652,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 184656,
     "csv_sync_error": null,
-    "oref_alerts": 174,
+    "oref_alerts": 177,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2733,6 +2733,62 @@
     {
       "time": "2026-05-18 16:24:35",
       "city": "דישון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-19 12:06:05",
+      "city": "ע'ג'ר",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-19 12:06:05",
+      "city": "קיבוץ דן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-19 12:06:05",
+      "city": "ע'ג'ר",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-19 12:06:05",
+      "city": "קיבוץ דן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-19 12:06:44",
+      "city": "נווה אטי''ב",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-19 12:06:44",
+      "city": "נווה אטי''ב",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-19 12:06:59",
+      "city": "מג'דל שמס",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-19 12:06:59",
+      "city": "מג'דל שמס",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
