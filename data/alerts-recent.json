@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-22T11:27:47.753518+00:00",
-    "total_alerts": 194542,
+    "generated_at": "2026-05-22T13:41:48.085514+00:00",
+    "total_alerts": 194548,
     "total_cities": 1644,
     "archive_before_refresh": 194542,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184667,
+    "new_alerts_added": 6,
+    "csv_sync_rows": 184670,
     "csv_sync_error": null,
-    "oref_alerts": 178,
+    "oref_alerts": 176,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2607,6 +2607,48 @@
     {
       "time": "2026-05-22 08:53:25",
       "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-22 14:44:22",
+      "city": "נטועה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-22 14:44:22",
+      "city": "נטועה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-22 14:50:13",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-22 14:50:13",
+      "city": "זרעית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-22 15:07:27",
+      "city": "שתולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-22 15:07:27",
+      "city": "שתולה",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
