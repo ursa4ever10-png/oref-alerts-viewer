@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-22T05:43:57.428544+00:00",
-    "total_alerts": 194539,
+    "generated_at": "2026-05-22T08:38:59.241753+00:00",
+    "total_alerts": 194542,
     "total_cities": 1644,
-    "archive_before_refresh": 194538,
-    "new_alerts_added": 1,
-    "csv_sync_rows": 184665,
+    "archive_before_refresh": 194539,
+    "new_alerts_added": 3,
+    "csv_sync_rows": 184667,
     "csv_sync_error": null,
     "oref_alerts": 178,
     "oref_status": "ok",
@@ -2589,6 +2589,27 @@
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-22 07:51:15",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-22 08:53:25",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-22 08:53:25",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
