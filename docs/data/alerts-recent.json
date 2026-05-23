@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-23T14:11:56.766643+00:00",
-    "total_alerts": 194569,
+    "generated_at": "2026-05-23T15:17:51.207329+00:00",
+    "total_alerts": 194574,
     "total_cities": 1644,
-    "archive_before_refresh": 194565,
-    "new_alerts_added": 4,
+    "archive_before_refresh": 194569,
+    "new_alerts_added": 5,
     "csv_sync_rows": 184680,
     "csv_sync_error": null,
-    "oref_alerts": 131,
+    "oref_alerts": 128,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2376,6 +2376,41 @@
     {
       "time": "2026-05-23 17:10:27",
       "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-23 17:19:33",
+      "city": "שתולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-23 17:40:50",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-23 17:43:25",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-23 17:43:40",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-23 17:44:45",
+      "city": "לימן",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
