@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-23T08:52:20.545378+00:00",
-    "total_alerts": 194563,
+    "generated_at": "2026-05-23T10:17:39.685341+00:00",
+    "total_alerts": 194565,
     "total_cities": 1644,
     "archive_before_refresh": 194563,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184678,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 184679,
     "csv_sync_error": null,
-    "oref_alerts": 141,
+    "oref_alerts": 134,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2334,6 +2334,20 @@
     {
       "time": "2026-05-23 08:34:33",
       "city": "קריית שמונה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-23 12:02:03",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-23 12:02:03",
+      "city": "כפר גלעדי",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
