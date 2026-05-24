@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-24T15:46:17.234254+00:00",
-    "total_alerts": 194613,
+    "generated_at": "2026-05-24T16:43:02.443657+00:00",
+    "total_alerts": 194629,
     "total_cities": 1644,
-    "archive_before_refresh": 194610,
-    "new_alerts_added": 3,
-    "csv_sync_rows": 184704,
+    "archive_before_refresh": 194613,
+    "new_alerts_added": 16,
+    "csv_sync_rows": 184713,
     "csv_sync_error": null,
-    "oref_alerts": 128,
+    "oref_alerts": 136,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2509,6 +2509,118 @@
     {
       "time": "2026-05-24 17:43:24",
       "city": "יפתח",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 19:12:18",
+      "city": "אדמית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:12:18",
+      "city": "אדמית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 19:12:43",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:12:43",
+      "city": "שלומי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 19:13:03",
+      "city": "יערה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:13:03",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 19:13:05",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:13:05",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 19:13:15",
+      "city": "שלומי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:13:17",
+      "city": "אילון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:13:17",
+      "city": "אילון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 19:13:25",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:13:25",
+      "city": "חניתה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 19:13:28",
+      "city": "חניתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:14:06",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 19:14:06",
+      "city": "שלומי",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
