@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-24T11:56:28.263890+00:00",
-    "total_alerts": 194599,
+    "generated_at": "2026-05-24T13:03:43.629676+00:00",
+    "total_alerts": 194603,
     "total_cities": 1644,
     "archive_before_refresh": 194599,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184697,
+    "new_alerts_added": 4,
+    "csv_sync_rows": 184699,
     "csv_sync_error": null,
-    "oref_alerts": 131,
+    "oref_alerts": 128,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -2411,6 +2411,34 @@
     {
       "time": "2026-05-24 13:13:57",
       "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 15:34:54",
+      "city": "יראון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 15:34:54",
+      "city": "יראון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-24 15:35:07",
+      "city": "אביבים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-24 15:35:07",
+      "city": "אביבים",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
