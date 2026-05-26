@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-26T14:25:35.020740+00:00",
-    "total_alerts": 194709,
+    "generated_at": "2026-05-26T17:40:21.812204+00:00",
+    "total_alerts": 194710,
     "total_cities": 1644,
-    "archive_before_refresh": 194692,
-    "new_alerts_added": 17,
-    "csv_sync_rows": 184754,
+    "archive_before_refresh": 194709,
+    "new_alerts_added": 1,
+    "csv_sync_rows": 184755,
     "csv_sync_error": null,
     "oref_alerts": 109,
     "oref_status": "ok",
@@ -3023,6 +3023,13 @@
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-26 17:10:31",
+      "city": "מלכיה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
