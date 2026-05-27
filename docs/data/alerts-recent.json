@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-26T23:44:58.214363+00:00",
-    "total_alerts": 194712,
+    "generated_at": "2026-05-27T01:52:04.624158+00:00",
+    "total_alerts": 194723,
     "total_cities": 1644,
     "archive_before_refresh": 194712,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184756,
+    "new_alerts_added": 11,
+    "csv_sync_rows": 184777,
     "csv_sync_error": null,
-    "oref_alerts": 107,
+    "oref_alerts": 125,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -1660,62 +1660,6 @@
   ],
   "alerts": [
     {
-      "time": "2026-05-19 12:06:05",
-      "city": "ע'ג'ר",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-19 12:06:05",
-      "city": "קיבוץ דן",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-19 12:06:05",
-      "city": "ע'ג'ר",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-19 12:06:05",
-      "city": "קיבוץ דן",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-19 12:06:44",
-      "city": "נווה אטי''ב",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-19 12:06:44",
-      "city": "נווה אטי''ב",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-19 12:06:59",
-      "city": "מג'דל שמס",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-19 12:06:59",
-      "city": "מג'דל שמס",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
       "time": "2026-05-20 08:11:27",
       "city": "מלכיה",
       "description": "חדירת מסוקים",
@@ -3044,8 +2988,85 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 03:37:00",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "כפר יובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "מנרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "מעיין ברוך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 03:37:01",
+      "city": "ע'ג'ר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-05-19"
+  "cutoff": "2026-05-20"
 }
