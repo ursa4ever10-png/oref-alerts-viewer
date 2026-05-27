@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T10:13:48.602292+00:00",
-    "total_alerts": 194725,
+    "generated_at": "2026-05-27T13:47:55.251953+00:00",
+    "total_alerts": 194773,
     "total_cities": 1644,
-    "archive_before_refresh": 194723,
-    "new_alerts_added": 2,
-    "csv_sync_rows": 184778,
+    "archive_before_refresh": 194725,
+    "new_alerts_added": 48,
+    "csv_sync_rows": 184800,
     "csv_sync_error": null,
-    "oref_alerts": 122,
+    "oref_alerts": 142,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -3079,6 +3079,342 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 13:14:57",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 13:14:57",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 13:15:46",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 13:15:46",
+      "city": "חוף בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:47:28",
+      "city": "שומרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:47:28",
+      "city": "שומרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "אבן מנחם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "שומרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "שתולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "אבן מנחם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "זרעית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "שומרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:52:57",
+      "city": "שתולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "אדמית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "אילון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "גורן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "גורנות הגליל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "יערה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "אדמית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "אילון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "גורן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "גורנות הגליל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "חניתה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 14:53:04",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:18",
+      "city": "שומרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:18",
+      "city": "שומרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "אדמית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "אילון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "גורן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "גורנות הגליל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "יערה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "אדמית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "אילון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "גורן",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "גורנות הגליל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "חניתה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "יערה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:35:53",
+      "city": "ערב אל עראמשה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-27 16:38:09",
+      "city": "אבן מנחם",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:38:09",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:38:09",
+      "city": "שומרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-27 16:38:09",
+      "city": "שתולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
