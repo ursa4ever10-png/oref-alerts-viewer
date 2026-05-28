@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-28T09:04:16.444265+00:00",
-    "total_alerts": 194793,
+    "generated_at": "2026-05-28T12:38:40.037147+00:00",
+    "total_alerts": 194802,
     "total_cities": 1644,
-    "archive_before_refresh": 194786,
-    "new_alerts_added": 7,
-    "csv_sync_rows": 184812,
+    "archive_before_refresh": 194793,
+    "new_alerts_added": 9,
+    "csv_sync_rows": 184818,
     "csv_sync_error": null,
-    "oref_alerts": 145,
+    "oref_alerts": 147,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -3485,6 +3485,69 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-28 13:26:37",
+      "city": "יפתח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-28 13:27:29",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-28 13:27:29",
+      "city": "מרכז אזורי מבואות חרמון",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-28 14:02:35",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-28 14:02:35",
+      "city": "שומרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-28 14:02:35",
+      "city": "זרעית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-28 14:02:35",
+      "city": "שומרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-28 14:20:00",
+      "city": "זרעית",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-28 14:20:00",
+      "city": "זרעית",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
