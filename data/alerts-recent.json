@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-05-27T23:49:27.257186+00:00",
+    "generated_at": "2026-05-28T01:26:45.840686+00:00",
     "total_alerts": 194781,
     "total_cities": 1644,
     "archive_before_refresh": 194781,
@@ -1659,76 +1659,6 @@
     "תרום"
   ],
   "alerts": [
-    {
-      "time": "2026-05-20 08:11:27",
-      "city": "מלכיה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-20 08:11:27",
-      "city": "מלכיה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "FA",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-20 08:40:30",
-      "city": "קריית שמונה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-20 08:40:30",
-      "city": "קריית שמונה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-20 08:40:45",
-      "city": "מרגליות",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-20 08:40:45",
-      "city": "מרגליות",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-20 08:41:12",
-      "city": "מרגליות",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-20 08:41:12",
-      "city": "קריית שמונה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-20 13:52:47",
-      "city": "נופים",
-      "description": "רעידת אדמה",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-20 13:52:47",
-      "city": "נופים",
-      "description": "חדירת מחבלים",
-      "origin": "",
-      "source": "github_csv"
-    },
     {
       "time": "2026-05-21 13:18:24",
       "city": "משגב עם",
@@ -3474,5 +3404,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-05-20"
+  "cutoff": "2026-05-21"
 }
