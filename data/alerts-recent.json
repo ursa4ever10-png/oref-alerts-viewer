@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-05-29T16:58:05.286200+00:00",
-    "total_alerts": 194831,
+    "generated_at": "2026-05-29T19:30:24.100897+00:00",
+    "total_alerts": 194832,
     "total_cities": 1644,
     "archive_before_refresh": 194831,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184835,
+    "new_alerts_added": 1,
+    "csv_sync_rows": 184836,
     "csv_sync_error": null,
     "oref_alerts": 152,
     "oref_status": "ok",
@@ -3706,6 +3706,13 @@
     {
       "time": "2026-05-29 15:22:15",
       "city": "שתולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-29 21:37:35",
+      "city": "זרעית",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
