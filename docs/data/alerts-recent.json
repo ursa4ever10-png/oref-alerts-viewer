@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-30T12:48:22.753534+00:00",
-    "total_alerts": 194887,
+    "generated_at": "2026-05-30T14:18:33.223776+00:00",
+    "total_alerts": 194908,
     "total_cities": 1644,
-    "archive_before_refresh": 194867,
-    "new_alerts_added": 20,
-    "csv_sync_rows": 184876,
+    "archive_before_refresh": 194887,
+    "new_alerts_added": 21,
+    "csv_sync_rows": 184897,
     "csv_sync_error": null,
-    "oref_alerts": 161,
+    "oref_alerts": 170,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -3940,6 +3940,153 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-05-30 16:18:59",
+      "city": "עמוקה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:18:59",
+      "city": "צפת - עיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:00",
+      "city": "צפת - נוף כנרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:11",
+      "city": "חצור הגלילית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:26",
+      "city": "ביריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:26",
+      "city": "אזור תעשייה רמת דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:26",
+      "city": "דלתון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:41",
+      "city": "צפת - עיר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:41",
+      "city": "ראש פינה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:19:41",
+      "city": "עמוקה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:26",
+      "city": "נהריה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:36",
+      "city": "גשר הזיו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "לימן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "מצובה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "ראש הנקרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "חניתה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "שלומי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 16:50:39",
+      "city": "שבי ציון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 17:01:53",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
