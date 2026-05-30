@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-30T18:45:40.813306+00:00",
-    "total_alerts": 194925,
+    "generated_at": "2026-05-30T19:55:14.340941+00:00",
+    "total_alerts": 194931,
     "total_cities": 1644,
     "archive_before_refresh": 194925,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 184914,
+    "new_alerts_added": 6,
+    "csv_sync_rows": 184919,
     "csv_sync_error": null,
-    "oref_alerts": 181,
+    "oref_alerts": 182,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -4203,6 +4203,48 @@
     {
       "time": "2026-05-30 19:32:10",
       "city": "שומרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-05-30 21:46:41",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 21:46:41",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 21:46:41",
+      "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 21:46:51",
+      "city": "מעיין ברוך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 22:11:35",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 22:11:35",
+      "city": "ראש הנקרה",
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
