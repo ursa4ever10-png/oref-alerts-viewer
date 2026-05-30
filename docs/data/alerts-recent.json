@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-30T01:45:18.498821+00:00",
-    "total_alerts": 194843,
+    "generated_at": "2026-05-30T05:34:45.686717+00:00",
+    "total_alerts": 194851,
     "total_cities": 1644,
-    "archive_before_refresh": 194840,
-    "new_alerts_added": 3,
-    "csv_sync_rows": 184846,
+    "archive_before_refresh": 194843,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 184854,
     "csv_sync_error": null,
-    "oref_alerts": 149,
+    "oref_alerts": 155,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -3629,6 +3629,62 @@
     {
       "time": "2026-05-30 03:30:34",
       "city": "משגב עם",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:42",
+      "city": "כפר שמאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:47",
+      "city": "אור הגנוז",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:47",
+      "city": "בר יוחאי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:47",
+      "city": "ג'ש - גוש חלב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:47",
+      "city": "מירון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:47",
+      "city": "מרכז אזורי מרום גליל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:47",
+      "city": "ספסופה - כפר חושן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-30 06:01:47",
+      "city": "קדיתא",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
