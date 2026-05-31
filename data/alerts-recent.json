@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-31T08:44:18.222601+00:00",
-    "total_alerts": 194966,
+    "generated_at": "2026-05-31T10:35:26.645935+00:00",
+    "total_alerts": 194987,
     "total_cities": 1644,
-    "archive_before_refresh": 194957,
-    "new_alerts_added": 9,
-    "csv_sync_rows": 184932,
+    "archive_before_refresh": 194966,
+    "new_alerts_added": 21,
+    "csv_sync_rows": 184943,
     "csv_sync_error": null,
-    "oref_alerts": 195,
+    "oref_alerts": 210,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -4294,6 +4294,153 @@
     {
       "time": "2026-05-31 11:43:30",
       "city": "לימן",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:09:52",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:09:59",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:28:54",
+      "city": "עכו - אזור תעשייה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:28:57",
+      "city": "זרעית",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:29:19",
+      "city": "עכו",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:34:06",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:36:26",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:37:01",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:37:11",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:39:35",
+      "city": "בית הלל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:54:42",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:54:42",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:54:42",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:56:05",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:56:05",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:56:05",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:57:05",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 12:57:05",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 13:05:53",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 13:05:53",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 13:05:53",
+      "city": "תל חי",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
