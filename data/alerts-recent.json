@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-05-31T15:23:10.980696+00:00",
-    "total_alerts": 195064,
+    "generated_at": "2026-05-31T16:37:52.445059+00:00",
+    "total_alerts": 195072,
     "total_cities": 1644,
-    "archive_before_refresh": 195018,
-    "new_alerts_added": 46,
-    "csv_sync_rows": 185017,
+    "archive_before_refresh": 195064,
+    "new_alerts_added": 8,
+    "csv_sync_rows": 185018,
     "csv_sync_error": null,
-    "oref_alerts": 213,
+    "oref_alerts": 216,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -4981,6 +4981,62 @@
       "time": "2026-05-31 17:46:29",
       "city": "ריחאנייה",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 18:48:30",
+      "city": "דוב''ב",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 19:28:41",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 19:29:31",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 19:30:19",
+      "city": "איזור תעשייה מילואות צפון",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 19:30:28",
+      "city": "בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 19:30:54",
+      "city": "לימן",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 19:31:03",
+      "city": "שלומי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-05-31 19:32:15",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
