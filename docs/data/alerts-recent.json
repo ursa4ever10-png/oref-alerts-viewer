@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-06-01T12:25:34.346288+00:00",
-    "total_alerts": 195196,
+    "generated_at": "2026-06-01T18:21:12.626473+00:00",
+    "total_alerts": 195241,
     "total_cities": 1644,
-    "archive_before_refresh": 195143,
-    "new_alerts_added": 53,
-    "csv_sync_rows": 185122,
+    "archive_before_refresh": 195196,
+    "new_alerts_added": 45,
+    "csv_sync_rows": 185153,
     "csv_sync_error": null,
-    "oref_alerts": 287,
+    "oref_alerts": 294,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -5627,6 +5627,321 @@
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:44:25",
+      "city": "כפר יובל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:44:25",
+      "city": "כפר יובל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 15:44:49",
+      "city": "מטולה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:44:49",
+      "city": "מטולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 15:45:01",
+      "city": "מעיין ברוך",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:45:01",
+      "city": "מעיין ברוך",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 15:46:07",
+      "city": "כפר גלעדי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:46:07",
+      "city": "כפר גלעדי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 15:46:11",
+      "city": "דפנה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:46:11",
+      "city": "הגושרים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:46:11",
+      "city": "דפנה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 15:46:11",
+      "city": "הגושרים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 15:46:19",
+      "city": "תל חי",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:46:19",
+      "city": "תל חי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 15:46:37",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 15:46:37",
+      "city": "קריית שמונה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 16:07:23",
+      "city": "הגושרים",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:07:23",
+      "city": "הגושרים",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 16:07:51",
+      "city": "בית הלל",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:07:51",
+      "city": "בית הלל",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 16:12:29",
+      "city": "כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:12:49",
+      "city": "בענה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:12:49",
+      "city": "דיר אל-אסד",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:12:49",
+      "city": "הר חלוץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:12:49",
+      "city": "לבון",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:12:49",
+      "city": "נחף",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:13:03",
+      "city": "ערב אל נעים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:13:03",
+      "city": "אשבל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:13:03",
+      "city": "אשחר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:13:03",
+      "city": "סכנין",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:13:07",
+      "city": "אזור תעשייה כרמיאל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:13:34",
+      "city": "הר חלוץ",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 16:13:34",
+      "city": "כסרא סמיע",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 17:16:35",
+      "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 17:16:35",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 17:42:10",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 17:42:10",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 17:42:29",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 17:42:29",
+      "city": "חוף בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 17:42:42",
+      "city": "חוף בצת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 17:42:42",
+      "city": "ראש הנקרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 18:25:37",
+      "city": "ראש הנקרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 18:25:37",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-01 18:26:09",
+      "city": "חוף בצת",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-01 18:26:09",
+      "city": "חוף בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
