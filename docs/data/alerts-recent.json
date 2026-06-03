@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-06-03T06:31:54.371918+00:00",
-    "total_alerts": 195326,
+    "generated_at": "2026-06-03T11:27:58.297250+00:00",
+    "total_alerts": 195333,
     "total_cities": 1644,
     "archive_before_refresh": 195326,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 185231,
+    "new_alerts_added": 7,
+    "csv_sync_rows": 185236,
     "csv_sync_error": null,
-    "oref_alerts": 344,
+    "oref_alerts": 339,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -5956,6 +5956,55 @@
       "description": "חדירת כלי טיס עוין",
       "origin": "Lebanon",
       "source": "github_csv"
+    },
+    {
+      "time": "2026-06-03 11:25:21",
+      "city": "מנרה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-03 11:25:21",
+      "city": "מנרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-03 11:25:27",
+      "city": "קריית שמונה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-03 11:25:27",
+      "city": "קריית שמונה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-03 11:25:46",
+      "city": "מנרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-03 11:25:46",
+      "city": "מרגליות",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-03 11:25:46",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
     }
   ],
   "recent_only": true,
