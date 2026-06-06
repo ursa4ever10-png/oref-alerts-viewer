@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-05T23:36:28.050213+00:00",
-    "total_alerts": 195383,
+    "generated_at": "2026-06-06T01:30:27.175708+00:00",
+    "total_alerts": 195386,
     "total_cities": 1644,
-    "archive_before_refresh": 195380,
+    "archive_before_refresh": 195383,
     "new_alerts_added": 3,
-    "csv_sync_rows": 185271,
+    "csv_sync_rows": 185274,
     "csv_sync_error": null,
     "oref_alerts": 341,
     "oref_status": "ok",
@@ -1659,90 +1659,6 @@
     "תרום"
   ],
   "alerts": [
-    {
-      "time": "2026-05-29 08:46:21",
-      "city": "משגב עם",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-29 08:48:14",
-      "city": "מרגליות",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-29 08:48:14",
-      "city": "מרגליות",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-29 13:36:02",
-      "city": "חניתה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-29 13:36:02",
-      "city": "חניתה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-29 13:36:38",
-      "city": "חניתה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-29 15:21:43",
-      "city": "אבן מנחם",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-29 15:21:43",
-      "city": "אבן מנחם",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-29 15:22:15",
-      "city": "שתולה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-29 15:22:15",
-      "city": "שתולה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-05-29 21:37:35",
-      "city": "זרעית",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-05-29 21:37:35",
-      "city": "זרעית",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
     {
       "time": "2026-05-30 01:30:06",
       "city": "משגב עם",
@@ -5580,6 +5496,13 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-06-06 02:17:21",
+      "city": "מרגליות",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-06-06 02:18:15",
       "city": "משגב עם",
       "description": "חדירת מסוקים",
@@ -5587,13 +5510,27 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-06-06 02:18:15",
+      "city": "משגב עם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-06-06 02:18:51",
       "city": "כפר גלעדי",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-06 02:18:51",
+      "city": "כפר גלעדי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-05-29"
+  "cutoff": "2026-05-30"
 }
