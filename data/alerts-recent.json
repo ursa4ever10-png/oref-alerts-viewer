@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-06-07T04:58:04.640920+00:00",
-    "total_alerts": 195396,
+    "generated_at": "2026-06-07T08:21:22.840328+00:00",
+    "total_alerts": 195401,
     "total_cities": 1644,
-    "archive_before_refresh": 195394,
-    "new_alerts_added": 2,
-    "csv_sync_rows": 185278,
+    "archive_before_refresh": 195396,
+    "new_alerts_added": 5,
+    "csv_sync_rows": 185282,
     "csv_sync_error": null,
-    "oref_alerts": 321,
+    "oref_alerts": 316,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -4908,9 +4908,44 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-06-07 07:52:17",
+      "city": "מטולה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-06-07 07:53:21",
       "city": "משגב עם",
       "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-07 07:53:21",
+      "city": "משגב עם",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-07 08:31:32",
+      "city": "רמות נפתלי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-07 08:31:35",
+      "city": "יפתח",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-07 11:11:42",
+      "city": "צור יצחק",
+      "description": "רעידת אדמה",
       "origin": "",
       "source": "tzevaadom"
     }
