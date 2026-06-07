@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-06-07T08:21:22.840328+00:00",
-    "total_alerts": 195401,
+    "generated_at": "2026-06-07T10:37:48.153675+00:00",
+    "total_alerts": 195404,
     "total_cities": 1644,
-    "archive_before_refresh": 195396,
-    "new_alerts_added": 5,
-    "csv_sync_rows": 185282,
+    "archive_before_refresh": 195401,
+    "new_alerts_added": 3,
+    "csv_sync_rows": 185284,
     "csv_sync_error": null,
-    "oref_alerts": 316,
+    "oref_alerts": 312,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -4948,6 +4948,27 @@
       "description": "רעידת אדמה",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-07 11:11:42",
+      "city": "צור יצחק",
+      "description": "חדירת מחבלים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-07 11:49:20",
+      "city": "צור נתן",
+      "description": "רעידת אדמה",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-07 11:49:20",
+      "city": "צור נתן",
+      "description": "חדירת מחבלים",
+      "origin": "",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
