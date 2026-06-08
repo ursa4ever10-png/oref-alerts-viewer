@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-06-08T11:47:43.093836+00:00",
-    "total_alerts": 197650,
+    "generated_at": "2026-06-08T15:02:26.954232+00:00",
+    "total_alerts": 197660,
     "total_cities": 1644,
-    "archive_before_refresh": 197642,
-    "new_alerts_added": 8,
-    "csv_sync_rows": 187519,
+    "archive_before_refresh": 197650,
+    "new_alerts_added": 10,
+    "csv_sync_rows": 187528,
     "csv_sync_error": null,
-    "oref_alerts": 2449,
+    "oref_alerts": 2450,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -19505,6 +19505,76 @@
     {
       "time": "2026-06-08 09:40:22",
       "city": "עפרה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "בית הלל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "כפר גלעדי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "כפר יובל",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "מטולה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "מעיין ברוך",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "קריית שמונה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "תל חי",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "הגושרים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 15:12:13",
+      "city": "ע'ג'ר",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-08 17:03:27",
+      "city": "זרעית",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
