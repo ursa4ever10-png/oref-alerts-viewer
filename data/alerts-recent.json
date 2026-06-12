@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-12T16:36:14.719526+00:00",
-    "total_alerts": 197691,
+    "generated_at": "2026-06-12T18:26:31.334424+00:00",
+    "total_alerts": 197695,
     "total_cities": 1644,
-    "archive_before_refresh": 197687,
+    "archive_before_refresh": 197691,
     "new_alerts_added": 4,
-    "csv_sync_rows": 187545,
+    "csv_sync_rows": 187549,
     "csv_sync_error": null,
     "oref_alerts": 2394,
     "oref_status": "ok",
@@ -17886,11 +17886,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-06-12 18:43:37",
+      "city": "ראש הנקרה",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-06-12 18:43:43",
       "city": "שלומי",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-12 18:43:43",
+      "city": "שלומי",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     },
     {
       "time": "2026-06-12 18:43:59",
@@ -17900,11 +17914,25 @@
       "source": "tzevaadom"
     },
     {
+      "time": "2026-06-12 18:43:59",
+      "city": "חוף בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
+    },
+    {
       "time": "2026-06-12 18:44:01",
       "city": "בצת",
       "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-12 18:44:01",
+      "city": "בצת",
+      "description": "חדירת כלי טיס עוין",
+      "origin": "Lebanon",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
