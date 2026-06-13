@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-12T23:44:34.688987+00:00",
+    "generated_at": "2026-06-13T01:52:26.587389+00:00",
     "total_alerts": 197704,
     "total_cities": 1644,
     "archive_before_refresh": 197704,
@@ -1659,76 +1659,6 @@
     "תרום"
   ],
   "alerts": [
-    {
-      "time": "2026-06-05 22:15:03",
-      "city": "אביבים",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:03",
-      "city": "יראון",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:03",
-      "city": "מלכיה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:30",
-      "city": "מנרה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:30",
-      "city": "מרגליות",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:30",
-      "city": "יפתח",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:41",
-      "city": "קריית שמונה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:44",
-      "city": "כפר גלעדי",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:44",
-      "city": "משגב עם",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-05 22:15:52",
-      "city": "תל חי",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
     {
       "time": "2026-06-06 02:17:21",
       "city": "מרגליות",
@@ -17999,5 +17929,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-06-05"
+  "cutoff": "2026-06-06"
 }
