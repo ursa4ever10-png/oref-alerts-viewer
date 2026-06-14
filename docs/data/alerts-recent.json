@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-06-14T10:14:58.849705+00:00",
-    "total_alerts": 197741,
+    "generated_at": "2026-06-14T12:15:18.804136+00:00",
+    "total_alerts": 197745,
     "total_cities": 1644,
-    "archive_before_refresh": 197730,
-    "new_alerts_added": 11,
-    "csv_sync_rows": 187572,
+    "archive_before_refresh": 197741,
+    "new_alerts_added": 4,
+    "csv_sync_rows": 187576,
     "csv_sync_error": null,
-    "oref_alerts": 2324,
+    "oref_alerts": 2323,
     "oref_status": "ok",
     "oref_error": null,
     "archive_owner": "this_repository"
@@ -18085,6 +18085,34 @@
       "time": "2026-06-14 12:55:49",
       "city": "סעד",
       "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-14 12:55:49",
+      "city": "זמרת",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-14 12:55:49",
+      "city": "שובה",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-06-14 15:06:24",
+      "city": "חניתה",
+      "description": "חדירת מסוקים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-14 15:06:30",
+      "city": "אדמית",
+      "description": "חדירת מסוקים",
       "origin": "",
       "source": "tzevaadom"
     }
