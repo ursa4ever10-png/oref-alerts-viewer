@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-18T23:21:16.226617+00:00",
+    "generated_at": "2026-06-19T02:08:28.785298+00:00",
     "total_alerts": 197759,
     "total_cities": 1644,
     "archive_before_refresh": 197759,
@@ -1660,34 +1660,6 @@
   ],
   "alerts": [
     {
-      "time": "2026-06-11 05:32:50",
-      "city": "מטולה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-11 05:32:50",
-      "city": "משגב עם",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-11 08:50:39",
-      "city": "משגב עם",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-11 08:50:39",
-      "city": "משגב עם",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
       "time": "2026-06-12 04:38:32",
       "city": "מטולה",
       "description": "חדירת מסוקים",
@@ -2242,5 +2214,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-06-11"
+  "cutoff": "2026-06-12"
 }
