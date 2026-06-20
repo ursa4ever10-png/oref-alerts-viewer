@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-19T23:37:59.347924+00:00",
+    "generated_at": "2026-06-20T01:36:59.295300+00:00",
     "total_alerts": 197761,
     "total_cities": 1644,
     "archive_before_refresh": 197761,
@@ -1660,174 +1660,6 @@
   ],
   "alerts": [
     {
-      "time": "2026-06-12 04:38:32",
-      "city": "מטולה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 04:38:32",
-      "city": "מטולה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 04:38:57",
-      "city": "מטולה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 11:32:59",
-      "city": "נחל עוז",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 11:33:01",
-      "city": "עלומים",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 15:04:16",
-      "city": "מטולה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 15:04:16",
-      "city": "מטולה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 18:43:37",
-      "city": "ראש הנקרה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 18:43:37",
-      "city": "ראש הנקרה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 18:43:43",
-      "city": "שלומי",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 18:43:43",
-      "city": "שלומי",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 18:43:59",
-      "city": "חוף בצת",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 18:43:59",
-      "city": "חוף בצת",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 18:44:01",
-      "city": "בצת",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 18:44:01",
-      "city": "בצת",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 22:11:01",
-      "city": "מנרה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 22:11:01",
-      "city": "מנרה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 22:11:33",
-      "city": "מרגליות",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 22:11:33",
-      "city": "מרגליות",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 22:15:21",
-      "city": "ערב אל עראמשה",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 22:15:21",
-      "city": "ערב אל עראמשה",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 22:15:31",
-      "city": "אדמית",
-      "description": "חדירת מסוקים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-06-12 22:15:31",
-      "city": "אדמית",
-      "description": "חדירת כלי טיס עוין",
-      "origin": "Lebanon",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-06-12 22:16:05",
-      "city": "ערב אל עראמשה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
       "time": "2026-06-13 08:30:25",
       "city": "מטולה",
       "description": "חדירת מסוקים",
@@ -2228,5 +2060,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-06-12"
+  "cutoff": "2026-06-13"
 }
