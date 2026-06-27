@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-06-27T00:00:13.752293+00:00",
-    "total_alerts": 197761,
+    "generated_at": "2026-06-27T03:37:30.430532+00:00",
+    "total_alerts": 197763,
     "total_cities": 1644,
     "archive_before_refresh": 197761,
-    "new_alerts_added": 0,
-    "csv_sync_rows": 187586,
+    "new_alerts_added": 2,
+    "csv_sync_rows": 187587,
     "csv_sync_error": null,
     "oref_alerts": 2310,
     "oref_status": "ok",
@@ -1658,7 +1658,22 @@
     "תראבין א-צאנע ופזורה",
     "תרום"
   ],
-  "alerts": [],
+  "alerts": [
+    {
+      "time": "2026-06-27 04:29:56",
+      "city": "בית אריה",
+      "description": "רעידת אדמה",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-06-27 04:29:56",
+      "city": "בית אריה",
+      "description": "חדירת מחבלים",
+      "origin": "",
+      "source": "github_csv"
+    }
+  ],
   "recent_only": true,
   "cutoff": "2026-06-20"
 }
