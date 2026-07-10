@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-09T23:54:17.371635+00:00",
+    "generated_at": "2026-07-10T01:18:53.384222+00:00",
     "total_alerts": 197765,
     "total_cities": 1644,
     "archive_before_refresh": 197765,
@@ -1658,22 +1658,7 @@
     "תראבין א-צאנע ופזורה",
     "תרום"
   ],
-  "alerts": [
-    {
-      "time": "2026-07-02 19:46:42",
-      "city": "אביבים",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-07-02 19:46:42",
-      "city": "יראון",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    }
-  ],
+  "alerts": [],
   "recent_only": true,
-  "cutoff": "2026-07-02"
+  "cutoff": "2026-07-03"
 }
