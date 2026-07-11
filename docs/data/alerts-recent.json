@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-07-11T18:30:29.659006+00:00",
+    "generated_at": "2026-07-11T19:42:45.056767+00:00",
     "total_alerts": 197765,
     "total_cities": 1644,
     "archive_before_refresh": 197765,
     "new_alerts_added": 0,
-    "csv_sync_rows": 187589,
-    "csv_sync_error": null,
+    "csv_sync_rows": 0,
+    "csv_sync_error": "The read operation timed out",
     "oref_alerts": 2304,
     "oref_status": "ok",
     "oref_error": null,
