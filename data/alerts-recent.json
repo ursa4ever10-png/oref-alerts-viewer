@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-07-27T23:42:24.887034+00:00",
+    "generated_at": "2026-07-28T01:01:47.802956+00:00",
     "total_alerts": 197767,
     "total_cities": 1644,
     "archive_before_refresh": 197767,
@@ -1658,22 +1658,7 @@
     "תראבין א-צאנע ופזורה",
     "תרום"
   ],
-  "alerts": [
-    {
-      "time": "2026-07-20 02:59:02",
-      "city": "כפר עזה",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-07-20 02:59:05",
-      "city": "סעד",
-      "description": "ירי רקטות וטילים",
-      "origin": "",
-      "source": "tzevaadom"
-    }
-  ],
+  "alerts": [],
   "recent_only": true,
-  "cutoff": "2026-07-20"
+  "cutoff": "2026-07-21"
 }
