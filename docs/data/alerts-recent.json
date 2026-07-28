@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-07-28T18:11:34.945691+00:00",
-    "total_alerts": 197768,
+    "generated_at": "2026-07-28T19:50:02.528426+00:00",
+    "total_alerts": 197769,
     "total_cities": 1644,
     "archive_before_refresh": 197768,
-    "new_alerts_added": 0,
+    "new_alerts_added": 1,
     "csv_sync_rows": 187592,
     "csv_sync_error": null,
     "oref_alerts": 2294,
@@ -1662,6 +1662,13 @@
     {
       "time": "2026-07-28 05:23:51",
       "city": "כיסופים",
+      "description": "ירי רקטות וטילים",
+      "origin": "",
+      "source": "tzevaadom"
+    },
+    {
+      "time": "2026-07-28 22:03:26",
+      "city": "נחל עוז",
       "description": "ירי רקטות וטילים",
       "origin": "",
       "source": "tzevaadom"
