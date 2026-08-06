@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-06T06:09:21.275598+00:00",
-    "total_alerts": 197771,
+    "generated_at": "2026-08-06T08:50:10.321078+00:00",
+    "total_alerts": 197773,
     "total_cities": 1644,
-    "archive_before_refresh": 197769,
+    "archive_before_refresh": 197771,
     "new_alerts_added": 2,
-    "csv_sync_rows": 187593,
+    "csv_sync_rows": 187595,
     "csv_sync_error": null,
     "oref_alerts": 2294,
     "oref_status": "ok",
@@ -1672,6 +1672,20 @@
       "description": "רעידת אדמה",
       "origin": "",
       "source": "tzevaadom"
+    },
+    {
+      "time": "2026-08-06 08:41:23",
+      "city": "כוכב יעקב",
+      "description": "חדירת מחבלים",
+      "origin": "",
+      "source": "github_csv"
+    },
+    {
+      "time": "2026-08-06 08:41:23",
+      "city": "תל ציון",
+      "description": "חדירת מחבלים",
+      "origin": "",
+      "source": "github_csv"
     }
   ],
   "recent_only": true,
