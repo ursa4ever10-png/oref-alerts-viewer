@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-07T23:43:58.606506+00:00",
+    "generated_at": "2026-08-08T00:04:56.876588+00:00",
     "total_alerts": 197773,
     "total_cities": 1644,
     "archive_before_refresh": 197773,
@@ -1689,5 +1689,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-07-31"
+  "cutoff": "2026-08-01"
 }
