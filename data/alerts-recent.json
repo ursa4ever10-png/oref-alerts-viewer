@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-08-13T23:33:54.749258+00:00",
+    "generated_at": "2026-08-14T00:09:32.274601+00:00",
     "total_alerts": 197775,
     "total_cities": 1644,
     "archive_before_refresh": 197775,
@@ -1660,34 +1660,6 @@
   ],
   "alerts": [
     {
-      "time": "2026-08-06 08:41:23",
-      "city": "תל ציון",
-      "description": "רעידת אדמה",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-08-06 08:41:23",
-      "city": "כוכב יעקב",
-      "description": "רעידת אדמה",
-      "origin": "",
-      "source": "tzevaadom"
-    },
-    {
-      "time": "2026-08-06 08:41:23",
-      "city": "כוכב יעקב",
-      "description": "חדירת מחבלים",
-      "origin": "",
-      "source": "github_csv"
-    },
-    {
-      "time": "2026-08-06 08:41:23",
-      "city": "תל ציון",
-      "description": "חדירת מחבלים",
-      "origin": "",
-      "source": "github_csv"
-    },
-    {
       "time": "2026-08-08 10:16:48",
       "city": "עופרים",
       "description": "רעידת אדמה",
@@ -1703,5 +1675,5 @@
     }
   ],
   "recent_only": true,
-  "cutoff": "2026-08-06"
+  "cutoff": "2026-08-07"
 }
